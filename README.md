@@ -97,8 +97,8 @@ pip install -r requirements.txt
 copy .env.example .env         # then fill in your 3 real values in .env
 ```
 
-Then, with those 3 variables set in your shell (or loaded from `.env` via a tool
-like `python-dotenv`, or just set manually with `$env:NAME="value"` in PowerShell):
+`main.py` automatically loads `.env` for local runs (it's gitignored, so your real
+keys never get committed). Then just run:
 
 ```
 python main.py scheduled --mode personal

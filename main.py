@@ -14,6 +14,10 @@ import argparse
 import asyncio
 import sys
 
+from dotenv import load_dotenv
+
+load_dotenv()  # loads .env for local testing; no-op in GitHub Actions (vars come from secrets)
+
 import bot
 import designer
 import generator

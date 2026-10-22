@@ -4,3 +4,4 @@ python-telegram-bot==22.8
 google-genai==2.32.0
 requests==2.34.2
 tzdata==2026.5
+python-dotenv==1.2.4
