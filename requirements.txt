@@ -1,0 +1,6 @@
+Pillow==13.0.0
+PyYAML==6.0.3
+python-telegram-bot==22.8
+google-genai==2.32.0
+requests==2.34.2
+tzdata==2026.5

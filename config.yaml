@@ -1,0 +1,54 @@
+# ============================================================================
+# HelloFides Bot - configuration
+# Edit this file to change the schedule, brand colors, or content rules.
+# Secrets (bot token, Gemini key, your Telegram chat ID) are NEVER put here -
+# they live in GitHub Secrets / environment variables. See README.md.
+# ============================================================================
+
+timezone: "Asia/Dhaka"
+
+# Posting schedule. Times are in the timezone above.
+# GitHub Actions cron (in schedule.yml) is set in UTC to match these times.
+schedule:
+  personal:
+    days: ["Sat", "Mon", "Wed"]
+    time: "09:00"
+  company:
+    days: ["Sun", "Tue", "Thu", "Fri"]
+    time: "19:00"
+
+# A topic/pillar won't repeat within this many days.
+duplicate_topic_cooldown_days: 60
+
+gemini:
+  model: "gemini-2.0-flash"
+  max_retries: 3
+
+brand:
+  navy: "#0B1F3A"
+  white: "#FFFFFF"
+  accent: "#2E5BFF"
+  logo_path: "assets/logo.png"
+  personal_name: "Jubayer Ahmed"
+  personal_title: "Social Media Manager & Marketer"
+  personal_footer: "Jubayer Ahmed | Social Media Manager & Marketer"
+  company_footer: "HelloFides | hellofides.com"
+
+image:
+  personal:
+    width: 1080
+    height: 1350
+  company:
+    width: 1080
+    height: 1080
+  min_font_size: 28
+  fonts_dir: "assets/fonts"
+
+pillars:
+  - strategy   # Social media strategy
+  - stats      # Facts and stats (must have a named, real source + year)
+  - howto      # Practical how-to tips
+  - lesson     # Lesson learned / mini case study
+
+content_log_path: "content_log.json"
+state_path: "data/bot_state.json"
