@@ -14,6 +14,7 @@ the optional TELEGRAM_OWNER_CHAT_ID or from a current admin of the channel.
 """
 import asyncio
 import os
+import re
 import shutil
 import sys
 import tempfile
@@ -50,8 +51,12 @@ HELP_TEXT = (
     "Commands (DM me these):\n"
     "/post company - generate a Facebook (HelloFides) post now\n"
     "/post personal - generate a LinkedIn (Jubayer Ahmed) post now\n"
+    "/preview company - same thing, generate a Facebook photocard preview\n"
+    "/preview personal - same thing, generate a LinkedIn photocard preview\n"
     "/schedule - show the posting schedule\n"
     "/help - show this message\n\n"
+    "You can also just send a message like \"photocard company\" or \"preview personal\" - "
+    "I'll understand it the same way.\n\n"
     "Under each photocard in the channel you'll get buttons to Regenerate the caption, "
     "make a New design, or Mark as posted."
 )
@@ -179,6 +184,32 @@ async def send_post(bot, config, state, entry, layout_key=None):
         shutil.rmtree(work_dir, ignore_errors=True)
 
 
+async def _send_photocard_preview(bot, config, state, dm_chat_id, mode, verb="post"):
+    """Shared by /post, /preview, and plain-text photocard requests: generates
+    (or pops from the queue) one photocard + caption and delivers it to the
+    channel, exactly as a scheduled post would."""
+    await bot.send_message(chat_id=dm_chat_id, text=f"Generating a {mode} {verb} for the channel...")
+    try:
+        entry = generator.next_post(config, state, mode)
+    except generator.GenerationError as exc:
+        await notify_total_failure(bot, config, state, dm_chat_id, str(exc))
+        return
+    await send_post(bot, config, state, entry)
+    await bot.send_message(chat_id=dm_chat_id, text="Sent to the channel.")
+
+
+def _infer_mode(text):
+    """Best-effort mode detection for free-text requests ('photocard company',
+    'send me a personal preview', etc). Returns 'company', 'personal', or None."""
+    has_company = re.search(r"\bcompany\b", text) is not None
+    has_personal = re.search(r"\bpersonal\b", text) is not None
+    if has_company and not has_personal:
+        return "company"
+    if has_personal and not has_company:
+        return "personal"
+    return None
+
+
 async def _handle_command(bot, config, state, dm_chat_id, text):
     command, _, arg = text.partition(" ")
     command = command.split("@")[0].lower()
@@ -197,18 +228,25 @@ async def _handle_command(bot, config, state, dm_chat_id, text):
         )
         await bot.send_message(chat_id=dm_chat_id, text=msg)
 
-    elif command == "/post":
+    elif command in ("/post", "/preview"):
         if arg not in ("company", "personal"):
-            await bot.send_message(chat_id=dm_chat_id, text="Usage: /post company  or  /post personal")
+            await bot.send_message(
+                chat_id=dm_chat_id,
+                text=f"Usage: {command} company  or  {command} personal",
+            )
             return
-        await bot.send_message(chat_id=dm_chat_id, text=f"Generating a {arg} post for the channel...")
-        try:
-            entry = generator.next_post(config, state, arg)
-        except generator.GenerationError as exc:
-            await notify_total_failure(bot, config, state, dm_chat_id, str(exc))
+        verb = "photocard preview" if command == "/preview" else "post"
+        await _send_photocard_preview(bot, config, state, dm_chat_id, arg, verb=verb)
+
+    elif not command.startswith("/") and ("photocard" in text.lower() or "preview" in text.lower()):
+        mode = _infer_mode(text.lower())
+        if mode is None:
+            await bot.send_message(
+                chat_id=dm_chat_id,
+                text="Want a Company or Personal photocard? Send /preview company or /preview personal.",
+            )
             return
-        await send_post(bot, config, state, entry)
-        await bot.send_message(chat_id=dm_chat_id, text="Sent to the channel.")
+        await _send_photocard_preview(bot, config, state, dm_chat_id, mode, verb="photocard preview")
 
     else:
         await bot.send_message(chat_id=dm_chat_id, text="Unknown command. Send /help to see what I can do.")
