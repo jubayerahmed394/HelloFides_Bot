@@ -19,8 +19,8 @@ CONFIG_PATH = os.path.join(BASE_DIR, "config.yaml")
 def load_config():
     with open(CONFIG_PATH, "r", encoding="utf-8") as f:
         config = yaml.safe_load(f)
-    config["content_log_path"] = os.path.join(BASE_DIR, config["content_log_path"])
-    config["state_path"] = os.path.join(BASE_DIR, config["state_path"])
+    for key in ("content_log_path", "state_path", "queue_path", "provider_state_path", "fallback_bank_path"):
+        config[key] = os.path.join(BASE_DIR, config[key])
     return config
 
 
@@ -54,8 +54,10 @@ def load_state(config):
     default = {
         "last_update_id": 0,
         "pillar_index": {"personal": 0, "company": 0},
+        "bank_index": {"personal": 0, "company": 0},
         "pending_posts": {},
         "pending_topics": {},
+        "last_failure_notice_date": None,
     }
     state = _read_json(config["state_path"], default)
     for key, value in default.items():

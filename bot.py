@@ -1,4 +1,4 @@
-﻿"""
+"""
 Telegram bot logic for HelloFides Bot.
 
 Runs as a short-lived script (invoked by GitHub Actions on a schedule), not
@@ -7,44 +7,54 @@ last run, handles them, and exits. State (update offset, pending posts,
 pillar rotation) is saved to data/bot_state.json and committed back to the
 repo by the workflow so it survives between runs.
 
-Only replies to the Telegram user ID in the TELEGRAM_CHAT_ID env var.
+Single delivery destination: the private "HelloFides" Telegram channel
+(TELEGRAM_CHANNEL_ID). Commands are sent to the bot via DM, but generated
+posts are delivered to the channel. Commands/buttons are only honored from
+the optional TELEGRAM_OWNER_CHAT_ID or from a current admin of the channel.
 """
-import io
+import asyncio
 import os
+import shutil
+import sys
+import tempfile
 import uuid
+from datetime import date
 
 from telegram import Bot, InlineKeyboardButton, InlineKeyboardMarkup
 
-import designer
+import designer_html
 import generator
+import photo_fetch
 import storage
 
-PILLAR_DISPLAY = {
-    "strategy": "Social media strategy",
-    "stats": "Facts and stats",
-    "howto": "Practical how-to tip",
-    "lesson": "Lesson learned / mini case study",
+PILLAR_TAG = {
+    "strategy": "STRATEGY",
+    "stats": "FACT",
+    "howto": "TIP",
+    "lesson": "LESSON",
+}
+
+LAYOUT_KEYS = {
+    "personal": ["L1", "L2", "L3"],
+    "company": ["C1", "C2", "C3"],
+}
+
+PLATFORM_LABEL = {
+    "company": "COMPANY / Facebook (HelloFides page)",
+    "personal": "PERSONAL / LinkedIn (Jubayer Ahmed)",
 }
 
 HELP_TEXT = (
-    "HelloFides content bot - I generate ready-to-post content, you post it manually.\n\n"
-    "Commands:\n"
-    "/post - generate one post now (mode picked from today's schedule)\n"
-    "/personal - generate a LinkedIn (personal) post now\n"
-    "/company - generate a Facebook (HelloFides) post now\n"
-    "/topic <text> - generate a post about a specific topic (I'll ask which platform)\n"
+    "HelloFides content bot - I generate ready-to-post content and deliver it to the "
+    "HelloFides channel. You post it manually from there.\n\n"
+    "Commands (DM me these):\n"
+    "/post company - generate a Facebook (HelloFides) post now\n"
+    "/post personal - generate a LinkedIn (Jubayer Ahmed) post now\n"
     "/schedule - show the posting schedule\n"
     "/help - show this message\n\n"
-    "Under each photocard you'll get buttons to Regenerate the caption, make a New design, "
-    "or Mark as posted."
+    "Under each photocard in the channel you'll get buttons to Regenerate the caption, "
+    "make a New design, or Mark as posted."
 )
-
-
-def get_owner_id():
-    raw = os.environ.get("TELEGRAM_CHAT_ID")
-    if not raw:
-        raise RuntimeError("TELEGRAM_CHAT_ID environment variable is not set.")
-    return int(raw)
 
 
 def get_bot():
@@ -52,6 +62,30 @@ def get_bot():
     if not token:
         raise RuntimeError("TELEGRAM_BOT_TOKEN environment variable is not set.")
     return Bot(token=token)
+
+
+def get_channel_id():
+    raw = os.environ.get("TELEGRAM_CHANNEL_ID")
+    if not raw:
+        raise RuntimeError("TELEGRAM_CHANNEL_ID environment variable is not set.")
+    return int(raw)
+
+
+def get_owner_chat_id():
+    raw = os.environ.get("TELEGRAM_OWNER_CHAT_ID")
+    return int(raw) if raw else None
+
+
+async def is_authorized(bot, user_id):
+    """Owner (if configured) or a current admin/creator of the channel."""
+    owner_id = get_owner_chat_id()
+    if owner_id and user_id == owner_id:
+        return True
+    try:
+        member = await bot.get_chat_member(chat_id=get_channel_id(), user_id=user_id)
+        return member.status in ("administrator", "creator")
+    except Exception:
+        return False
 
 
 def _post_keyboard(post_id):
@@ -64,152 +98,152 @@ def _post_keyboard(post_id):
     ])
 
 
-async def send_error(bot, chat_id, message):
-    await bot.send_message(chat_id=chat_id, text=f"HelloFides bot error:\n{message}")
-
-
-async def send_post(bot, chat_id, config, state, entry, variant=None):
-    """Sends the photocard + caption + hashtags + label (+ source) as separate
-    Telegram messages, per the required delivery format, with action buttons."""
-    img, used_variant = designer.render_photocard(config, entry, variant=variant)
-    buf = io.BytesIO()
-    img.save(buf, format="PNG")
-    buf.seek(0)
-    buf.name = "photocard.png"
-
-    header = f"{entry['platform']}\nPillar: {PILLAR_DISPLAY.get(entry['pillar'], entry['pillar'])}"
-
-    sent_photo = await bot.send_photo(
-        chat_id=chat_id,
-        photo=buf,
-        caption=header,
-        reply_markup=_post_keyboard(entry["id"]),
-    )
-    await bot.send_message(chat_id=chat_id, text=entry["caption"])
-    await bot.send_message(chat_id=chat_id, text=" ".join(entry["hashtags"]))
-    if entry.get("source"):
-        await bot.send_message(chat_id=chat_id, text=f"Source: {entry['source']}")
-
-    state["pending_posts"][entry["id"]] = {
-        "entry": entry,
-        "variant": used_variant,
-        "chat_id": chat_id,
-        "message_id": sent_photo.message_id,
-    }
+async def notify_total_failure(bot, config, state, chat_id, detail):
+    """Every provider AND the local post bank failed - this should be rare.
+    Never forwards the raw error to Telegram; full detail goes to the
+    workflow's own log output (stderr) only, and at most one short, plain
+    message is sent per calendar day no matter how many times this fires."""
+    print(f"[HelloFides] generation failed completely: {detail}", file=sys.stderr)
+    today = date.today().isoformat()
+    if state.get("last_failure_notice_date") == today:
+        return
+    state["last_failure_notice_date"] = today
     storage.save_state(config, state)
+    await bot.send_message(chat_id=chat_id, text="Content generation failed today, will retry tomorrow.")
 
 
-async def _handle_command(bot, config, state, chat_id, text):
+def _pick_layout_key(mode, entry_id):
+    keys = LAYOUT_KEYS[mode]
+    return keys[int(entry_id, 16) % len(keys)]
+
+
+async def _render_card(config, entry, card, layout_key, work_dir):
+    """Fetches a topic photo and renders the card via designer_html (sync
+    Playwright work run off the event loop)."""
+    photo = await asyncio.to_thread(
+        photo_fetch.fetch_topic_photo,
+        entry["photo_query"],
+        "portrait" if entry["mode"] == "personal" else "landscape",
+        work_dir,
+        f"{entry['id']}.jpg",
+    )
+    out_png = os.path.join(work_dir, f"{entry['id']}.png")
+    await asyncio.to_thread(
+        designer_html.render_card_sync,
+        entry["mode"], layout_key, card, photo["local_path"], work_dir, out_png, config,
+    )
+    return out_png, photo
+
+
+async def send_post(bot, config, state, entry, layout_key=None):
+    """Sends the label, photocard + buttons, caption, and hashtags/source to
+    the HelloFides channel, per the required delivery format."""
+    channel_id = get_channel_id()
+    layout_key = layout_key or _pick_layout_key(entry["mode"], entry["id"])
+    # generator.py produces one combined "photocard_text" (max 25 words), not a
+    # separate hook/support pair - use it as the card's main line, no subline.
+    card = {
+        "tag": PILLAR_TAG.get(entry["pillar"], entry["pillar"].upper()),
+        "hook": entry["photocard_text"], "support": "",
+        "pillar": entry["pillar"], "mode": entry["mode"], "id": entry["id"],
+        "source": entry.get("source", ""),
+    }
+
+    work_dir = tempfile.mkdtemp(prefix="hellofides_render_")
+    try:
+        out_png, photo = await _render_card(config, entry, card, layout_key, work_dir)
+
+        label = f"{PLATFORM_LABEL[entry['mode']]}\nType: {card['tag']}"
+        await bot.send_message(chat_id=channel_id, text=label)
+
+        with open(out_png, "rb") as f:
+            sent_photo = await bot.send_photo(
+                chat_id=channel_id, photo=f, reply_markup=_post_keyboard(entry["id"]),
+            )
+        await bot.send_message(chat_id=channel_id, text=entry["caption"])
+        hashtag_line = " ".join(entry["hashtags"])
+        if entry.get("source"):
+            hashtag_line += f"\nSource: {entry['source']}"
+        await bot.send_message(chat_id=channel_id, text=hashtag_line)
+
+        state["pending_posts"][entry["id"]] = {
+            "entry": entry, "layout_key": layout_key, "chat_id": channel_id,
+            "message_id": sent_photo.message_id,
+            "photo_credit": {k: photo[k] for k in ("source", "id", "photographer", "source_url", "license_note")},
+        }
+        storage.save_state(config, state)
+        # Delivery log footer - stdout/workflow log only, never sent to Telegram.
+        print(f"[delivery log] {entry['id']} mode={entry['mode']} pillar={entry['pillar']} "
+              f"provider={entry.get('provider_used', 'unknown')}")
+    finally:
+        shutil.rmtree(work_dir, ignore_errors=True)
+
+
+async def _handle_command(bot, config, state, dm_chat_id, text):
     command, _, arg = text.partition(" ")
     command = command.split("@")[0].lower()
-    arg = arg.strip()
+    arg = arg.strip().lower()
 
-    if command == "/start":
-        await bot.send_message(chat_id=chat_id, text="Welcome to the HelloFides bot.\n\n" + HELP_TEXT)
-
-    elif command == "/help":
-        await bot.send_message(chat_id=chat_id, text=HELP_TEXT)
+    if command == "/help":
+        await bot.send_message(chat_id=dm_chat_id, text=HELP_TEXT)
 
     elif command == "/schedule":
         sched = config["schedule"]
         msg = (
             f"Timezone: {config['timezone']}\n\n"
-            f"LinkedIn - Personal: {', '.join(sched['personal']['days'])} at {sched['personal']['time']}\n"
-            f"Facebook - HelloFides: {', '.join(sched['company']['days'])} at {sched['company']['time']}\n\n"
-            "Edit config.yaml and schedule.yml to change this."
+            f"PERSONAL / LinkedIn: {', '.join(sched['personal']['days'])} at {sched['personal']['time']}\n"
+            f"COMPANY / Facebook: {', '.join(sched['company']['days'])} at {sched['company']['time']}\n\n"
+            "Both deliver to the same HelloFides channel. Edit config.yaml and schedule.yml to change this."
         )
-        await bot.send_message(chat_id=chat_id, text=msg)
+        await bot.send_message(chat_id=dm_chat_id, text=msg)
 
-    elif command in ("/post", "/personal", "/company"):
-        if command == "/personal":
-            mode = "personal"
-        elif command == "/company":
-            mode = "company"
-        else:
-            mode = _mode_for_today(config)
-        await bot.send_message(chat_id=chat_id, text=f"Generating a {mode} post...")
+    elif command == "/post":
+        if arg not in ("company", "personal"):
+            await bot.send_message(chat_id=dm_chat_id, text="Usage: /post company  or  /post personal")
+            return
+        await bot.send_message(chat_id=dm_chat_id, text=f"Generating a {arg} post for the channel...")
         try:
-            entry = generator.generate_post(config, state, mode)
+            entry = generator.next_post(config, state, arg)
         except generator.GenerationError as exc:
-            await send_error(bot, chat_id, str(exc))
+            await notify_total_failure(bot, config, state, dm_chat_id, str(exc))
             return
-        await send_post(bot, chat_id, config, state, entry)
-
-    elif command == "/topic":
-        if not arg:
-            await bot.send_message(chat_id=chat_id, text="Usage: /topic <your topic>")
-            return
-        topic_id = uuid.uuid4().hex[:8]
-        state["pending_topics"][topic_id] = {"text": arg, "chat_id": chat_id}
-        storage.save_state(config, state)
-        keyboard = InlineKeyboardMarkup([[
-            InlineKeyboardButton("LinkedIn - Personal", callback_data=f"topicmode:personal:{topic_id}"),
-            InlineKeyboardButton("Facebook - HelloFides", callback_data=f"topicmode:company:{topic_id}"),
-        ]])
-        await bot.send_message(chat_id=chat_id, text=f"Topic: \"{arg}\"\nWhich platform?", reply_markup=keyboard)
+        await send_post(bot, config, state, entry)
+        await bot.send_message(chat_id=dm_chat_id, text="Sent to the channel.")
 
     else:
-        await bot.send_message(chat_id=chat_id, text="Unknown command. Send /help to see what I can do.")
-
-
-def _mode_for_today(config):
-    today = storage.now_dhaka(config).strftime("%a")
-    if today in config["schedule"]["personal"]["days"]:
-        return "personal"
-    if today in config["schedule"]["company"]["days"]:
-        return "company"
-    return "personal"
+        await bot.send_message(chat_id=dm_chat_id, text="Unknown command. Send /help to see what I can do.")
 
 
 async def _handle_callback(bot, config, state, callback_query):
-    data = callback_query.data or ""
-    chat_id = callback_query.message.chat_id if callback_query.message else get_owner_id()
-    parts = data.split(":")
+    channel_id = get_channel_id()
+    parts = (callback_query.data or "").split(":")
     action = parts[0]
-
-    if action == "topicmode" and len(parts) == 3:
-        _, mode, topic_id = parts
-        pending = state["pending_topics"].pop(topic_id, None)
-        storage.save_state(config, state)
-        await callback_query.answer()
-        if not pending:
-            await bot.send_message(chat_id=chat_id, text="That topic request expired, please /topic again.")
-            return
-        await bot.send_message(chat_id=chat_id, text=f"Generating {mode} post about \"{pending['text']}\"...")
-        try:
-            entry = generator.generate_post(config, state, mode, custom_topic=pending["text"])
-        except generator.GenerationError as exc:
-            await send_error(bot, chat_id, str(exc))
-            return
-        await send_post(bot, chat_id, config, state, entry)
-        return
-
     post_id = parts[1] if len(parts) > 1 else None
     pending = state["pending_posts"].get(post_id) if post_id else None
 
     if action == "regen":
         await callback_query.answer("Regenerating...")
         if not pending:
-            await bot.send_message(chat_id=chat_id, text="This post is no longer pending (maybe too old).")
+            await bot.send_message(chat_id=channel_id, text="This post is no longer pending (maybe too old).")
             return
         old_entry = pending["entry"]
         try:
-            new_entry = generator.generate_post(
-                config, state, old_entry["mode"], forced_pillar=old_entry["pillar"]
-            )
+            new_entry = generator.regenerate(config, state, old_entry)
         except generator.GenerationError as exc:
-            await send_error(bot, chat_id, str(exc))
+            await notify_total_failure(bot, config, state, channel_id, str(exc))
             return
-        await send_post(bot, chat_id, config, state, new_entry)
+        await send_post(bot, config, state, new_entry)
 
     elif action == "newdesign":
         await callback_query.answer("Making a new design...")
         if not pending:
-            await bot.send_message(chat_id=chat_id, text="This post is no longer pending (maybe too old).")
+            await bot.send_message(chat_id=channel_id, text="This post is no longer pending (maybe too old).")
             return
         entry = pending["entry"]
-        next_variant = (pending.get("variant", 0) + 1) % len(designer.LAYOUTS)
-        await send_post(bot, chat_id, config, state, entry, variant=next_variant)
+        keys = LAYOUT_KEYS[entry["mode"]]
+        current = keys.index(pending.get("layout_key", keys[0])) if pending.get("layout_key") in keys else 0
+        next_key = keys[(current + 1) % len(keys)]
+        await send_post(bot, config, state, entry, layout_key=next_key)
 
     elif action == "posted":
         await callback_query.answer("Marked as posted.")
@@ -221,9 +255,8 @@ async def _handle_callback(bot, config, state, callback_query):
             storage.save_content_log(config, log)
             try:
                 await bot.edit_message_caption(
-                    chat_id=pending["chat_id"],
-                    message_id=pending["message_id"],
-                    caption=f"{pending['entry']['platform']}\nMarked as posted (done)",
+                    chat_id=pending["chat_id"], message_id=pending["message_id"],
+                    caption="Marked as posted (done)",
                 )
             except Exception:
                 pass
@@ -236,7 +269,6 @@ async def _handle_callback(bot, config, state, callback_query):
 async def poll_once(config, state):
     """Fetches and processes all pending Telegram updates once, then returns."""
     bot = get_bot()
-    owner_id = get_owner_id()
     offset = state.get("last_update_id", 0)
 
     updates = await bot.get_updates(offset=offset + 1 if offset else None, timeout=0)
@@ -244,12 +276,12 @@ async def poll_once(config, state):
         state["last_update_id"] = update.update_id
 
         if update.message and update.message.text:
-            if update.message.from_user.id != owner_id:
+            if not await is_authorized(bot, update.message.from_user.id):
                 continue
             await _handle_command(bot, config, state, update.message.chat_id, update.message.text)
 
         elif update.callback_query:
-            if update.callback_query.from_user.id != owner_id:
+            if not await is_authorized(bot, update.callback_query.from_user.id):
                 continue
             await _handle_callback(bot, config, state, update.callback_query)
 

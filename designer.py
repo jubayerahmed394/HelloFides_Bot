@@ -16,10 +16,24 @@ FONTS = {
 }
 
 PILLAR_TAG = {
+    # Company/Facebook mode (unchanged)
     "strategy": "STRATEGY",
     "stats": "FACTS & STATS",
     "howto": "HOW-TO TIP",
     "lesson": "LESSON LEARNED",
+    # Personal/LinkedIn mode post types (per the Personal Mode Update)
+    "fact": "FACT",
+    "mystery": "MYSTERY",
+    "myth_reality": "MYTH VS REALITY",
+    "mistake": "MISTAKE",
+    "tip": "TIP",
+    "checklist": "CHECKLIST",
+    "hot_take": "HOT TAKE",
+    "behind_scenes": "BEHIND THE SCENES",
+    "personal_story": "PERSONAL STORY",
+    "service_offer": "SERVICE",
+    "question": "QUESTION",
+    "concept_sample": "CONCEPT SAMPLE",
 }
 
 _FONT_CACHE = {}
@@ -105,11 +119,20 @@ def _recolor(logo_img, rgb):
     return solid
 
 
-def _paste_logo_and_footer(img, draw, config, fonts_dir, mode, footer_color, logo_rgb, center_x, bottom_margin):
+def _paste_logo_and_footer(img, draw, config, fonts_dir, mode, footer_color, logo_rgb, center_x, bottom_margin,
+                            source_text=None):
     brand = config["brand"]
     footer_text = brand["personal_footer"] if mode == "personal" else brand["company_footer"]
     footer_font = get_font(fonts_dir, "medium", 26)
     footer_w = draw.textlength(footer_text, font=footer_font)
+
+    source_font = get_font(fonts_dir, "medium", 20)
+    source_h = 0
+    source_w = 0
+    if source_text:
+        source_w = draw.textlength(source_text, font=source_font)
+        s_ascent, s_descent = source_font.getmetrics()
+        source_h = s_ascent + s_descent + 10
 
     logo = _load_logo(config)
     logo_h = 0
@@ -121,10 +144,14 @@ def _paste_logo_and_footer(img, draw, config, fonts_dir, mode, footer_color, log
         logo_h = logo.height
 
     footer_y = img.height - bottom_margin
-    logo_y = footer_y - logo_h - 16 if logo_h else footer_y
+    source_y = footer_y - source_h if source_text else footer_y
+    logo_y = source_y - logo_h - 16 if logo_h else source_y
 
     if logo is not None:
         img.paste(logo, (int(center_x - logo.width / 2), int(logo_y)), logo)
+
+    if source_text:
+        draw.text((center_x - source_w / 2, source_y), source_text, font=source_font, fill=footer_color)
 
     draw.text((center_x - footer_w / 2, footer_y), footer_text, font=footer_font, fill=footer_color)
 
@@ -163,8 +190,10 @@ def _layout_bold_center(img, draw, config, entry, fonts_dir):
     start_y = text_top + (text_height - block_height) / 2
     draw_centered_lines(draw, lines, font, line_h, W / 2, start_y, white)
 
+    source_text = f"Source: {entry['source']}" if entry.get("source") else None
     _paste_logo_and_footer(img, draw, config, fonts_dir, entry["mode"],
-                            footer_color=white, logo_rgb=white, center_x=W / 2, bottom_margin=90)
+                            footer_color=white, logo_rgb=white, center_x=W / 2, bottom_margin=90,
+                            source_text=source_text)
 
 
 def _layout_side_accent(img, draw, config, entry, fonts_dir):
@@ -196,16 +225,29 @@ def _layout_side_accent(img, draw, config, entry, fonts_dir):
     footer_text = brand["personal_footer"] if entry["mode"] == "personal" else brand["company_footer"]
     footer_font = get_font(fonts_dir, "medium", 26)
     footer_w = draw.textlength(footer_text, font=footer_font)
+
+    source_text = f"Source: {entry['source']}" if entry.get("source") else None
+    source_font = get_font(fonts_dir, "medium", 20)
+    source_h = 0
+    source_w = 0
+    if source_text:
+        source_w = draw.textlength(source_text, font=source_font)
+        s_ascent, s_descent = source_font.getmetrics()
+        source_h = s_ascent + s_descent + 10
+
     logo = _load_logo(config)
     bottom_margin = 90
     footer_y = H - bottom_margin
+    source_y = footer_y - source_h if source_text else footer_y
     logo_h = 0
     if logo is not None:
         target_h = 56
         ratio = target_h / logo.height
         logo = logo.resize((max(1, int(logo.width * ratio)), target_h))
         logo_h = logo.height
-        img.paste(logo, (int(W - margin - logo.width), int(footer_y - logo_h - 14)), logo)
+        img.paste(logo, (int(W - margin - logo.width), int(source_y - logo_h - 14)), logo)
+    if source_text:
+        draw.text((W - margin - source_w, source_y), source_text, font=source_font, fill=navy)
     draw.text((W - margin - footer_w, footer_y), footer_text, font=footer_font, fill=navy)
 
 
@@ -236,8 +278,10 @@ def _layout_framed(img, draw, config, entry, fonts_dir):
     start_y = inner_top + (inner_height - block_height) / 2
     draw_centered_lines(draw, lines, font, line_h, W / 2, start_y, navy)
 
+    source_text = f"Source: {entry['source']}" if entry.get("source") else None
     _paste_logo_and_footer(img, draw, config, fonts_dir, entry["mode"],
-                            footer_color=white, logo_rgb=white, center_x=W / 2, bottom_margin=70)
+                            footer_color=white, logo_rgb=white, center_x=W / 2, bottom_margin=70,
+                            source_text=source_text)
 
 
 LAYOUTS = [_layout_bold_center, _layout_side_accent, _layout_framed]

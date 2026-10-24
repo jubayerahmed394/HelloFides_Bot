@@ -1,0 +1,16 @@
+{
+  "providers": {
+    "gemini_primary": {
+      "last_error": "rate limited (429)",
+      "cooldown_until": "2026-10-24T12:59:57.965730+06:00",
+      "requests_today": 1,
+      "day": "2026-10-24"
+    },
+    "gemini_lite": {
+      "last_error": null,
+      "cooldown_until": null,
+      "requests_today": 5,
+      "day": "2026-10-24"
+    }
+  }
+}

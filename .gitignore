@@ -4,3 +4,9 @@ __pycache__/
 .env
 data/*.png
 data/test_*.png
+landing/
+previews/
+previews_personal/
+previews_v4/
+previews_v5/
+previews_v6/

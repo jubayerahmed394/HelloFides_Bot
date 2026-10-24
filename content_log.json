@@ -1,3 +1,253 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "id": "723be35910",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "stats",
+      "hook": "Your next customer is looking for your products on social media first.",
+      "photocard_text": "68% of consumers follow brands on social media to discover new products and services.",
+      "caption": "Your social media profiles are often the very first showroom a buyer visits. According to Sprout Social (2023), 68% of consumers follow brands on social media specifically to discover new products and services. For growing businesses across Bangladesh and South Asia, staying consistent can feel overwhelming while running daily operations. That is where we step in. At HelloFides, we manage your content, strategy, and community so you never miss an opportunity. Send us a message in our inbox or visit hellofides.com to see how we can help.",
+      "hashtags": [
+        "#SocialMediaManagement",
+        "#SmallBusinessGrowth",
+        "#HelloFides"
+      ],
+      "source": "Sprout Social, 2023",
+      "photo_query": "smartphone desk notepad coffee flatlay",
+      "created_at": "2026-10-24T12:17:01.166275+06:00",
+      "posted": false
+    },
+    {
+      "id": "39b508bd9d",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Your Facebook Page is not supposed to look like an ad.",
+      "photocard_text": "Pages that only post offers get ignored. Pages that mix in useful, human content earn the trust that makes the offer land.",
+      "caption": "A Page that only posts discounts tends to get scrolled past, because it reads like an ad feed instead of a business worth following. The Pages that build real trust mix in content that isn't selling anything directly - a quick tip, a behind-the-scenes look, an answer to a common question - alongside the occasional offer. By the time the offer shows up, the audience already feels like they know the business, so it lands instead of getting ignored. If your Page feels like it's shouting \"buy now\" every post, that's worth rethinking. Send us a message for a second opinion on your current mix.",
+      "hashtags": [
+        "#SocialMediaMarketing",
+        "#FacebookPage"
+      ],
+      "source": "",
+      "photo_query": "shop counter small business storefront",
+      "created_at": "2026-10-24T12:37:30.965730+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "217d168a19",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Posting daily won't save a Page with no clear plan.",
+      "photocard_text": "Frequency without direction just produces more content nobody asked for. A clear, smaller plan beats a busy, scattered one.",
+      "caption": "We get asked often whether posting more frequently will fix a quiet Page, and the honest answer is usually no, if there isn't a clear plan behind what's being posted. More content without direction just means more scrolling past, not more attention. What actually helps is picking a small set of topics the Page will consistently come back to, so followers start to know what to expect and why it's worth checking in. A focused Page posting three times a week on purpose will usually outperform a scattered one posting daily. If your team feels busy but your results feel flat, the plan is worth a second look before the schedule is. Message us if you'd like help building one.",
+      "hashtags": [
+        "#SocialMediaStrategy",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "social media planning notebook office desk",
+      "created_at": "2026-10-24T12:37:30.965730+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "a1b3ecf686",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Followers are not the same thing as customers.",
+      "photocard_text": "A smaller, engaged audience that trusts the Page is worth more than a larger one that scrolls past every post.",
+      "caption": "It's easy to treat follower count as the main scoreboard, but a large, passive following that never engages or buys isn't actually doing much for a business. A smaller audience that reads the captions, asks questions in the comments, and remembers the Page when they need the service is far more valuable, even if the number looks less impressive. We'd rather help a Page build that kind of trust than chase follower counts that don't translate into real interest. If your numbers look fine but inquiries don't match, that gap is usually worth investigating. Reach out and we'll take a look together.",
+      "hashtags": [
+        "#DigitalMarketing",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "people looking at phone cafe table",
+      "created_at": "2026-10-24T12:37:30.965730+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "2bf56ca157",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "strategy",
+      "hook": "Random posting will never fix a broken social media presence.",
+      "photocard_text": "Random posting ruins reach. You need a content funnel, not just a content calendar.",
+      "caption": "Most brands in Dhaka approach social media by waking up and asking what to post today. That is not a strategy; that is a guessing game. When I run HelloFides, we build systems that map directly to business outcomes. A proper strategy starts with understanding your audience's actual friction points, not just what looks pretty on a grid. You need top-of-funnel content to capture attention, mid-funnel content to build trust, and bottom-of-funnel content to convert. If your metrics are flat, stop tweaking your color palettes and fix your messaging architecture first. Align your channels with how your customers actually buy. Drop me a message if you want to audit your current social funnel.",
+      "hashtags": [
+        "#SocialMediaStrategy",
+        "#ContentMarketing",
+        "#DigitalMarketing",
+        "#BusinessGrowth"
+      ],
+      "source": "",
+      "photo_query": "whiteboard marketing funnel diagram office",
+      "created_at": "2026-10-24T12:38:33.857317+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "d611901298",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "stats",
+      "hook": "Short-form video dominates audience attention globally right now.",
+      "photocard_text": "Short-form video yields the highest ROI of any social media format according to HubSpot.",
+      "caption": "If your brand is still ignoring Reels and TikTok, you are actively burning marketing budget. According to the HubSpot State of Marketing Report 2024, short-form video ranks as the highest ROI social media format and the most popular content type for lead generation. Yet, I still see founders spending weeks on static text graphics that get zero engagement. Attention is the scarcest currency in business. Short video works because it compresses value into seconds while building a personal connection with the viewer. At HelloFides, we shifted our clients' focus heavily toward vertical video production this year, and the results speak for themselves. Are you allocating enough of your creative bandwidth to video yet? Let's discuss your video strategy in the comments.",
+      "hashtags": [
+        "#VideoMarketing",
+        "#HubSpot2024",
+        "#ContentStrategy",
+        "#SocialMediaTrends"
+      ],
+      "source": "HubSpot, 2024",
+      "photo_query": "smartphone editing vertical video desk",
+      "created_at": "2026-10-24T12:38:33.857317+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "c59913dd55",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "howto",
+      "hook": "Stop writing boring LinkedIn hooks that nobody reads.",
+      "photocard_text": "Cut the fluff from your hook. State the problem clearly in under ten words.",
+      "caption": "The first line of your social media caption dictates whether the rest of your hard work gets seen. If your opener relies on clichés or vague statements, readers will scroll past instantly. When writing for our clients at HelloFides, I treat the hook as a standalone headline designed to interrupt the scroll. Start with a contrarian truth, a stark observation, or a direct question that addresses a painful operational problem. Keep it under ten words and remove any unnecessary filler adjectives. Once you earn that initial pause, your body copy has a chance to deliver the actual value. Master the hook, and your organic reach will transform. Send me a connection request if you want more practical social media tips.",
+      "hashtags": [
+        "#Copywriting",
+        "#ContentCreation",
+        "#LinkedInTips",
+        "#SocialMediaManagement"
+      ],
+      "source": "",
+      "photo_query": "minimalist wooden desk laptop typing",
+      "created_at": "2026-10-24T12:38:33.857317+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "f00fe9da34",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "Stop guessing what to post on your business page.",
+      "photocard_text": "Batch your social media content once a week to save hours.",
+      "caption": "Running a small business in the US keeps your plate full. Trying to come up with daily social media ideas on the fly usually leads to burnout and silence. Instead, try batching your content. Spend a couple of hours on Sunday mapping out your posts for the week. Group similar tasks together, like writing captions or editing photos, to stay in a productive workflow. If you are tired of scrambling for content every morning, let us handle the heavy lifting. Send us a message or visit hellofides.com to see how we can help.",
+      "hashtags": [
+        "#SocialMediaTips",
+        "#SmallBusinessMarketing",
+        "#ContentBatching"
+      ],
+      "source": "",
+      "photo_query": "laptop content calendar desk flatlay",
+      "created_at": "2026-10-24T12:57:28.689485+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "289a845216",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "lesson",
+      "hook": "Consistency matters more than perfection on social media.",
+      "photocard_text": "Showing up regularly builds more trust than waiting for the perfect post.",
+      "caption": "Many business founders fall into the trap of letting a page sit empty because a single post is not quite right. Real growth online comes from showing up reliably for your audience, whether you run a local fitness studio or a growing DTC brand. Imperfect, genuine content published regularly outperforms a single brilliant post that drops once a month. Building that steady rhythm takes time you could spend running your company. Ready to stay consistent without the stress? Slide into our inbox or visit hellofides.com.",
+      "hashtags": [
+        "#MarketingLessons",
+        "#BrandConsistency",
+        "#BusinessGrowth"
+      ],
+      "source": "",
+      "photo_query": "person typing on laptop coffee",
+      "created_at": "2026-10-24T12:57:28.689485+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "43c18d914e",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Is your social media strategy built for actual engagement?",
+      "photocard_text": "Great social strategy starts with starting conversations, not just broadcasting messages.",
+      "caption": "A successful social media strategy for US businesses focuses on community building, not just talking at your audience. If your feed only features promotional sales pitches, followers will tune out. Try asking open-ended questions, sharing behind-the-scenes glimpses of your workspace, or highlighting customer stories. When people feel a genuine connection to your brand, they naturally become loyal customers. If you want a tailored strategy that turns scrollers into buyers, drop us a line in our inbox or check out hellofides.com today.",
+      "hashtags": [
+        "#SocialMediaStrategy",
+        "#DigitalMarketing",
+        "#BrandCommunity"
+      ],
+      "source": "",
+      "photo_query": "modern office desk strategy planning",
+      "created_at": "2026-10-24T12:57:28.689485+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "24e252beb5",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "lesson",
+      "hook": "Stop replying to every comment with a generic emoji.",
+      "photocard_text": "Meaningful engagement beats empty emoji replies every single time.",
+      "caption": "When running social media for brands, I see founders waste hours dropping single emojis into comment sections. It feels productive, but it does nothing for community growth or algorithm reach. Algorithms reward real conversations. When a follower leaves a comment, treat it as the start of a genuine dialogue. Ask a follow-up question, share a relevant insight, or acknowledge a specific detail they mentioned. At HelloFides, we shifted our focus from volume to depth in community management, and the retention metrics improved immediately. Small business owners often try to automate or rush this part of the process, but human connection cannot be templated. Take fifteen minutes a day to have real conversations with your audience instead of broadcasting into the void. How do you currently handle community management for your brand?",
+      "hashtags": [
+        "#CommunityManagement",
+        "#SocialMediaStrategy",
+        "#SmallBusinessMarketing",
+        "#BrandGrowth"
+      ],
+      "source": "",
+      "photo_query": "person typing smartphone coffee shop",
+      "created_at": "2026-10-24T12:57:53.023544+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "9a6fdcbe44",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "strategy",
+      "hook": "Batch your content creation or burn out fast.",
+      "photocard_text": "Batch creation saves hours and keeps your brand voice consistent.",
+      "caption": "Trying to figure out what to post every single morning is a fast track to creative exhaustion. As the founder of HelloFides, I advise every DTC brand and service business to move to a batching workflow. Dedicate one block of time each week to outline, write, and design your posts in batches. When you sit down to write five captions at once, your messaging stays cohesive and aligned with your broader goals. You stop reacting to daily pressures and start executing a proactive strategy. Schedule your content publishing using tools that let you review the grid or feed layout in advance. This approach frees up mental bandwidth to focus on engaging with your audience and closing incoming leads. What is your current system for staying ahead on content?",
+      "hashtags": [
+        "#ContentStrategy",
+        "#SocialMediaManager",
+        "#MarketingTips",
+        "#Productivity"
+      ],
+      "source": "",
+      "photo_query": "laptop notebook desk flatlay workspace",
+      "created_at": "2026-10-24T12:57:53.023544+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "1aa93c3a4d",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "stats",
+      "hook": "Over half of consumers expect brands to reply quickly.",
+      "photocard_text": "52% of consumers expect brands to respond on social media within an hour.",
+      "caption": "Speed matters more than ever in digital marketing. According to Sprout Social data from 2023, over half of consumers expect a response from brands on social media within sixty minutes. When a potential customer reaches out with a question about your product or service, delay often means lost revenue. At HelloFides, we help brands set up structured response workflows and automated triage systems to ensure high-intent inquiries never slip through the cracks. Social media is no longer just a broadcast channel for advertising; it is your primary customer service desk. If your response times are lagging, you are handing warm leads directly to your competitors. Audit your current social inbox response rate this week and set a clear target for improvement. How fast does your team typically reply to inbound messages?",
+      "hashtags": [
+        "#CustomerExperience",
+        "#SocialMediaMarketing",
+        "#BusinessGrowth",
+        "#DigitalStrategy"
+      ],
+      "source": "Sprout Social, 2023",
+      "photo_query": "modern office desk computer keyboard",
+      "created_at": "2026-10-24T12:57:53.023544+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    }
+  ]
 }

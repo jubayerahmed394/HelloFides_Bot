@@ -1,7 +1,7 @@
 # ============================================================================
 # HelloFides Bot - configuration
 # Edit this file to change the schedule, brand colors, or content rules.
-# Secrets (bot token, Gemini key, your Telegram chat ID) are NEVER put here -
+# Secrets (bot token, Telegram channel ID, API keys) are NEVER put here -
 # they live in GitHub Secrets / environment variables. See README.md.
 # ============================================================================
 
@@ -14,24 +14,48 @@ schedule:
     days: ["Sat", "Mon", "Wed"]
     time: "09:00"
   company:
-    days: ["Sun", "Tue", "Thu", "Fri"]
+    days: ["Sun", "Tue", "Thu"]
     time: "19:00"
 
 # A topic/pillar won't repeat within this many days.
 duplicate_topic_cooldown_days: 60
 
-gemini:
-  model: "gemini-2.0-flash"
-  max_retries: 3
+# Multi-provider generation fallback chain, tried in this order. Gemini is
+# always tried first on a fresh attempt - a provider is never permanently
+# disabled, only cooled down after a 429 (see provider_state.py).
+# key_env must be set as a real environment variable / GitHub Secret; a
+# provider with no key set is skipped silently, not treated as an error.
+providers:
+  order: ["gemini_primary", "gemini_lite", "groq", "mistral"]
+  gemini_primary:
+    kind: gemini
+    model: "gemini-3.8-flash"
+    key_env: "GEMINI_API_KEY"
+  gemini_lite:
+    kind: gemini
+    model: "gemini-3.5-flash-lite"
+    key_env: "GEMINI_API_KEY"
+  groq:
+    kind: groq
+    model: "openai/gpt-oss-20b"
+    key_env: "GROQ_API_KEY"
+    endpoint: "https://api.groq.com/openai/v1/chat/completions"
+  mistral:
+    kind: mistral
+    model: "mistral-small-latest"
+    key_env: "MISTRAL_API_KEY"
+    endpoint: "https://api.mistral.ai/v1/chat/completions"
 
 brand:
   navy: "#0B1F3A"
   white: "#FFFFFF"
   accent: "#2E5BFF"
   logo_path: "assets/logo.png"
-  personal_name: "Jubayer Ahmed"
-  personal_title: "Social Media Manager & Marketer"
-  personal_footer: "Jubayer Ahmed | Social Media Manager & Marketer"
+  avatar_path: "assets/profile.jpg"   # optional - circular avatar in the name block if present
+  personal_name_lines:
+    - "Jubayer Ahmed"
+    - "Social Media Manager"
+    - "CEO of HelloFides"
   company_footer: "HelloFides | hellofides.com"
 
 image:
@@ -52,3 +76,6 @@ pillars:
 
 content_log_path: "content_log.json"
 state_path: "data/bot_state.json"
+queue_path: "data/content_queue.json"
+provider_state_path: "data/provider_state.json"
+fallback_bank_path: "data/fallback_bank.json"

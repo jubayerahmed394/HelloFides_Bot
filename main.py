@@ -10,6 +10,10 @@ Two things this script can do (called by .github/workflows/schedule.yml):
 This script does not run forever - it does one thing and exits. GitHub Actions
 cron calls it on a schedule. See README.md for setup.
 """
+import truststore
+truststore.inject_into_ssl()  # needed on some Windows machines for local runs (AV/network HTTPS
+                               # inspection breaks Python's bundled CA bundle); harmless in CI.
+
 import argparse
 import asyncio
 import sys
@@ -19,34 +23,30 @@ from dotenv import load_dotenv
 load_dotenv()  # loads .env for local testing; no-op in GitHub Actions (vars come from secrets)
 
 import bot
-import designer
 import generator
 import storage
 
 
 async def run_scheduled(mode):
     config = storage.load_config()
-    designer.ensure_placeholder_logo(config)
     state = storage.load_state(config)
 
     telegram_bot = bot.get_bot()
-    chat_id = bot.get_owner_id()
+    error_chat_id = bot.get_owner_chat_id() or bot.get_channel_id()
 
     try:
-        entry = generator.generate_post(config, state, mode)
+        entry = generator.next_post(config, state, mode)
     except generator.GenerationError as exc:
-        print(f"Generation failed: {exc}", file=sys.stderr)
-        await bot.send_error(telegram_bot, chat_id, str(exc))
+        await bot.notify_total_failure(telegram_bot, config, state, error_chat_id, str(exc))
         storage.save_state(config, state)
         sys.exit(1)
 
-    await bot.send_post(telegram_bot, chat_id, config, state, entry)
-    print(f"Sent scheduled {mode} post: {entry['id']} - {entry['hook']}")
+    await bot.send_post(telegram_bot, config, state, entry)
+    print(f"Sent scheduled {mode} post: {entry['id']} ({entry.get('provider_used')}) - {entry['hook']}")
 
 
 async def run_poll():
     config = storage.load_config()
-    designer.ensure_placeholder_logo(config)
     state = storage.load_state(config)
     await bot.poll_once(config, state)
     print("Poll complete.")

@@ -7,7 +7,7 @@ set -uo pipefail
 git config user.name "HelloFides Bot"
 git config user.email "bot@hellofides.local"
 
-git add content_log.json data/bot_state.json
+git add content_log.json data/bot_state.json data/content_queue.json data/provider_state.json
 
 if git diff --cached --quiet; then
   echo "No bot state changes to commit."
