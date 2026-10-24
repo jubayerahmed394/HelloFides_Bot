@@ -14,6 +14,7 @@ note are returned alongside the local downloaded file path, for storage in
 captions/metadata files.
 """
 import os
+import random
 import time
 
 import requests
@@ -47,7 +48,9 @@ def fetch_pixabay(query, orientation="vertical"):
     hits = resp.json().get("hits", [])
     if not hits:
         return None
-    h = hits[0]
+    # Pick randomly among the top matches instead of always the #1 result,
+    # so repeated/similar topic queries don't keep returning the same photo.
+    h = random.choice(hits[:5])
     return {
         "source": "pixabay",
         "id": str(h["id"]),
@@ -71,7 +74,9 @@ def fetch_unsplash(query, orientation="portrait"):
     results = resp.json().get("results", [])
     if not results:
         return None
-    r = results[0]
+    # Pick randomly among the top matches instead of always the #1 result,
+    # so repeated/similar topic queries don't keep returning the same photo.
+    r = random.choice(results[:5])
     photo_id = r["id"]
 
     # Required by the Unsplash API Guidelines: ping the download endpoint

@@ -40,8 +40,7 @@ body {{ font-family:'DM Sans',sans-serif; }}
 .hook {{ font-family:'Poppins'; font-weight:800; line-height:1.18; }}
 .support {{ font-family:'DM Sans'; font-weight:500; line-height:1.4; }}
 .source {{ font-family:'DM Sans'; font-weight:500; }}
-.photo-duotone {{ filter: grayscale(100%) contrast(1.08) brightness(0.95); }}
-.overlay-navy {{ background:{NAVY}; mix-blend-mode:multiply; }}
+.photo-duotone {{ filter: saturate(1.12) contrast(1.06) brightness(0.98); }}
 
 /* --- Name block (byline) shared styles --- */
 .nb-name {{ font-family:'Poppins'; font-weight:800; line-height:1.15; }}
@@ -129,7 +128,6 @@ def layout_personal_hero(card, photo_path, name_block_html):
     return f"""<!DOCTYPE html><html><head><meta charset="utf-8"><style>{FONT_FACE}{BASE_CSS}
   body {{ width:1080px; height:1350px; position:relative; overflow:hidden; background:{NAVY}; }}
   .photo {{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }}
-  .photo-overlay {{ position:absolute; inset:0; }}
   .scrim {{ position:absolute; left:0; right:0; bottom:0; height:62%;
     background:linear-gradient(to top, rgba(11,31,58,0.97) 10%, rgba(11,31,58,0.75) 45%, rgba(11,31,58,0) 100%); }}
   .tag-wrap {{ position:absolute; top:70px; left:70px; }}
@@ -139,7 +137,6 @@ def layout_personal_hero(card, photo_path, name_block_html):
   .footer {{ position:absolute; left:0; right:0; bottom:60px; display:flex; justify-content:center; }}
   </style></head><body>
   <img class="photo photo-duotone" src="{file_uri(photo_path)}">
-  <div class="photo-overlay overlay-navy" style="opacity:0.35;"></div>
   <div class="scrim"></div>
   <div class="tag-wrap"><span class="tag">{card['tag']}</span></div>
   <div class="content">
@@ -158,7 +155,6 @@ def layout_personal_split(card, photo_path, name_block_html):
   body {{ width:1080px; height:1350px; position:relative; overflow:hidden; background:{NAVY}; }}
   .photo-panel {{ position:absolute; top:0; left:0; right:0; height:55%; overflow:hidden; }}
   .photo {{ width:100%; height:100%; object-fit:cover; }}
-  .photo-overlay {{ position:absolute; inset:0; }}
   .seam {{ position:absolute; top:55%; left:0; right:0; height:6px; background:{ACCENT}; }}
   .panel {{ position:absolute; top:55%; left:0; right:0; bottom:0; padding:60px 70px; }}
   .tag-wrap {{ position:absolute; top:-30px; left:0; }}
@@ -168,7 +164,6 @@ def layout_personal_split(card, photo_path, name_block_html):
   </style></head><body>
   <div class="photo-panel">
     <img class="photo photo-duotone" src="{file_uri(photo_path)}">
-    <div class="photo-overlay overlay-navy" style="opacity:0.3;"></div>
   </div>
   <div class="seam"></div>
   <div class="panel">
@@ -188,7 +183,6 @@ def layout_personal_framed(card, photo_path, name_block_html):
   .frame {{ position:absolute; top:60px; left:60px; right:60px; height:600px; border-radius:24px;
     overflow:hidden; box-shadow:0 24px 48px rgba(11,31,58,0.25); }}
   .photo {{ width:100%; height:100%; object-fit:cover; }}
-  .photo-overlay {{ position:absolute; inset:0; }}
   .tag-wrap {{ position:absolute; top:636px; left:60px; }}
   .content {{ position:absolute; top:730px; left:70px; right:70px; }}
   .hook {{ color:{NAVY}; font-size:60px; margin-bottom:22px; }}
@@ -197,7 +191,6 @@ def layout_personal_framed(card, photo_path, name_block_html):
   </style></head><body>
   <div class="frame">
     <img class="photo photo-duotone" src="{file_uri(photo_path)}">
-    <div class="photo-overlay overlay-navy" style="opacity:0.4;"></div>
   </div>
   <div class="tag-wrap"><span class="tag">{card['tag']}</span></div>
   <div class="content">
@@ -225,7 +218,6 @@ def layout_company_hero(card, photo_path, footer_name, footer_sub):
     return f"""<!DOCTYPE html><html><head><meta charset="utf-8"><style>{FONT_FACE}{BASE_CSS}
   body {{ width:1080px; height:1080px; position:relative; overflow:hidden; background:{NAVY}; }}
   .photo {{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }}
-  .photo-overlay {{ position:absolute; inset:0; }}
   .scrim {{ position:absolute; left:0; right:0; bottom:0; height:68%;
     background:linear-gradient(to top, rgba(11,31,58,0.97) 15%, rgba(11,31,58,0.7) 50%, rgba(11,31,58,0) 100%); }}
   .tag-wrap {{ position:absolute; top:60px; left:60px; }}
@@ -238,7 +230,6 @@ def layout_company_hero(card, photo_path, footer_name, footer_sub):
     font-size:22px; padding:8px 20px; border-radius:20px; margin-top:10px; }}
   </style></head><body>
   <img class="photo photo-duotone" src="{file_uri(photo_path)}">
-  <div class="photo-overlay overlay-navy" style="opacity:0.35;"></div>
   <div class="scrim"></div>
   <div class="tag-wrap"><span class="tag">{card['tag']}</span></div>
   <div class="content">
@@ -258,7 +249,6 @@ def layout_company_split(card, photo_path, footer_name, footer_sub):
   body {{ width:1080px; height:1080px; position:relative; overflow:hidden; background:{NAVY}; }}
   .photo-panel {{ position:absolute; top:0; left:0; bottom:0; width:44%; overflow:hidden; }}
   .photo {{ width:100%; height:100%; object-fit:cover; }}
-  .photo-overlay {{ position:absolute; inset:0; }}
   .seam {{ position:absolute; top:0; bottom:0; left:44%; width:6px; background:{ACCENT}; }}
   .panel {{ position:absolute; top:0; right:0; bottom:0; left:44%; padding:70px 56px; }}
   .hook {{ color:{WHITE}; font-size:48px; margin:30px 0 18px; }}
@@ -269,7 +259,6 @@ def layout_company_split(card, photo_path, footer_name, footer_sub):
   </style></head><body>
   <div class="photo-panel">
     <img class="photo photo-duotone" src="{file_uri(photo_path)}">
-    <div class="photo-overlay overlay-navy" style="opacity:0.3;"></div>
   </div>
   <div class="seam"></div>
   <div class="panel">
@@ -289,7 +278,6 @@ def layout_company_card(card, photo_path, footer_name, footer_sub):
     return f"""<!DOCTYPE html><html><head><meta charset="utf-8"><style>{FONT_FACE}{BASE_CSS}
   body {{ width:1080px; height:1080px; position:relative; overflow:hidden; background:{NAVY}; }}
   .photo {{ position:absolute; top:0; left:0; right:0; height:68%; object-fit:cover; width:100%; }}
-  .photo-overlay {{ position:absolute; top:0; left:0; right:0; height:68%; }}
   .tag-wrap {{ position:absolute; top:50px; left:50px; }}
   .card {{ position:absolute; left:40px; right:40px; bottom:40px; top:640px; background:{WHITE};
     border-radius:28px; box-shadow:0 -20px 40px rgba(0,0,0,0.25); padding:48px 50px; }}
@@ -301,7 +289,6 @@ def layout_company_card(card, photo_path, footer_name, footer_sub):
     font-size:20px; padding:8px 18px; border-radius:18px; }}
   </style></head><body>
   <img class="photo photo-duotone" src="{file_uri(photo_path)}">
-  <div class="photo-overlay overlay-navy" style="opacity:0.35;"></div>
   <div class="tag-wrap"><span class="tag">{card['tag']}</span></div>
   <div class="card">
     <div class="hook">{card['hook']}</div>
