@@ -248,6 +248,25 @@
       "created_at": "2026-10-24T12:57:53.023544+06:00",
       "posted": false,
       "provider_used": "gemini_lite"
+    },
+    {
+      "id": "40a708483b",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "You don't need to be on every single social platform.",
+      "photocard_text": "Dominating one platform where your buyers hang out beats being invisible on five.",
+      "caption": "When founders start planning their social media, the temptation is to launch everywhere at once. But managing five inactive channels dilutes your message and burns out your team. A winning strategy focuses on the channels where your specific buyers actually spend time and make buying decisions—whether that is a boutique fitness studio on Instagram or a B2B SaaS on LinkedIn. We help brands build focused roadmaps that convert attention into revenue without the overwhelm. Ready to streamline your presence? Send our Page a message or visit hellofides.com.",
+      "hashtags": [
+        "#SocialMediaStrategy",
+        "#SmallBusinessGrowth",
+        "#MarketingTips"
+      ],
+      "source": "",
+      "photo_query": "minimalist office desk coffee laptop notepad",
+      "created_at": "2026-10-24T15:27:17.785779+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
     }
   ]
 }

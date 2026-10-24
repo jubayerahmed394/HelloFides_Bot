@@ -1,8 +1,8 @@
 {
-  "last_update_id": 941981142,
+  "last_update_id": 941981146,
   "pillar_index": {
     "personal": 0,
-    "company": 0
+    "company": 1
   },
   "pending_posts": {
     "289a845216": {
@@ -66,6 +66,68 @@
         "photographer": "Fiona Murray-deGraaff",
         "source_url": "https://unsplash.com/photos/a-notepad-sitting-on-top-of-a-laptop-computer-next-to-a-keyboard-91fyuCdgtsM",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Fiona Murray-deGraaff on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "43c18d914e": {
+      "entry": {
+        "id": "43c18d914e",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "strategy",
+        "hook": "Is your social media strategy built for actual engagement?",
+        "photocard_text": "Great social strategy starts with starting conversations, not just broadcasting messages.",
+        "caption": "A successful social media strategy for US businesses focuses on community building, not just talking at your audience. If your feed only features promotional sales pitches, followers will tune out. Try asking open-ended questions, sharing behind-the-scenes glimpses of your workspace, or highlighting customer stories. When people feel a genuine connection to your brand, they naturally become loyal customers. If you want a tailored strategy that turns scrollers into buyers, drop us a line in our inbox or check out hellofides.com today.",
+        "hashtags": [
+          "#SocialMediaStrategy",
+          "#DigitalMarketing",
+          "#BrandCommunity"
+        ],
+        "source": "",
+        "photo_query": "modern office desk strategy planning",
+        "created_at": "2026-10-24T12:57:28.689485+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C1",
+      "chat_id": 8789122019,
+      "message_id": 52,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "cckf4TsHAuw",
+        "photographer": "Andrew Neel",
+        "source_url": "https://unsplash.com/photos/macbook-pro-white-ceramic-mugand-black-smartphone-on-table-cckf4TsHAuw",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Andrew Neel on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "40a708483b": {
+      "entry": {
+        "id": "40a708483b",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "strategy",
+        "hook": "You don't need to be on every single social platform.",
+        "photocard_text": "Dominating one platform where your buyers hang out beats being invisible on five.",
+        "caption": "When founders start planning their social media, the temptation is to launch everywhere at once. But managing five inactive channels dilutes your message and burns out your team. A winning strategy focuses on the channels where your specific buyers actually spend time and make buying decisions—whether that is a boutique fitness studio on Instagram or a B2B SaaS on LinkedIn. We help brands build focused roadmaps that convert attention into revenue without the overwhelm. Ready to streamline your presence? Send our Page a message or visit hellofides.com.",
+        "hashtags": [
+          "#SocialMediaStrategy",
+          "#SmallBusinessGrowth",
+          "#MarketingTips"
+        ],
+        "source": "",
+        "photo_query": "minimalist office desk coffee laptop notepad",
+        "created_at": "2026-10-24T15:27:17.785779+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 59,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "cckf4TsHAuw",
+        "photographer": "Andrew Neel",
+        "source_url": "https://unsplash.com/photos/macbook-pro-white-ceramic-mugand-black-smartphone-on-table-cckf4TsHAuw",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Andrew Neel on Unsplash\" (unsplash.com/license)."
       }
     }
   },

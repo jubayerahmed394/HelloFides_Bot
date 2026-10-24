@@ -1,25 +1,5 @@
 {
-  "company": [
-    {
-      "id": "43c18d914e",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "strategy",
-      "hook": "Is your social media strategy built for actual engagement?",
-      "photocard_text": "Great social strategy starts with starting conversations, not just broadcasting messages.",
-      "caption": "A successful social media strategy for US businesses focuses on community building, not just talking at your audience. If your feed only features promotional sales pitches, followers will tune out. Try asking open-ended questions, sharing behind-the-scenes glimpses of your workspace, or highlighting customer stories. When people feel a genuine connection to your brand, they naturally become loyal customers. If you want a tailored strategy that turns scrollers into buyers, drop us a line in our inbox or check out hellofides.com today.",
-      "hashtags": [
-        "#SocialMediaStrategy",
-        "#DigitalMarketing",
-        "#BrandCommunity"
-      ],
-      "source": "",
-      "photo_query": "modern office desk strategy planning",
-      "created_at": "2026-10-24T12:57:28.689485+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    }
-  ],
+  "company": [],
   "personal": [
     {
       "id": "1aa93c3a4d",
