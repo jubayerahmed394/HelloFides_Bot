@@ -2,8 +2,11 @@
 
 A Telegram bot that sends Jubayer Ahmed ready-to-post content for two feeds:
 
-- **LinkedIn - Personal** (his own profile, 3x/week)
-- **Facebook - HelloFides** (the company page, 3x/week)
+- **LinkedIn - Personal** (his own profile)
+- **Facebook - HelloFides** (the company page)
+
+Every day at 5:00 PM Asia/Dhaka, it sends a batch of photocards (4 by default,
+alternating Personal/Company) in one run - see `config.yaml`'s `schedule.daily`.
 
 Both are delivered to **one destination**: a private Telegram channel called
 "HelloFides". The bot never posts anywhere by itself - it sends a photocard
@@ -177,18 +180,21 @@ copy .env.example .env         # then fill in your real values in .env
 `main.py` automatically loads `.env` for local runs (it's gitignored). Then:
 
 ```
+python main.py daily
 python main.py scheduled --mode personal
 python main.py scheduled --mode company
 python main.py poll
 ```
 
-The first two send a full Personal and Company post to the **channel**
-(not your DM). The third checks for and responds to any DM commands you've sent.
+`daily` sends the full day's batch (`schedule.daily.count` posts, alternating
+Personal/Company). The two `scheduled --mode` commands send one single
+on-demand post of that mode, for quick testing. `poll` checks for and
+responds to any DM commands you've sent. All deliver to the **channel**, not your DM.
 
 ### Test on GitHub Actions
 
-**Actions -> HelloFides Bot -> Run workflow**, choose `personal`, `company`,
-or `poll` - runs immediately, doesn't wait for the schedule.
+**Actions -> HelloFides Bot -> Run workflow**, choose `daily`, `personal`,
+`company`, or `poll` - runs immediately, doesn't wait for the schedule.
 
 ---
 
@@ -209,11 +215,11 @@ Under every photocard in the channel:
 
 ## 5. Changing the schedule, voice, or brand colors
 
-Everything tunable lives in `config.yaml` - schedule days/times, brand colors,
-the Personal name-block lines, duplicate-topic cooldown, Gemini model name,
-minimum font size, etc. If you change the **times**, also update the matching
-cron lines at the top of `.github/workflows/schedule.yml` (cron is in UTC;
-Asia/Dhaka is UTC+6).
+Everything tunable lives in `config.yaml` - the daily schedule's time/count/
+batch_size, brand colors, the Personal name-block lines, duplicate-topic
+cooldown, provider models, minimum font size, etc. If you change
+`schedule.daily.time`, also update the matching cron line at the top of
+`.github/workflows/schedule.yml` (cron is in UTC; Asia/Dhaka is UTC+6).
 
 To use your real HelloFides logo, replace `assets/logo.png` with your own PNG.
 To add a circular avatar to the Personal name block, add `assets/profile.jpg`
@@ -241,7 +247,7 @@ To add a circular avatar to the Personal name block, add `assets/profile.jpg`
 - `bot.py` - Telegram delivery to the HelloFides channel, DM command handling,
   owner/channel-admin authorization, inline buttons, and the once-a-day
   quiet failure notice (never raw errors).
-- `main.py` - the entry point GitHub Actions calls (`scheduled` or `poll`).
+- `main.py` - the entry point GitHub Actions calls (`daily`, `scheduled`, or `poll`).
 - `storage.py` - shared helpers for config/state/log files.
 - `test_fallback.py` - mocked tests for the fallback chain (no real API calls).
 - `designer.py` - the original Pillow-based renderer from the first version of

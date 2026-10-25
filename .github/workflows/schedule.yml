@@ -1,14 +1,13 @@
 name: HelloFides Bot
 
-# Three jobs, one workflow, one delivery destination (the private "HelloFides"
+# Two jobs, one workflow, one delivery destination (the private "HelloFides"
 # Telegram channel):
-#  - personal_post: generates + sends a LinkedIn/Personal post (Sat, Mon, Wed 09:00 Asia/Dhaka)
-#  - company_post:  generates + sends a Facebook/HelloFides post (Sun, Tue, Thu 19:00 Asia/Dhaka)
+#  - daily_batch:    sends config.yaml's schedule.daily.count photocards
+#                     (alternating Personal/Company), once a day at 17:00 Asia/Dhaka
 #  - poll_commands:  checks Telegram every 5 minutes for DM commands/button taps
 #
-# Cron times below are in UTC. Asia/Dhaka is UTC+6, so 09:00 Dhaka = 03:00 UTC,
-# and 19:00 Dhaka = 13:00 UTC. If you change config.yaml's schedule, update the
-# cron lines here to match.
+# Cron times below are in UTC. Asia/Dhaka is UTC+6, so 17:00 Dhaka = 11:00 UTC.
+# If you change config.yaml's schedule.daily.time, update the cron line here too.
 #
 # This workflow needs a PUBLIC repository to run for free without limit, because
 # the 5-minute command-polling job runs ~288 times/day. GitHub Actions minutes are
@@ -19,13 +18,10 @@ name: HelloFides Bot
 # ~150MB download is cached between runs (keyed on the pinned version in
 # requirements.txt) so it isn't re-downloaded on every single run.
 
-# Re-saved 2026-10-24 to force GitHub to re-register the schedule trigger
-# after it fired only once and then went quiet for the first several hours.
 on:
   schedule:
-    - cron: "0 3 * * 6,1,3"   # Personal/LinkedIn - Sat, Mon, Wed 09:00 Asia/Dhaka
-    - cron: "0 13 * * 0,2,4"  # Company/Facebook - Sun, Tue, Thu 19:00 Asia/Dhaka
-    - cron: "*/5 * * * *"     # Poll Telegram for DM commands/button taps
+    - cron: "0 11 * * *"     # Daily batch - every day, 17:00 Asia/Dhaka
+    - cron: "*/5 * * * *"    # Poll Telegram for DM commands/button taps
   workflow_dispatch:
     inputs:
       job:
@@ -35,6 +31,7 @@ on:
         type: choice
         options:
           - poll
+          - daily
           - personal
           - company
 
@@ -42,14 +39,14 @@ permissions:
   contents: write
 
 jobs:
-  personal_post:
+  daily_batch:
     if: >
-      (github.event_name == 'schedule' && github.event.schedule == '0 3 * * 6,1,3') ||
-      (github.event_name == 'workflow_dispatch' && github.event.inputs.job == 'personal')
+      (github.event_name == 'schedule' && github.event.schedule == '0 11 * * *') ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.job == 'daily')
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 15
     concurrency:
-      group: hellofides-personal-post
+      group: hellofides-daily-batch
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
@@ -64,7 +61,7 @@ jobs:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
       - run: python -m playwright install --with-deps chromium
-      - name: Generate and send Personal/LinkedIn post
+      - name: Send today's photocard batch
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
@@ -74,19 +71,19 @@ jobs:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-        run: python main.py scheduled --mode personal
+        run: python main.py daily
       - name: Save bot state
         if: always()
         run: bash .github/workflows/commit_state.sh
 
-  company_post:
+  single_post:
     if: >
-      (github.event_name == 'schedule' && github.event.schedule == '0 13 * * 0,2,4') ||
-      (github.event_name == 'workflow_dispatch' && github.event.inputs.job == 'company')
+      github.event_name == 'workflow_dispatch' &&
+      (github.event.inputs.job == 'personal' || github.event.inputs.job == 'company')
     runs-on: ubuntu-latest
     timeout-minutes: 8
     concurrency:
-      group: hellofides-company-post
+      group: hellofides-single-post
       cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
@@ -101,7 +98,7 @@ jobs:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
       - run: python -m playwright install --with-deps chromium
-      - name: Generate and send Company/Facebook post
+      - name: Generate and send one on-demand post (manual testing)
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
@@ -111,7 +108,7 @@ jobs:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-        run: python main.py scheduled --mode company
+        run: python main.py scheduled --mode ${{ github.event.inputs.job }}
       - name: Save bot state
         if: always()
         run: bash .github/workflows/commit_state.sh

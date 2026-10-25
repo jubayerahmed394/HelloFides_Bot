@@ -431,10 +431,11 @@ def _save_queue(config, queue):
     storage._write_json(config["queue_path"], queue)
 
 
-def ensure_queue(config, state, mode, min_items=3, batch_size=3):
+def ensure_queue(config, state, mode, min_items=3, batch_size=None):
     """Refills the queue for `mode` if it's running low, at most once per
     calendar day (success or failure both count, so a bad day doesn't retry
     every five minutes)."""
+    batch_size = batch_size or config["schedule"]["daily"]["batch_size"]
     queue = _load_queue(config)
     today = date.today().isoformat()
 
@@ -487,3 +488,13 @@ def regenerate(config, state, old_entry):
         return entry
     entries = generate_batch(config, state, mode, count=1)
     return entries[0]
+
+
+def daily_mode_sequence(config):
+    """The mode for each of today's `schedule.daily.count` posts, alternating
+    Personal/Company starting with Personal. Callers generate+send one at a
+    time (not as one all-or-nothing batch) so a single failure doesn't lose
+    the posts that already succeeded."""
+    count = config["schedule"]["daily"]["count"]
+    modes = ("personal", "company")
+    return [modes[i % len(modes)] for i in range(count)]

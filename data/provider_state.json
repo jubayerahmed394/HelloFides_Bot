@@ -3,8 +3,8 @@
     "gemini_primary": {
       "last_error": null,
       "cooldown_until": null,
-      "requests_today": 2,
-      "day": "2026-10-24"
+      "requests_today": 3,
+      "day": "2026-10-25"
     },
     "gemini_lite": {
       "last_error": null,

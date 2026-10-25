@@ -219,12 +219,12 @@ async def _handle_command(bot, config, state, dm_chat_id, text):
         await bot.send_message(chat_id=dm_chat_id, text=HELP_TEXT)
 
     elif command == "/schedule":
-        sched = config["schedule"]
+        sched = config["schedule"]["daily"]
         msg = (
             f"Timezone: {config['timezone']}\n\n"
-            f"PERSONAL / LinkedIn: {', '.join(sched['personal']['days'])} at {sched['personal']['time']}\n"
-            f"COMPANY / Facebook: {', '.join(sched['company']['days'])} at {sched['company']['time']}\n\n"
-            "Both deliver to the same HelloFides channel. Edit config.yaml and schedule.yml to change this."
+            f"Every day at {sched['time']}: {sched['count']} photocards, alternating "
+            "LinkedIn/Personal and Facebook/Company, delivered to the HelloFides channel.\n\n"
+            "Edit config.yaml (schedule.daily) and schedule.yml to change this."
         )
         await bot.send_message(chat_id=dm_chat_id, text=msg)
 

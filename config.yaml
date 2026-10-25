@@ -8,14 +8,17 @@
 timezone: "Asia/Dhaka"
 
 # Posting schedule. Times are in the timezone above.
-# GitHub Actions cron (in schedule.yml) is set in UTC to match these times.
+# GitHub Actions cron (in schedule.yml) is set in UTC to match this time.
+# Every day: `count` photocards, alternating Personal/Company, delivered in one run.
 schedule:
-  personal:
-    days: ["Sat", "Mon", "Wed"]
-    time: "09:00"
-  company:
-    days: ["Sun", "Tue", "Thu"]
-    time: "19:00"
+  daily:
+    time: "17:00"
+    count: 4
+    # How many posts one batch-generation call produces per mode. At 2/mode/
+    # day this covers about 5 days before the queue needs refilling again -
+    # large enough to keep API calls rare, small enough for one LLM call to
+    # reliably produce in a single well-formed response.
+    batch_size: 10
 
 # A topic/pillar won't repeat within this many days.
 duplicate_topic_cooldown_days: 60
