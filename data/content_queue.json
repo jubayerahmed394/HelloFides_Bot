@@ -1,42 +1,6 @@
 {
   "company": [
     {
-      "id": "9a395935d7",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "stats",
-      "hook": "Short-form video offers the highest return on investment today.",
-      "photocard_text": "Short-form video delivers the highest ROI across social media marketing formats, according to industry benchmarks.",
-      "caption": "Video has shifted from an optional experiment to the backbone of modern social growth. Data from HubSpot's 2024 State of Marketing report confirms that short-form video generates the highest return on investment among all content formats. It builds authentic connections faster and holds audience attention longer than static graphics alone. If filming reels feels daunting while running your business, our team produces, edits, and schedules high-performing video content for you. Message our Page today or visit hellofides.com to see how we can help.",
-      "hashtags": [
-        "#ShortFormVideo",
-        "#SocialMediaROI"
-      ],
-      "source": "HubSpot, 2024",
-      "photo_query": "smartphone on tripod recording setup",
-      "created_at": "2026-10-25T15:02:23.901608+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
-    {
-      "id": "85847ddab2",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "howto",
-      "hook": "Rewrite your business profile bio using this three-part formula.",
-      "photocard_text": "Line 1: Who you help and what you solve. Line 2: Proof or differentiator. Line 3: One direct action link.",
-      "caption": "Your profile bio serves as a direct landing page for new profile visitors. Keep it focused using three intentional lines. Start with a direct statement of who you serve and the exact problem you solve. Follow with a credential, such as years of experience or unique methodology. Finish with a singular clear call to action directing visitors to an easy booking page or shop link. At HelloFides, we audit and optimize every client profile to maximize inbound leads. Reach out via direct message or visit hellofides.com to collaborate.",
-      "hashtags": [
-        "#ProfileOptimization",
-        "#BusinessGrowth"
-      ],
-      "source": "",
-      "photo_query": "typing on laptop keyboard desk",
-      "created_at": "2026-10-25T15:02:23.901608+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
-    {
       "id": "19bdbf8ece",
       "mode": "company",
       "platform": "Facebook - HelloFides",
@@ -110,46 +74,6 @@
     }
   ],
   "personal": [
-    {
-      "id": "cd1195d5d9",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "lesson",
-      "hook": "High impressions mean nothing if nobody visits your profile.",
-      "photocard_text": "We traded viral meme posts for actionable local workout tips. Reach dropped slightly, but qualified inquiries doubled.",
-      "caption": "Early in my agency work, I managed social media for an independent boutique fitness studio. We chased broad reach by posting trending audio clips and viral fitness memes. Our view counts looked great on monthly reports, but member sign-ups remained flat.\n\nWe completely shifted our approach. We stopped trying to entertain casual browsers across the country and began creating content strictly for local residents within a five-mile radius. We posted coach spotlights, breakdowns of movement mechanics, and answers to common anxieties beginners have before their first class.\n\nOverall impressions declined by roughly a third, but profile clicks and free-trial bookings increased substantially. Vanity metrics feel good in dashboard screenshots, but targeted, relevant content generates genuine business growth. Your content should qualify buyers, not merely collect views from people who will never purchase from you.\n\nAre you tracking follower count or qualified inbound inquiries? Share your experience.",
-      "hashtags": [
-        "#SmallBusinessMarketing",
-        "#LocalMarketing",
-        "#SocialMediaROI",
-        "#LeadGeneration"
-      ],
-      "source": "",
-      "photo_query": "clean gym kettlebells wooden floor",
-      "created_at": "2026-10-25T14:57:42.526141+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
-    {
-      "id": "eced3178e4",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "strategy",
-      "hook": "Stock graphics kill trust faster than inconsistent posting.",
-      "photocard_text": "Replace generic promotional graphics with raw customer feedback screenshots. Real proof beats polished branding every time.",
-      "caption": "Many B2B startups and DTC brands spend thousands of dollars designing polished promotional templates that look like billboard advertisements. The reality is that social feeds are personal spaces. When a user scrolls past an overly designed ad banner, their brain automatically filters it out as corporate noise.\n\nThe highest-converting asset you possess is unfiltered proof. Take raw screenshots of customer emails thanking your team, unedited reviews praising your product, or short clips of clients explaining their workflow wins. Pair that visual proof with a thoughtful caption breaking down the specific problem you solved together.\n\nAuthenticity outperforms glossy perfection on modern feeds. Prospective buyers want validation from real people before they click your checkout link or schedule an introductory sales call. Build your weekly calendar around authentic proof rather than decorative Canva graphics.\n\nHow often do you feature unfiltered customer feedback on your feed?",
-      "hashtags": [
-        "#SocialProof",
-        "#BrandTrust",
-        "#B2BStrategy",
-        "#DTCmarketing"
-      ],
-      "source": "",
-      "photo_query": "modern office desk dual monitors",
-      "created_at": "2026-10-25T14:57:42.526141+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
     {
       "id": "32c2950b62",
       "mode": "personal",
