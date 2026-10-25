@@ -129,6 +129,130 @@
         "source_url": "https://unsplash.com/photos/macbook-pro-white-ceramic-mugand-black-smartphone-on-table-cckf4TsHAuw",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Andrew Neel on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "dbc2fdc81a": {
+      "entry": {
+        "id": "dbc2fdc81a",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "stats",
+        "hook": "Your audience follows you for utility, not brand vanity.",
+        "photocard_text": "68% of consumers follow brands to learn about new products and services, not for corporate buzzwords.",
+        "caption": "According to Sprout Social (2023), 68% of consumers follow brands on social media specifically to stay informed about new products or services. They are not following you to read vague motivational platitudes or corporate announcements.\n\nWhen we audit underperforming business profiles, the root cause is almost always self-serving copy. Businesses talk about their milestones, their awards, and their internal culture, while ignoring the practical questions their buyers actually ask. If a prospective customer lands on your page, they should instantly understand what you sell, who it is for, and how it solves their specific challenge.\n\nShowcase feature updates, post direct product demonstrations, and share clear pricing context. Social media works best when it functions as an accessible product catalog paired with practical guidance. Focus your messaging on helping buyers make confident decisions.\n\nIs your current feed answering your buyers' top questions? Drop your thoughts below.",
+        "hashtags": [
+          "#SocialMediaStrategy",
+          "#MarketingData",
+          "#CustomerExperience",
+          "#BrandGrowth"
+        ],
+        "source": "Sprout Social, 2023",
+        "photo_query": "smartphone screen product catalog coffee",
+        "created_at": "2026-10-25T14:57:42.526141+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 80,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "mx6wN8cJ9e4",
+        "photographer": "Meimei Ismail",
+        "source_url": "https://unsplash.com/photos/black-iphone-4-with-black-case-mx6wN8cJ9e4",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Meimei Ismail on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "d9319ea623": {
+      "entry": {
+        "id": "d9319ea623",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "lesson",
+        "hook": "Audio matters less than subtitles on social feeds.",
+        "photocard_text": "Most social video is watched without sound. If your clips lack captions, your message is getting skipped.",
+        "caption": "A common oversight we notice with business videos is relying solely on clear spoken audio. Feed browsing happens everywhere: noisy waiting rooms, quiet offices, and public transit. When videos omit text overlays and closed captions, viewers scroll right past before understanding the value. Adding bold, accurate captions immediately holds attention and clarifies your offer. At HelloFides, we edit every clip with visual storytelling and readable captions that keep eyes on your brand. Send our Page a message or check hellofides.com to upgrade your video content.",
+        "hashtags": [
+          "#VideoMarketing",
+          "#SocialMediaStrategy"
+        ],
+        "source": "",
+        "photo_query": "hands editing video on tablet",
+        "created_at": "2026-10-25T15:02:23.901608+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 84,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "ezPGfAMES60",
+        "photographer": "Jakub Żerdzicki",
+        "source_url": "https://unsplash.com/photos/someone-is-editing-with-a-stylus-on-a-tablet-ezPGfAMES60",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Jakub Żerdzicki on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "c6afa4584e": {
+      "entry": {
+        "id": "c6afa4584e",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "howto",
+        "hook": "Your next high-performing post is hiding in competitor comment sections.",
+        "photocard_text": "Search competitor comment sections for unanswered questions. Turn those exact friction points into your next tutorials.",
+        "caption": "Whenever I plan a new content calendar for a client, I start by reading the comment sections of their five largest competitors.\n\nHere is the exact framework you can run in twenty minutes:\nFirst, locate high-performing posts from industry peers that generated dozens of comments.\nSecond, ignore the compliments and look specifically for user confusion, complaints, or unanswered questions. You will often see comments like \"Does this integrate with Shopify?\" or \"How does this compare to standard retinol?\"\nThird, write dedicated posts answering those exact inquiries.\n\nYour competitors spent money and time generating audience attention, but they rarely have the bandwidth to answer every nuanced question thoroughly. By stepping in and delivering direct answers through your own content, you attract buyers who are already evaluating solutions. It removes guesswork entirely from your content roadmap.\n\nHave you tried auditing competitor comment threads? Tell me your thoughts.",
+        "hashtags": [
+          "#ContentCreation",
+          "#GrowthMarketing",
+          "#MarketingStrategy",
+          "#SocialMediaTips"
+        ],
+        "source": "",
+        "photo_query": "hands typing on sleek laptop keyboard",
+        "created_at": "2026-10-25T14:57:42.526141+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 88,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "0QvTyp0gH3A",
+        "photographer": "LinkedIn Sales Solutions",
+        "source_url": "https://unsplash.com/photos/person-typing-on-macbook-pro-on-brown-wooden-table-during-daytime-photo-0QvTyp0gH3A",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by LinkedIn Sales Solutions on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "1b5432046f": {
+      "entry": {
+        "id": "1b5432046f",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "strategy",
+        "hook": "Turn one comprehensive blog post into a week of content.",
+        "photocard_text": "Break one strong article into a carousel summary, a video script, three standalone graphics, and a discussion prompt.",
+        "caption": "You do not need to create fresh concepts out of thin air every single week. If your business produces newsletters, case studies, or blog guides, you already own valuable intellectual property. Pull the strongest quotes for visual cards, turn step-by-step instructions into multi-slide carousels, and summarize the key takeaway in a short video clip. We help founders transform existing knowledge into polished, omnichannel social campaigns. Send a note to our inbox or visit hellofides.com to let us amplify your content.",
+        "hashtags": [
+          "#ContentRepurposing",
+          "#MarketingStrategy"
+        ],
+        "source": "",
+        "photo_query": "clean workstation laptop tablet notebook",
+        "created_at": "2026-10-25T15:02:23.901608+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "C1",
+      "chat_id": 8789122019,
+      "message_id": 92,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "CXvFo74WiHc",
+        "photographer": "Nubelson Fernandes",
+        "source_url": "https://unsplash.com/photos/macbook-pro-on-black-table-CXvFo74WiHc",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Nubelson Fernandes on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
