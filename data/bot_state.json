@@ -2,7 +2,7 @@
   "last_update_id": 941981146,
   "pillar_index": {
     "personal": 0,
-    "company": 1
+    "company": 3
   },
   "pending_posts": {
     "289a845216": {
@@ -500,6 +500,68 @@
         "photographer": "Paico Oficial",
         "source_url": "https://unsplash.com/photos/white-printer-paper-beside-white-ceramic-mug-7jFMs5vzsSQ",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Paico Oficial on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "49ff8af454": {
+      "entry": {
+        "id": "49ff8af454",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "lesson",
+        "hook": "Trying to reach everyone made our content invisible to everyone.",
+        "photocard_text": "When we narrowed our messaging to solve one specific skincare concern, customer inquiries and repeat orders surged.",
+        "caption": "A while ago, I collaborated with an emerging DTC skincare brand struggling to gain traction across social platforms. Their feed was packed with broad tips about hydration, generic sun protection reminders, and basic wellness advice. The content was polished and accurate, but engagement was nonexistent.\n\nWe audited their customer base and discovered their most loyal buyers all shared one specific profile: adults dealing with adult acne and sensitive skin barriers. We immediately cut out the generalized wellness advice. Every piece of content shifted to address sensitive barrier repair, ingredient interactions, and morning routines tailored for redness.\n\nThe outcome was immediate. Reach narrowed, but meaningful comments, profile visits, and purchases increased sharply. When you speak to a broad crowd, nobody feels understood. When you speak directly to a specific pain point, your ideal buyer instantly pays attention.\n\nHas narrowing your messaging helped your conversion rates? Let me know below.",
+        "hashtags": [
+          "#NicheMarketing",
+          "#BrandPositioning",
+          "#DTCGrowth",
+          "#AudienceBuilding"
+        ],
+        "source": "",
+        "photo_query": "amber glass cosmetic bottles shelf",
+        "created_at": "2026-10-25T14:57:42.526141+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L3",
+      "chat_id": 8789122019,
+      "message_id": 128,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "KnyOdLgBMLU",
+        "photographer": "Katrin Hauf",
+        "source_url": "https://unsplash.com/photos/black-glass-bottle-on-white-textile-KnyOdLgBMLU",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Katrin Hauf on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "1afa9b71cc": {
+      "entry": {
+        "id": "1afa9b71cc",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "stats",
+        "hook": "Facebook remains the most widely used social network for adults.",
+        "photocard_text": "68% of U.S. adults use Facebook regularly, making it a critical hub for local discovery and business credibility.",
+        "caption": "Despite endless buzz around newer apps, established channels continue to drive local business discovery. Data from Pew Research Center's 2024 social media study shows that 68% of U.S. adults use Facebook, maintaining its role as a primary research channel for local services and commerce. A neglected profile can cause potential customers to question if you are still open for business. At HelloFides, we keep your brand active, professional, and responsive across established networks. Send our team a message or visit hellofides.com to manage your presence.",
+        "hashtags": [
+          "#LocalBusiness",
+          "#SocialMediaMarketing"
+        ],
+        "source": "Pew Research Center, 2024",
+        "photo_query": "hands holding phone checking business page",
+        "created_at": "2026-10-25T15:02:23.901608+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 132,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "BjhUu6BpUZA",
+        "photographer": "Priscilla Du Preez 🇨🇦",
+        "source_url": "https://unsplash.com/photos/person-using-smartphone-BjhUu6BpUZA",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Priscilla Du Preez 🇨🇦 on Unsplash\" (unsplash.com/license)."
       }
     }
   },
