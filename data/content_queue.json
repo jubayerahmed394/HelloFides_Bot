@@ -1,42 +1,6 @@
 {
   "company": [
     {
-      "id": "19bdbf8ece",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "lesson",
-      "hook": "Automatic cross-posting across every platform quietly damages reach.",
-      "photocard_text": "Content formatted for Instagram rarely looks right on LinkedIn or Facebook. Tailoring captions and link placements preserves professional credibility.",
-      "caption": "Pushing the exact same caption and image across every network at once seems convenient, but it often hurts results. Broken handles, missing links, and misaligned aspect ratios signal lack of attention to detail to potential clients. Each channel rewards specific text structures, image dimensions, and link placements. Adapting your message slightly for each platform elevates your brand authority instantly. At HelloFides, we craft platform-tailored publishing workflows so your brand looks polished everywhere. Start a conversation in our inbox or explore hellofides.com to learn more.",
-      "hashtags": [
-        "#DigitalMarketing",
-        "#SocialMediaManagement"
-      ],
-      "source": "",
-      "photo_query": "multiple screens displaying analytics data",
-      "created_at": "2026-10-25T15:02:23.901608+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
-    {
-      "id": "83169d3ec1",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "strategy",
-      "hook": "Balance your feed with the 80/20 content distribution framework.",
-      "photocard_text": "Dedicate 80% of your posts to timeless problem-solving answers and 20% to timely business updates and promotions.",
-      "caption": "When every post announces an upcoming promotion or flash sale, audience engagement declines quickly. Sustainable social growth relies on evergreen value that helps your ideal customer weeks after publishing. Build your schedule around enduring educational content, customer success highlights, and actionable tips that resolve recurring client pain points. Reserve promotional pushes for twenty percent of your regular output. We help service brands and founders establish this balanced framework to drive reliable leads. Drop a message to our inbox or visit hellofides.com to discuss your content mix.",
-      "hashtags": [
-        "#MarketingFramework",
-        "#ContentStrategy"
-      ],
-      "source": "",
-      "photo_query": "planner notebook coffee mug desk",
-      "created_at": "2026-10-25T15:02:23.901608+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
-    {
       "id": "1afa9b71cc",
       "mode": "company",
       "platform": "Facebook - HelloFides",
@@ -74,46 +38,6 @@
     }
   ],
   "personal": [
-    {
-      "id": "32c2950b62",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "stats",
-      "hook": "Broadcast marketing is fading; community building drives modern retention.",
-      "photocard_text": "84% of marketers report that building an engaged community is critical to social media success.",
-      "caption": "According to HubSpot's 2024 State of Marketing Report, 84% of marketers state that building a sense of community is critical to a successful social media strategy. The era of treating social channels as one-way megaphone broadcasts has ended.\n\nBuyers no longer follow company profiles simply to read press releases or polished sales pitches. They want peer discussion, responsive support, and spaces where their industry challenges are openly addressed. When brands host thoughtful discussions, tag active contributors, and build conversations directly inside the comments, follower retention rises substantially.\n\nIf your current strategy consists solely of posting scheduled graphics and closing the app, you are missing the entire point of the platform. Dedicate time each day to participating in conversations started by your audience. Treat your feed as a community forum rather than a monologue stage.\n\nHow are you actively building community around your brand this quarter?",
-      "hashtags": [
-        "#CommunityBuilding",
-        "#DigitalMarketing",
-        "#MarketingStats",
-        "#CustomerEngagement"
-      ],
-      "source": "HubSpot, 2024",
-      "photo_query": "tablet displaying modern dashboard graphs",
-      "created_at": "2026-10-25T14:57:42.526141+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
-    {
-      "id": "c5ffbf4c88",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "howto",
-      "hook": "Documenting your daily work creates better content than brainstorming.",
-      "photocard_text": "Stop brainstorming post ideas from scratch. Keep a notepad open during customer calls and write down their exact objections.",
-      "caption": "Founders frequently tell me they lack the creative inspiration to post regularly on LinkedIn. My answer is always the same: stop trying to be creative and start documenting what you already do.\n\nHere is a simple system you can implement tomorrow:\nKeep a blank digital document open during your daily operations. Whenever a client asks a clarifying question during an onboarding call, write it down word for word. Whenever a prospect explains why they chose you over a competitor, note the exact phrasing they used. At the end of the day, select one note and structure it into three short parts:\n1. The specific problem encountered.\n2. The solution you implemented.\n3. The broader lesson for someone facing that issue.\n\nDocumenting customer interactions guarantees your content addresses actual buyer pain points. It transforms routine work into high-trust thought leadership.\n\nWhat objection did a prospect raise with you this week?",
-      "hashtags": [
-        "#ContentSystems",
-        "#FounderLedGrowth",
-        "#ProductivityTips",
-        "#MarketingOperations"
-      ],
-      "source": "",
-      "photo_query": "coffee cup glasses notebook open",
-      "created_at": "2026-10-25T14:57:42.526141+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
     {
       "id": "49ff8af454",
       "mode": "personal",
