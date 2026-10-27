@@ -563,6 +563,131 @@
         "source_url": "https://unsplash.com/photos/person-using-smartphone-BjhUu6BpUZA",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Priscilla Du Preez 🇨🇦 on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "ba250fd3e5": {
+      "entry": {
+        "id": "ba250fd3e5",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "stats",
+        "hook": "Buyers evaluate multiple posts long before contacting your sales team.",
+        "photocard_text": "62% of B2B buyers consume three to seven pieces of content before ever speaking to a sales representative.",
+        "caption": "According to the Demand Gen Report (2023), 62% of B2B buyers engage with three to seven pieces of content before ever speaking with a sales representative. If your profiles lack substantive information, potential buyers eliminate you from consideration in silence.\n\nModern purchasing behavior has shifted toward self-guided discovery. Whether you run a SaaS startup or a regional commercial service, prospective clients silently browse your past posts, customer testimonials, and educational breakdowns weeks before they submit a form. They look for evidence of operational reliability and problem-solving capability.\n\nIf your channels only show intermittent sales announcements, buyers conclude your business lacks active leadership. Maintaining a steady library of useful breakdowns ensures that when buyers research your brand, they encounter credible proof at every touchpoint. Your feed acts as your preliminary sales team around the clock.\n\nWhat impression does your past month of content make on an evaluating buyer?",
+        "hashtags": [
+          "#B2BSales",
+          "#ContentMarketing",
+          "#BuyerJourney",
+          "#SaaSGrowth"
+        ],
+        "source": "Demand Gen Report, 2023",
+        "photo_query": "modern meeting room table documents",
+        "created_at": "2026-10-25T14:57:42.526141+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L1",
+      "chat_id": 8789122019,
+      "message_id": 138,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "aB5-R_LiEnI",
+        "photographer": "Petr",
+        "source_url": "https://unsplash.com/photos/brown-wooden-table-with-chairs-aB5-R_LiEnI",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Petr on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "c1f7352e86": {
+      "entry": {
+        "id": "c1f7352e86",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "howto",
+        "hook": "How to turn ordinary client testimonials into compelling visual posts.",
+        "photocard_text": "Pair a direct client quote with the exact problem solved and a behind-the-scenes photo of the result.",
+        "caption": "Five-star reviews should not stay trapped on review websites or buried in email threads. Turn them into persuasive visual assets that convince prospective customers. Highlight one specific sentence addressing the core objection the customer had before hiring you. Pair that excerpt with a genuine photograph of the completed work, project milestone, or workspace rather than generic graphic templates. At HelloFides, we turn positive client sentiment into persuasive social proof that fuels organic inquiries. Message our Page inbox or visit hellofides.com to see how we work.",
+        "hashtags": [
+          "#SocialProof",
+          "#SmallBusinessMarketing"
+        ],
+        "source": "",
+        "photo_query": "neat organized workspace with laptop",
+        "created_at": "2026-10-25T15:02:23.901608+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 142,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "VXpeQ3GetDU",
+        "photographer": "Huy Phan",
+        "source_url": "https://unsplash.com/photos/a-desk-with-a-laptop-and-a-computer-monitor-VXpeQ3GetDU",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Huy Phan on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "abd0159e46": {
+      "entry": {
+        "id": "abd0159e46",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "strategy",
+        "hook": "Your social media bio is losing you potential customers daily.",
+        "photocard_text": "Is your social media bio converting visitors into buyers, or just wasting space?",
+        "caption": "Too many brands treat their social media bio like a digital business card. They list their company name, a vague tagline, and call it a day. But a high-converting bio needs to do heavy lifting in under five seconds. When a potential customer lands on your profile, they need to instantly understand what problem you solve, who you help, and where they should click next. At HelloFides, we audit brand profiles constantly, and the easiest fix is always the call to action. Swap out generic statements for a direct, benefit-driven hook paired with a trackable link. If your profile does not tell people exactly what to do next, you are leaking traffic. Let us review your current layout and fix the conversion leaks this week. Send me a direct message to get started.",
+        "hashtags": [
+          "#SocialMediaStrategy",
+          "#ConversionRate",
+          "#BrandIdentity",
+          "#SmallBusinessMarketing"
+        ],
+        "source": "",
+        "photo_query": "smartphone profile screen website view",
+        "created_at": "2026-10-26T23:13:02.459269+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 146,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "LYn1Dyqqukc",
+        "photographer": "Nathan Dumlao",
+        "source_url": "https://unsplash.com/photos/person-holding-black-iphone-4-LYn1Dyqqukc",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Nathan Dumlao on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "de83c23b11": {
+      "entry": {
+        "id": "de83c23b11",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "stats",
+        "hook": "Social commerce sales are skyrocketing across the United States.",
+        "photocard_text": "Over 70% of shoppers discover new brands on social media feeds.",
+        "caption": "Did you know that according to a Sprout Social 2023 report, the vast majority of consumers use social channels to discover new products? If your business isn't active and polished, you are missing out on daily sales. Let HelloFides handle your social media management so you can focus on running your business. Send us a message in our inbox or visit hellofides.com to get started today.",
+        "hashtags": [
+          "#SocialCommerce",
+          "#SmallBusinessMarketing",
+          "#HelloFides"
+        ],
+        "source": "Sprout Social, 2023",
+        "photo_query": "online shopping smartphone credit card",
+        "created_at": "2026-10-26T23:12:45.097307+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C3",
+      "chat_id": 8789122019,
+      "message_id": 150,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "O3t84DQ5Wwg",
+        "photographer": "Julio Lopez",
+        "source_url": "https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-holding-a-cell-phone-O3t84DQ5Wwg",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Julio Lopez on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
