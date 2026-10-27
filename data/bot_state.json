@@ -688,6 +688,132 @@
         "source_url": "https://unsplash.com/photos/a-woman-sitting-in-front-of-a-laptop-computer-holding-a-cell-phone-O3t84DQ5Wwg",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Julio Lopez on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "05fd637ae8": {
+      "entry": {
+        "id": "05fd637ae8",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "stats",
+        "hook": "Video consumption habits are shifting faster than brands realize.",
+        "photocard_text": "Sprout Social found 66% of consumers consider short-form video the most engaging social content.",
+        "caption": "The data confirms what we see in our day-to-day work at HelloFides. According to the Sprout Social Index 2023, 66% of consumers find short-form video to be the most engaging content type on social media, far outperforming static text and links. Yet, many founders still rely on basic image posts because video feels too complex to produce consistently. You do not need a Hollywood budget to capture attention. Simple, well-lit talking head clips addressing common customer pain points will always outperform polished corporate commercials. If your brand is not regularly publishing short-form video, you are ignoring what your market actively wants to consume. Start small with two vertical videos a week and track your engagement lift. Need help mapping out a sustainable video framework? Reach out to my team.",
+        "hashtags": [
+          "#VideoMarketing",
+          "#SocialMediaStats",
+          "#ContentCreation",
+          "#SproutSocial"
+        ],
+        "source": "Sprout Social Index, 2023",
+        "photo_query": "smartphone playing vertical video content",
+        "created_at": "2026-10-26T23:13:02.459269+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "L1",
+      "chat_id": 8789122019,
+      "message_id": 154,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "gpJzBlvKt2w",
+        "photographer": "Aditya Chinchure",
+        "source_url": "https://unsplash.com/photos/selective-focus-photography-of-black-camera-gpJzBlvKt2w",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Aditya Chinchure on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "19f98b0b97": {
+      "entry": {
+        "id": "19f98b0b97",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "howto",
+        "hook": "Write better hooks that stop the endless scroll.",
+        "photocard_text": "Lead with a relatable problem your ideal customer faces every single morning.",
+        "caption": "Capturing attention on crowded feeds starts in the very first sentence. Instead of generic brand updates, lead your captions with a pain point your audience experiences daily. Keep it punchy, relevant, and direct. Need help crafting copy that converts? At HelloFides, we build tailored social media strategies for growing brands. Drop us a note in our inbox or check out hellofides.com to learn more about our services.",
+        "hashtags": [
+          "#CopywritingTips",
+          "#SocialMediaManagement",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "person typing on laptop keyboard",
+        "created_at": "2026-10-26T23:12:45.097307+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C3",
+      "chat_id": 8789122019,
+      "message_id": 158,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "9yCYGgPe5Kg",
+        "photographer": "Luke Southern",
+        "source_url": "https://unsplash.com/photos/woman-in-blue-long-sleeve-shirt-using-macbook-pro-9yCYGgPe5Kg",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Luke Southern on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "4d5cf48266": {
+      "entry": {
+        "id": "4d5cf48266",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "howto",
+        "hook": "Here is how to structure a high-performing caption.",
+        "photocard_text": "Hook the reader, deliver the value, and end with a clear call to action.",
+        "caption": "Writing a great social media caption does not require a creative epiphany. It requires a repeatable framework. First, write a hook that stops the scroll by addressing a specific pain point or contrarian truth. Never waste the first two lines with fluff. Second, deliver the core value in concise, punchy paragraphs or bullet points so it is easy to skim on a mobile phone. Third, close with a single, frictionless call to action that tells the reader precisely what to do next. At HelloFides, this exact three-part structure anchors every piece of copy we produce for our partners. It removes guesswork, keeps your audience engaged, and turns passive readers into active participants. Try applying this structure to your next three posts and watch how your engagement shifts. Drop a comment if you want our exact copywriting checklist.",
+        "hashtags": [
+          "#CopywritingTips",
+          "#SocialMediaManagement",
+          "#ContentStrategy",
+          "#MarketingTips"
+        ],
+        "source": "",
+        "photo_query": "keyboard typing notebook desk flatlay",
+        "created_at": "2026-10-26T23:13:02.459269+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "L1",
+      "chat_id": 8789122019,
+      "message_id": 162,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "yfAIiIvFkj0",
+        "photographer": "Jess Bailey",
+        "source_url": "https://unsplash.com/photos/a-keyboard-and-purple-beads-scattered-on-a-white-surface-yfAIiIvFkj0",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Jess Bailey on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "b68511c30f": {
+      "entry": {
+        "id": "b68511c30f",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "lesson",
+        "hook": "Quality beats quantity every time in content creation.",
+        "photocard_text": "Posting less with higher quality builds genuine trust faster.",
+        "caption": "Many business owners exhaust themselves trying to post three times a day with mediocre material. Our experience managing social channels shows that three thoughtful, high-value posts a week outperform daily clutter every time. Focus on depth and design. Want to reclaim your time? HelloFides provides expert social media management to elevate your brand presence. Send us a message via our inbox or visit hellofides.com today.",
+        "hashtags": [
+          "#ContentStrategy",
+          "#BusinessGrowth",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "clean minimalist desk workspace flatlay",
+        "created_at": "2026-10-26T23:12:45.097307+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C3",
+      "chat_id": 8789122019,
+      "message_id": 166,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "gVpXbCGG6jI",
+        "photographer": "Teddy GR",
+        "source_url": "https://unsplash.com/photos/a-computer-monitor-sitting-on-top-of-a-white-desk-gVpXbCGG6jI",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Teddy GR on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
