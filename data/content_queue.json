@@ -1,44 +1,6 @@
 {
   "company": [
     {
-      "id": "950d6ab121",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "strategy",
-      "hook": "Stop treating every social platform the exact same way.",
-      "photocard_text": "Tailor your content format to fit the specific platform culture.",
-      "caption": "Cross-posting identical content across LinkedIn, Facebook, and Instagram rarely yields strong results because user expectations differ on each app. Tailor your tone and visuals to match where your audience is spending their time. If you want a cohesive strategy managed by experts, HelloFides is here to help. Reach out to our team in the page inbox or visit hellofides.com to discuss your brand.",
-      "hashtags": [
-        "#SocialStrategy",
-        "#DigitalMarketing",
-        "#HelloFides"
-      ],
-      "source": "",
-      "photo_query": "multiple electronic devices on table",
-      "created_at": "2026-10-26T23:12:45.097307+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    },
-    {
-      "id": "60a1ad437e",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "stats",
-      "hook": "Customer service expectations on social media are changing fast.",
-      "photocard_text": "Most users expect brand replies on social within hours.",
-      "caption": "According to Edison Research data, modern consumers increasingly expect swift replies when they message a business online. Slow response times can quietly cost you qualified leads. At HelloFides, we help brands maintain active, responsive community management. Let us handle your channels so no customer slips through the cracks. Send a message to our inbox or visit hellofides.com to explore our management packages.",
-      "hashtags": [
-        "#CustomerExperience",
-        "#SocialMediaManagement",
-        "#HelloFides"
-      ],
-      "source": "Edison Research, 2022",
-      "photo_query": "modern smartphone notification screen mockup",
-      "created_at": "2026-10-26T23:12:45.097307+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    },
-    {
       "id": "2ed0a92d7b",
       "mode": "company",
       "platform": "Facebook - HelloFides",
@@ -135,46 +97,6 @@
     }
   ],
   "personal": [
-    {
-      "id": "915c5f3404",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "lesson",
-      "hook": "Complex messaging kills more brand growth than bad design.",
-      "photocard_text": "If you confuse your audience with complicated messaging, they will simply scroll past.",
-      "caption": "One of the most common pitfalls I see founders make is trying to sound too clever in their marketing. They use industry jargon, dense paragraphs, and overly abstract concepts to explain what their product does. In reality, the clearest message almost always wins on social media. When we take over social channels for brands at HelloFides, our first step is almost always simplification. We strip away the corporate speak and translate the core offer into language an eighth-grader can instantly grasp. Your audience is distracted, busy, and scrolling fast. If they have to decode your value proposition, you have already lost them. Keep your copy direct, clear, and focused entirely on the customer's outcome. Need a second pair of eyes on your brand messaging? Send me a message to chat.",
-      "hashtags": [
-        "#BrandMessaging",
-        "#MarketingLessons",
-        "#StartupGrowth",
-        "#ClearCommunication"
-      ],
-      "source": "",
-      "photo_query": "minimalist desk setup notepad pen",
-      "created_at": "2026-10-26T23:13:02.459269+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    },
-    {
-      "id": "012c09bbe7",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "strategy",
-      "hook": "Repurposing content properly saves hours of weekly effort.",
-      "photocard_text": "Turn one long-form asset into a week of high-impact social media posts.",
-      "caption": "Most marketing teams treat content creation like a bottomless treadmill. They brainstorm fresh ideas every single morning, burn out by Thursday, and post inconsistently. Smart social media strategy is built on repurposing, not endless reinvention. Take one long-form piece of content, like a newsletter, a podcast episode, or a case study, and break it down into modular pieces. Extract three key insights for text posts, pull one quotable line for a graphic, and record two short video clips expanding on the core theme. At HelloFides, we help brands build systems where one foundational piece fuels an entire week of cross-platform distribution. Stop starting from scratch every time you open a content calendar. Build a repurposing engine instead. Connect with me if you want to streamline your workflow.",
-      "hashtags": [
-        "#ContentRepurposing",
-        "#SocialMediaWorkflow",
-        "#ProductivityHacks",
-        "#MarketingStrategy"
-      ],
-      "source": "",
-      "photo_query": "content calendar planning notes desk",
-      "created_at": "2026-10-26T23:13:02.459269+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    },
     {
       "id": "f36a361ede",
       "mode": "personal",
