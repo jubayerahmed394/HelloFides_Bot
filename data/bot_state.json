@@ -940,6 +940,132 @@
         "source_url": "https://unsplash.com/photos/person-holding-phone-33oxtOMk6Ac",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Jamie Street on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "f36a361ede": {
+      "entry": {
+        "id": "f36a361ede",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "stats",
+        "hook": "Platform algorithms heavily favor accounts that drive meaningful conversations.",
+        "photocard_text": "Buffer found that engagement rate remains a top priority metric for social algorithms.",
+        "caption": "Chasing vanity metrics like raw follower count is a fast track to disappointment. According to Buffer research, social algorithms increasingly prioritize genuine interaction and engagement rate over passive impressions. A smaller, highly engaged audience that comments, shares, and saves your content will always drive better business results than a massive, silent following. At HelloFides, we focus our strategies entirely on community interaction rather than broadcast shouting. When you build content that invites a response, the platform rewards you with organic distribution. Shift your focus away from follower milestones and start measuring the depth of conversations happening in your comment sections. Want to audit your current engagement performance? Reach out to discuss how we can help.",
+        "hashtags": [
+          "#SocialMediaMetrics",
+          "#Buffer",
+          "#AlgorithmInsights",
+          "#CommunityBuilding"
+        ],
+        "source": "Buffer, 2023",
+        "photo_query": "analytics dashboard laptop screen metrics",
+        "created_at": "2026-10-26T23:13:02.459269+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 186,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "J3AV8F-B42M",
+        "photographer": "Slidebean",
+        "source_url": "https://unsplash.com/photos/person-using-macbook-pro-on-brown-wooden-table-J3AV8F-B42M",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Slidebean on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "2ed0a92d7b": {
+      "entry": {
+        "id": "2ed0a92d7b",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "howto",
+        "hook": "Repurpose your best blog posts into engaging graphics.",
+        "photocard_text": "Turn key bullet points from articles into carousel slides.",
+        "caption": "Don't let your long-form articles sit unread. Extract the top three takeaways and design them into an easy-to-read carousel post for Facebook and Instagram. It maximizes your content output with minimal extra effort. If you need a dedicated partner for creative content production, HelloFides offers full-service social media management. Drop us a line in our inbox or check out hellofides.com to get started.",
+        "hashtags": [
+          "#ContentMarketing",
+          "#SmallBusiness",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "graphic design color palettes desk",
+        "created_at": "2026-10-26T23:12:45.097307+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C1",
+      "chat_id": 8789122019,
+      "message_id": 190,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "CGpifH3FjOA",
+        "photographer": "Theme Photos",
+        "source_url": "https://unsplash.com/photos/designer-using-tablet-and-laptop-workspace-CGpifH3FjOA",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Theme Photos on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "8dd6819c06": {
+      "entry": {
+        "id": "8dd6819c06",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "howto",
+        "hook": "Use industry keywords in your social bios for better discovery.",
+        "photocard_text": "Optimize your social profiles for search by including relevant industry keywords.",
+        "caption": "Social media platforms are functioning more like search engines every day. Users do not just browse feeds; they type specific terms into the search bar to find products, services, and creators. If your display name and bio only feature your brand name, you are missing out on organic discovery. To fix this, append your primary niche keyword directly next to your business name. For example, instead of just 'Acme Co', use 'Acme Co | SaaS Marketing'. At HelloFides, we optimize every client profile to ensure they show up when target buyers search for their specific category. It takes two minutes to update, but it compounds over time as search traffic grows. Take a look at your profiles today and make this simple adjustment. Drop me a line if you need a comprehensive profile audit.",
+        "hashtags": [
+          "#SocialSEO",
+          "#ProfileOptimization",
+          "#DigitalMarketing",
+          "#GrowthHacks"
+        ],
+        "source": "",
+        "photo_query": "search bar mockup screen digital",
+        "created_at": "2026-10-26T23:13:02.459269+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 194,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "PKqKwpAmr5g",
+        "photographer": "MARCO",
+        "source_url": "https://unsplash.com/photos/computer-code-on-a-dark-screen-with-development-icons-PKqKwpAmr5g",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by MARCO on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "18646de542": {
+      "entry": {
+        "id": "18646de542",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "lesson",
+        "hook": "Analytics tell a clearer story than personal intuition.",
+        "photocard_text": "Let data guide your content calendar instead of guesswork.",
+        "caption": "It is easy to assume what your audience wants to see, but performance metrics often reveal surprising truths about what truly drives engagement. Reviewing your insights monthly ensures your efforts hit the mark. Let HelloFides analyze your metrics and optimize your posting schedule. We specialize in stress-free social media management for growing businesses. Message our page inbox or visit hellofides.com to connect with us.",
+        "hashtags": [
+          "#MarketingAnalytics",
+          "#BrandStrategy",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "analytics dashboard charts on screen",
+        "created_at": "2026-10-26T23:12:45.097307+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C1",
+      "chat_id": 8789122019,
+      "message_id": 198,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "hpjSkU2UYSU",
+        "photographer": "Carlos Muza",
+        "source_url": "https://unsplash.com/photos/laptop-computer-on-glass-top-table-hpjSkU2UYSU",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Carlos Muza on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
