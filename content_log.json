@@ -1037,6 +1037,396 @@
       "created_at": "2026-10-26T23:13:02.459269+06:00",
       "posted": false,
       "provider_used": "gemini_lite"
+    },
+    {
+      "id": "57a49fcfd5",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "strategy",
+      "hook": "Design your social posts to be saved, not just liked.",
+      "photocard_text": "Likes acknowledge a post. Saves signal intent to return. Build assets your audience cannot afford to lose.",
+      "caption": "Most brands measure performance through surface engagement: likes and quick comments. But when I audit client analytics, the metric most correlated with inbound inquiries is saves. When someone saves a post, they are declaring it an active resource for their business or daily routine. For a local fitness studio or a B2B SaaS startup, actionable checklists, step-by-step workflows, and reference guides generate long-term residual impressions long after publishing day. We shifted our production model to treat every post like a mini reference card. Stop designing for a fleeting double-tap from casual scrollers. Build reference assets that prospects store in their saved folder and revisit right before making a purchasing decision. Take a look at your top three saved posts this month; what utility made them worth keeping?",
+      "hashtags": [
+        "#SocialMediaStrategy",
+        "#ContentMarketing",
+        "#B2BMarketing",
+        "#OrganicGrowth"
+      ],
+      "source": "",
+      "photo_query": "notebook checklist desk coffee flatlay",
+      "created_at": "2026-10-30T22:58:57.827804+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "cb85dd9a29",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "stats",
+      "hook": "Video is no longer brand awareness; it directly drives revenue.",
+      "photocard_text": "87% of marketers report that video content directly increases sales. Video is a closing mechanism, not just brand awareness.",
+      "caption": "According to Wyzowl's 2024 State of Video Marketing report, 87% of video marketers state that video has directly increased sales. Despite this, many small businesses still treat video production as an optional awareness campaign rather than a core revenue driver. When managing content for e-commerce and B2B clients, I see the highest conversion lift not from polished studio commercials, but from unvarnished product walkthroughs and direct founder breakdowns. Buyers want to inspect physical details, understand user interfaces, and verify claims before opening their wallets. A single sixty-second product demonstration answers unspoken objections faster than five static graphic carousels combined. If your sales cycle feels sluggish, your social feed likely lacks direct proof of your product in action. How are you incorporating direct product demonstrations into your current video schedule?",
+      "hashtags": [
+        "#VideoMarketing",
+        "#EcommerceGrowth",
+        "#SocialMediaROI",
+        "#ContentStrategy"
+      ],
+      "source": "Wyzowl, 2024",
+      "photo_query": "smartphone on tripod recording desk",
+      "created_at": "2026-10-30T22:58:57.827804+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "da6b83f6c4",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "howto",
+      "hook": "Turn 15 minutes of outbound engagement into daily inbound leads.",
+      "photocard_text": "Don't post and ghost. Spend 15 minutes before and after publishing engaging with target industry accounts to prime distribution.",
+      "caption": "Most business owners publish a post and instantly close the app. That is why their reach stalls. Here is the daily outbound routine I implement for accounts looking to build traction quickly. First, block out twenty minutes before you publish your primary post. Open five accounts in your niche: non-competing vendors, industry peers, or target clients. Leave three thoughtful, multi-sentence comments adding perspective to their discussions, without pitching your services. Second, publish your post and stay active in your notifications for the next fifteen minutes to reply to every incoming comment immediately. This signals platform algorithms that your profile actively retains attention while introducing your profile to fresh target feeds. Social media rewards community participants, not drive-by broadcasters. Try this focused routine for one week and monitor how your profile views respond.",
+      "hashtags": [
+        "#SocialMediaTips",
+        "#SmallBusinessMarketing",
+        "#OrganicReach",
+        "#AgencyLife"
+      ],
+      "source": "",
+      "photo_query": "typing on laptop keyboard desk",
+      "created_at": "2026-10-30T22:58:57.827804+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "83f8945c28",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "lesson",
+      "hook": "Chasing trending audio attracted thousands of views and zero sales.",
+      "photocard_text": "A million irrelevant views will not pay the bills. Specific, problem-solving content converts better than viral trends every single time.",
+      "caption": "Early in my agency career, I fell into the trap of prioritizing viral numbers. We jumped on trending audio tracks and popular meme formats, watching view counts skyrocket into the hundreds of thousands. On paper, the monthly reports looked incredible. In reality, product sales barely moved. We had attracted passive spectators who had zero intent or budget to purchase from our client. We pivoted completely. We abandoned generic trending skits and began producing hyper-specific content addressing operational pain points, pricing nuances, and specific client questions. Total view counts dropped by seventy percent, but qualified inquiries and website traffic doubled within two months. Social media marketing is not entertainment for the masses; it is qualified communication with potential buyers. Have you ever noticed a disconnect between your highest-viewed content and actual sales conversions?",
+      "hashtags": [
+        "#MarketingLessons",
+        "#LeadGeneration",
+        "#FounderMindset",
+        "#B2BGrowth"
+      ],
+      "source": "",
+      "photo_query": "analytics dashboard on screen desk",
+      "created_at": "2026-10-30T22:58:57.827804+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "56273e7160",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "strategy",
+      "hook": "Your customer support tickets are your most profitable content calendar.",
+      "photocard_text": "Every question your sales team answers twice should become a public social post. Address friction before the call happens.",
+      "caption": "When founders tell me they have run out of content ideas, I ask to see their customer support inbox. Every recurring question, purchasing hesitation, and onboarding hurdle is a validated topic waiting to be published. If three prospective buyers ask your sales team about onboarding timelines, implementation fees, or return policies, dozens more leave your website without asking at all. Creating content around these objections removes friction before prospects even initiate contact. When managing social strategy, I pull directly from help desk tickets, sales call recordings, and DM inquiries. This turns your company feed into a self-service qualification library. It shortens the sales cycle and attracts educated buyers who already understand how you work. What is the single most common question your prospects ask before signing up?",
+      "hashtags": [
+        "#ContentStrategy",
+        "#SalesEnablement",
+        "#CustomerExperience",
+        "#B2BMarketing"
+      ],
+      "source": "",
+      "photo_query": "customer service headset on desk",
+      "created_at": "2026-10-30T22:58:57.827804+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "28fb8a4eea",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "stats",
+      "hook": "People connect with people, not corporate logos.",
+      "photocard_text": "70% of consumers feel more connected to a brand when its leadership is active on social media. Put founders front and center.",
+      "caption": "Research from Sprout Social reveals that 70% of consumers feel significantly more connected to brands whose CEOs maintain an active presence on social platforms. Faceless corporate announcements no longer carry the weight they once did. In a digital landscape crowded with automated messaging and generic branding, buyers actively look for the human beings building the solution. When I work with founders, my first objective is establishing their distinct personal voice alongside company updates. Sharing authentic strategic decisions, operational trade-offs, and company values builds an emotional connection that traditional product ads cannot replicate. A visible leadership team transforms cold commercial transactions into collaborative business relationships. If your company page engagement is stagnating, it is time to step in front of the brand. How visible is your leadership team on your primary social channels today?",
+      "hashtags": [
+        "#LeadershipBranding",
+        "#CEOBranding",
+        "#SocialSelling",
+        "#MarketingStrategy"
+      ],
+      "source": "Sprout Social, 2023",
+      "photo_query": "modern creative office workspace laptop",
+      "created_at": "2026-10-30T22:58:57.827804+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "03fbb6ca47",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "howto",
+      "hook": "Three steps to write social calls to action that convert.",
+      "photocard_text": "Stop asking scrollers to buy immediately. Offer low-friction next steps: save for later, grab a resource, or share an insight.",
+      "caption": "Most calls to action fail because the requested commitment is far too high for a social feed. Expecting a cold reader to book a thirty-minute demo after reading one post creates immediate friction. Here is the three-tier CTA framework I use across client accounts. Tier one is low commitment: invite them to bookmark the post or share their experience in the comments. This signals algorithm value. Tier two is value exchange: direct them to a free downloadable resource or template through your profile link to capture permission for email outreach. Tier three is direct conversion: reserve direct purchase or consultation calls exclusively for case studies and client testimonial posts. Matching your call to action to the prospect's level of intent dramatically increases conversion rates. What call to action currently drives the best response for your business?",
+      "hashtags": [
+        "#CopywritingTips",
+        "#SocialMediaConversion",
+        "#DigitalMarketing",
+        "#MarketingStrategy"
+      ],
+      "source": "",
+      "photo_query": "hands writing in notebook coffee",
+      "created_at": "2026-10-30T22:58:57.827804+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "2a3b0cbfec",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "lesson",
+      "hook": "Cutting our weekly posting frequency actually increased total monthly engagement.",
+      "photocard_text": "Daily posting burns out your team and dilutes message quality. Three high-impact posts outperform seven mediocre updates every week.",
+      "caption": "There was a period where we believed publishing twice a day across every channel was the only way to beat social algorithms. Our team was constantly scrambling to fulfill the calendar, recycling superficial quotes and rushing design files. Engagement steadily declined, and follower fatigue set in. We decided to run an experiment: cut our publishing cadence from seven days a week down to three, but double the research, editing, and distribution behind each piece. The results were immediate. Our reach expanded, comment depth improved, and we finally had the bandwidth to engage meaningfully in community discussions. Algorithms do not reward frantic volume; they reward content that holds attention and sparks conversation. If your team is exhausted by the content hamster wheel, give yourself permission to publish less and polish more. How many days a week do you currently publish?",
+      "hashtags": [
+        "#ContentMarketing",
+        "#AgencyOperations",
+        "#WorkSmarter",
+        "#GrowthStrategy"
+      ],
+      "source": "",
+      "photo_query": "clean organized desk with planner",
+      "created_at": "2026-10-30T22:58:57.827804+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "8ab90d9a63",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "strategy",
+      "hook": "Balance your content across three layers to prevent audience fatigue.",
+      "photocard_text": "Top-of-funnel attracts, mid-funnel builds authority, bottom-of-funnel closes. Neglecting any of the three stalls your pipeline.",
+      "caption": "When a brand complains that social media produces no revenue, their feed usually suffers from one of two extremes: endless educational tips with no clear offer, or relentless sales pitches with no upfront value. A sustainable social strategy balances three distinct content layers weekly. Top-of-funnel content covers relatable industry observations and high-level trends to bring new eyes into your ecosystem. Middle-of-funnel content delivers proprietary frameworks, tactical how-tos, and operational breakdowns that establish your expertise. Bottom-of-funnel content showcases client transformations, transparent case studies, and clear invitations to work together. Without the top layer, your audience stagnates. Without the bottom layer, nobody knows how to hire you. Map your upcoming weekly calendar across these three categories to ensure you are simultaneously attracting, nurturing, and converting your followers. Which of these three layers is currently missing from your feed?",
+      "hashtags": [
+        "#SalesFunnel",
+        "#ContentStrategy",
+        "#OrganicMarketing",
+        "#B2BStrategy"
+      ],
+      "source": "",
+      "photo_query": "three notebooks stacked on wooden desk",
+      "created_at": "2026-10-30T22:58:57.827804+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "b0bc891bea",
+      "mode": "personal",
+      "platform": "LinkedIn - Personal",
+      "pillar": "stats",
+      "hook": "Slow social response times are quietly draining your sales pipeline.",
+      "photocard_text": "79% of consumers expect a brand response on social media within 24 hours. Speed to reply directly determines conversion.",
+      "caption": "According to the Sprout Social Index, 79% of consumers expect a response to their social media inquiries within 24 hours. Yet many businesses still leave comments unacknowledged and direct messages unanswered over the weekend. In modern social selling, your direct message inbox operates as your primary customer support and sales triage desk. When a prospect reaches out asking about product specifications, pricing, or service availability, their buying intent is at its absolute peak. Letting that inquiry sit for two days sends a message that your business is inattentive or understaffed. Setting up clear notification routing, quick-reply templates, and dedicated morning triage shifts can turn casual inquiries into closed deals before your competitors even open the app. Do you have a dedicated daily routine for responding to incoming social direct messages?",
+      "hashtags": [
+        "#CustomerExperience",
+        "#SocialSelling",
+        "#LeadResponse",
+        "#BusinessOperations"
+      ],
+      "source": "Sprout Social, 2023",
+      "photo_query": "smartphone showing incoming message on desk",
+      "created_at": "2026-10-30T22:58:57.827804+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "3fcdbcc682",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "lesson",
+      "hook": "Random posting rarely builds a sustainable brand audience.",
+      "photocard_text": "Random posting rarely builds a sustainable brand audience.",
+      "caption": "Many business owners fall into the trap of posting whenever inspiration strikes, leading to inconsistent reach and sluggish engagement. When you treat social media like an afterthought, your audience responds the same way. Shifting from sporadic updates to a structured publishing rhythm helps build genuine momentum. If you are struggling to maintain consistency while running your business, we can help take social media off your plate. Send us a message or visit hellofides.com to explore how we can support your growth.",
+      "hashtags": [
+        "#SmallBusinessTips",
+        "#SocialMediaStrategy",
+        "#ContentConsistency"
+      ],
+      "source": "",
+      "photo_query": "calendar planning desk flatlay",
+      "created_at": "2026-10-30T23:03:04.156310+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "55e9a291ee",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Stop ignoring Pinterest for your product marketing strategy.",
+      "photocard_text": "Pinterest functions as a visual search engine, not just a social network.",
+      "caption": "While most brands focus entirely on fast-paced feeds, Pinterest acts as a long-term discovery engine where users actively search for their next purchase. Pins have a remarkably long shelf life compared to standard social posts, driving traffic to your e-commerce store months after publication. Integrating visual search optimization into your marketing mix can unlock entirely new revenue streams for your brand. Ready to expand your reach? Drop us a line in the inbox or visit hellofides.com to chat about our management services.",
+      "hashtags": [
+        "#PinterestMarketing",
+        "#EcommerceGrowth",
+        "#MarketingStrategy"
+      ],
+      "source": "",
+      "photo_query": "mood board design pins workspace",
+      "created_at": "2026-10-30T23:03:04.156310+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "44be65adb9",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "stats",
+      "hook": "Social commerce is transforming how consumers discover products.",
+      "photocard_text": "Over 70 percent of shoppers discover new brands on social media feeds.",
+      "caption": "According to Sprout Social, over 70 percent of consumers discover new products directly through social media channels. This means your digital storefront is often the very first impression potential customers have of your business. If your feed does not clearly communicate your value proposition within seconds, you risk losing valuable buyers to competitors. Let us help you optimize your online presence and turn casual scrollers into loyal customers. Reach out to our team in the inbox or visit hellofides.com today.",
+      "hashtags": [
+        "#SocialCommerce",
+        "#BrandDiscovery",
+        "#RetailMarketing"
+      ],
+      "source": "Sprout Social, 2023",
+      "photo_query": "smartphone shopping online store display",
+      "created_at": "2026-10-30T23:03:04.156310+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "63f2027d1b",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "Write stronger alt text for better social accessibility.",
+      "photocard_text": "Descriptive alt text improves accessibility and broadens your organic reach.",
+      "caption": "Adding thoughtful alt text to your images is essential for visually impaired users who rely on screen readers. Beyond accessibility, search engines and platform algorithms use these descriptions to better understand and index your visual content. Taking an extra minute to describe your graphics accurately can subtly boost your overall discoverability. Want to ensure your brand's digital presence is fully optimized? Send us a message or check out hellofides.com to see how HelloFides can manage your channels.",
+      "hashtags": [
+        "#SocialMediaTips",
+        "#AccessibilityMatters",
+        "#DigitalMarketing"
+      ],
+      "source": "",
+      "photo_query": "laptop keyboard typing hands workspace",
+      "created_at": "2026-10-30T23:03:04.156310+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "cde3e76d89",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "lesson",
+      "hook": "Design consistency builds instant recognition on social feeds.",
+      "photocard_text": "Visual cohesion helps your audience instantly recognize your brand.",
+      "caption": "When a brand constantly switches fonts, colors, and design styles, followers struggle to connect the posts to the business. Developing a cohesive visual identity ensures that your content stands out immediately as users scroll through crowded feeds. Consistency builds trust, and trust drives conversions for growing companies. If you need help creating a polished and professional social media presence, we would love to assist. Drop us a message in our inbox or visit hellofides.com to get started.",
+      "hashtags": [
+        "#BrandIdentity",
+        "#VisualDesign",
+        "#BusinessGrowth"
+      ],
+      "source": "",
+      "photo_query": "color swatches branding design desk",
+      "created_at": "2026-10-30T23:03:04.156310+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "2d91781f80",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Pin your top-performing conversion post to the grid.",
+      "photocard_text": "Use pinned posts to highlight your strongest offers immediately.",
+      "caption": "New visitors rarely scroll past your recent three posts when checking out your profile page. By pinning your most valuable product announcement, service offer, or brand introduction to the top of your grid, you control the first impression. This simple strategic placement ensures every new profile visitor sees your absolute best work right away. Let HelloFides handle your profile optimization and content strategy. Send us a message or visit hellofides.com to learn more about partnering with our team.",
+      "hashtags": [
+        "#SocialMediaTips",
+        "#ProfileOptimization",
+        "#MarketingTactics"
+      ],
+      "source": "",
+      "photo_query": "smartphone screen social media profile",
+      "created_at": "2026-10-30T23:03:04.156310+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "c9f3ee6412",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "stats",
+      "hook": "LinkedIn remains a powerful platform for professional brand authority.",
+      "photocard_text": "LinkedIn drives over 80 percent of B2B social media leads.",
+      "caption": "According to data from LinkedIn, the platform accounts for more than 80 percent of B2B social media leads. For founders and service providers targeting other businesses, establishing an active presence here is non-negotiable. Sharing industry insights and professional milestones builds trust with decision-makers long before a sales call takes place. Let us help you build authority in your niche. Send us a message in the inbox or visit hellofides.com to discuss our B2B social management options.",
+      "hashtags": [
+        "#B2BMarketing",
+        "#LinkedInStrategy",
+        "#LeadGeneration"
+      ],
+      "source": "LinkedIn Business, 2023",
+      "photo_query": "modern office desk setup laptop",
+      "created_at": "2026-10-30T23:03:04.156310+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "e3fb464476",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "Repurpose long-form FAQ documents into bite-sized graphics.",
+      "photocard_text": "Turn customer questions into engaging carousel posts.",
+      "caption": "Your customer support inbox is a goldmine for social media content. Take the most frequently asked questions about your products or services and break them down into multi-slide carousel posts. This educates your audience, reduces purchase hesitation, and positions your business as an industry expert. If you need help turning your everyday business expertise into captivating content, HelloFides is here to help. Reach out via our inbox or visit hellofides.com to connect with us.",
+      "hashtags": [
+        "#ContentCreation",
+        "#CustomerService",
+        "#SmallBusinessMarketing"
+      ],
+      "source": "",
+      "photo_query": "notepad pen questions brainstorming desk",
+      "created_at": "2026-10-30T23:03:04.156310+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "8b4bbe17a8",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "lesson",
+      "hook": "Ignoring analytics leaves your brand guessing what works.",
+      "photocard_text": "Let data guide your content strategy instead of pure guesswork.",
+      "caption": "Many business owners look at follower counts while completely ignoring engagement rates and click-through data. Metrics tell a clear story about what content resonates with your audience and what falls flat. Reviewing your analytics regularly allows you to double down on winning topics and eliminate wasted effort. If you prefer to let experts analyze the numbers and run your channels, HelloFides can help. Send us a message or visit hellofides.com to see how we manage social media for growing brands.",
+      "hashtags": [
+        "#SocialAnalytics",
+        "#MarketingMetrics",
+        "#DataDriven"
+      ],
+      "source": "",
+      "photo_query": "analytics dashboard charts computer screen",
+      "created_at": "2026-10-30T23:03:04.156310+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "6298e9165b",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Prioritize community engagement over endless content broadcasting.",
+      "photocard_text": "Social media is a two-way conversation, not a megaphone.",
+      "caption": "Publishing posts is only half the battle; responding to comments and engaging with community discussions builds true brand loyalty. Algorithms reward accounts that spark genuine conversations and foster active comment sections. Allocating time each day for community management makes your brand feel human and approachable. If your team is too busy running the business to engage online, we can manage it for you. Drop us a message in the inbox or visit hellofides.com to get started.",
+      "hashtags": [
+        "#CommunityBuilding",
+        "#SocialMediaManagement",
+        "#BrandLoyalty"
+      ],
+      "source": "",
+      "photo_query": "coffee cup laptop keyboard desk",
+      "created_at": "2026-10-30T23:03:04.156310+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
     }
   ]
 }

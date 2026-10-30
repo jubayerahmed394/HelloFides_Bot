@@ -2,15 +2,15 @@
   "providers": {
     "gemini_primary": {
       "last_error": "503 UNAVAILABLE",
-      "cooldown_until": "2026-10-26T23:13:45.097307+06:00",
-      "requests_today": 2,
-      "day": "2026-10-26"
+      "cooldown_until": "2026-10-30T23:04:04.156310+06:00",
+      "requests_today": 3,
+      "day": "2026-10-30"
     },
     "gemini_lite": {
       "last_error": null,
       "cooldown_until": null,
-      "requests_today": 2,
-      "day": "2026-10-26"
+      "requests_today": 1,
+      "day": "2026-10-30"
     }
   }
 }
