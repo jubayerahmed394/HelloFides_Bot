@@ -1192,6 +1192,132 @@
         "source_url": "https://unsplash.com/photos/man-in-white-t-shirt-holding-black-video-camera-DqmXihYx5UE",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Kyle Loftus on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "dcd98389d7": {
+      "entry": {
+        "id": "dcd98389d7",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "stats",
+        "hook": "Social media is now a primary research tool for modern buyers.",
+        "photocard_text": "Gartner reports that 84% of B2B buyers start their purchase journey with digital research.",
+        "caption": "Buyers do not wait for a sales call to evaluate your credibility anymore. According to Gartner, the vast majority of modern decision-makers conduct extensive digital research before ever speaking with a vendor. Your social media presence acts as your digital storefront and your ultimate trust signal. When prospects visit your LinkedIn or Instagram profile, they are looking for proof that you understand their industry and deliver consistent value. At HelloFides, we help brands build authoritative social profiles that do the heavy lifting long before a prospect fills out a contact form. If your grid looks neglected or outdated, you are losing deals before they even reach your inbox. Audit your social channels through the eyes of a new buyer today. Need an expert assessment? Reach out to my team.",
+        "hashtags": [
+          "#BuyerBehavior",
+          "#B2BSales",
+          "#Gartner",
+          "#DigitalTrust"
+        ],
+        "source": "Gartner, 2023",
+        "photo_query": "modern office desk laptop research",
+        "created_at": "2026-10-26T23:13:02.459269+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "L3",
+      "chat_id": 8789122019,
+      "message_id": 218,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "vPFbVB7DPZI",
+        "photographer": "Dawid Liberadzki",
+        "source_url": "https://unsplash.com/photos/silver-laptop-computer-on-table-vPFbVB7DPZI",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Dawid Liberadzki on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "1213ac0f7e": {
+      "entry": {
+        "id": "1213ac0f7e",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "howto",
+        "hook": "Audit your social media profile in under ten minutes.",
+        "photocard_text": "Ensure your bio clearly states who you help and how.",
+        "caption": "When a prospective customer visits your social page, they should instantly understand your value proposition within three seconds. Clear beats clever every time. If your profile needs a refresh, HelloFides is here to help with professional social media management services tailored to your goals. Send a message to our inbox or visit hellofides.com to speak with our team today.",
+        "hashtags": [
+          "#BusinessTips",
+          "#SocialMediaAudit",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "digital tablet showing profile page",
+        "created_at": "2026-10-26T23:12:45.097307+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C3",
+      "chat_id": 8789122019,
+      "message_id": 222,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "g9jkFm899i0",
+        "photographer": "Zulfugar Karimov",
+        "source_url": "https://unsplash.com/photos/survey-asking-about-premium-subscription-goals-g9jkFm899i0",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Zulfugar Karimov on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "57a49fcfd5": {
+      "entry": {
+        "id": "57a49fcfd5",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "strategy",
+        "hook": "Design your social posts to be saved, not just liked.",
+        "photocard_text": "Likes acknowledge a post. Saves signal intent to return. Build assets your audience cannot afford to lose.",
+        "caption": "Most brands measure performance through surface engagement: likes and quick comments. But when I audit client analytics, the metric most correlated with inbound inquiries is saves. When someone saves a post, they are declaring it an active resource for their business or daily routine. For a local fitness studio or a B2B SaaS startup, actionable checklists, step-by-step workflows, and reference guides generate long-term residual impressions long after publishing day. We shifted our production model to treat every post like a mini reference card. Stop designing for a fleeting double-tap from casual scrollers. Build reference assets that prospects store in their saved folder and revisit right before making a purchasing decision. Take a look at your top three saved posts this month; what utility made them worth keeping?",
+        "hashtags": [
+          "#SocialMediaStrategy",
+          "#ContentMarketing",
+          "#B2BMarketing",
+          "#OrganicGrowth"
+        ],
+        "source": "",
+        "photo_query": "notebook checklist desk coffee flatlay",
+        "created_at": "2026-10-30T22:58:57.827804+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L3",
+      "chat_id": 8789122019,
+      "message_id": 226,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "oxEtH6wP2GM",
+        "photographer": "Marissa Grootes",
+        "source_url": "https://unsplash.com/photos/flat-lay-photography-of-cup-rings-and-notebook-oxEtH6wP2GM",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Marissa Grootes on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "3fcdbcc682": {
+      "entry": {
+        "id": "3fcdbcc682",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "lesson",
+        "hook": "Random posting rarely builds a sustainable brand audience.",
+        "photocard_text": "Random posting rarely builds a sustainable brand audience.",
+        "caption": "Many business owners fall into the trap of posting whenever inspiration strikes, leading to inconsistent reach and sluggish engagement. When you treat social media like an afterthought, your audience responds the same way. Shifting from sporadic updates to a structured publishing rhythm helps build genuine momentum. If you are struggling to maintain consistency while running your business, we can help take social media off your plate. Send us a message or visit hellofides.com to explore how we can support your growth.",
+        "hashtags": [
+          "#SmallBusinessTips",
+          "#SocialMediaStrategy",
+          "#ContentConsistency"
+        ],
+        "source": "",
+        "photo_query": "calendar planning desk flatlay",
+        "created_at": "2026-10-30T23:03:04.156310+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 230,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "bZuY6hLtADU",
+        "photographer": "goxy bgd",
+        "source_url": "https://unsplash.com/photos/black-framed-eyeglasses-on-white-paper-bZuY6hLtADU",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by goxy bgd on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
