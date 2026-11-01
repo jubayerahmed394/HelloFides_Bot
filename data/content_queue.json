@@ -1,25 +1,6 @@
 {
   "company": [
     {
-      "id": "55e9a291ee",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "strategy",
-      "hook": "Stop ignoring Pinterest for your product marketing strategy.",
-      "photocard_text": "Pinterest functions as a visual search engine, not just a social network.",
-      "caption": "While most brands focus entirely on fast-paced feeds, Pinterest acts as a long-term discovery engine where users actively search for their next purchase. Pins have a remarkably long shelf life compared to standard social posts, driving traffic to your e-commerce store months after publication. Integrating visual search optimization into your marketing mix can unlock entirely new revenue streams for your brand. Ready to expand your reach? Drop us a line in the inbox or visit hellofides.com to chat about our management services.",
-      "hashtags": [
-        "#PinterestMarketing",
-        "#EcommerceGrowth",
-        "#MarketingStrategy"
-      ],
-      "source": "",
-      "photo_query": "mood board design pins workspace",
-      "created_at": "2026-10-30T23:03:04.156310+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    },
-    {
       "id": "44be65adb9",
       "mode": "company",
       "platform": "Facebook - HelloFides",
@@ -173,46 +154,6 @@
     }
   ],
   "personal": [
-    {
-      "id": "cb85dd9a29",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "stats",
-      "hook": "Video is no longer brand awareness; it directly drives revenue.",
-      "photocard_text": "87% of marketers report that video content directly increases sales. Video is a closing mechanism, not just brand awareness.",
-      "caption": "According to Wyzowl's 2024 State of Video Marketing report, 87% of video marketers state that video has directly increased sales. Despite this, many small businesses still treat video production as an optional awareness campaign rather than a core revenue driver. When managing content for e-commerce and B2B clients, I see the highest conversion lift not from polished studio commercials, but from unvarnished product walkthroughs and direct founder breakdowns. Buyers want to inspect physical details, understand user interfaces, and verify claims before opening their wallets. A single sixty-second product demonstration answers unspoken objections faster than five static graphic carousels combined. If your sales cycle feels sluggish, your social feed likely lacks direct proof of your product in action. How are you incorporating direct product demonstrations into your current video schedule?",
-      "hashtags": [
-        "#VideoMarketing",
-        "#EcommerceGrowth",
-        "#SocialMediaROI",
-        "#ContentStrategy"
-      ],
-      "source": "Wyzowl, 2024",
-      "photo_query": "smartphone on tripod recording desk",
-      "created_at": "2026-10-30T22:58:57.827804+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
-    {
-      "id": "da6b83f6c4",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "howto",
-      "hook": "Turn 15 minutes of outbound engagement into daily inbound leads.",
-      "photocard_text": "Don't post and ghost. Spend 15 minutes before and after publishing engaging with target industry accounts to prime distribution.",
-      "caption": "Most business owners publish a post and instantly close the app. That is why their reach stalls. Here is the daily outbound routine I implement for accounts looking to build traction quickly. First, block out twenty minutes before you publish your primary post. Open five accounts in your niche: non-competing vendors, industry peers, or target clients. Leave three thoughtful, multi-sentence comments adding perspective to their discussions, without pitching your services. Second, publish your post and stay active in your notifications for the next fifteen minutes to reply to every incoming comment immediately. This signals platform algorithms that your profile actively retains attention while introducing your profile to fresh target feeds. Social media rewards community participants, not drive-by broadcasters. Try this focused routine for one week and monitor how your profile views respond.",
-      "hashtags": [
-        "#SocialMediaTips",
-        "#SmallBusinessMarketing",
-        "#OrganicReach",
-        "#AgencyLife"
-      ],
-      "source": "",
-      "photo_query": "typing on laptop keyboard desk",
-      "created_at": "2026-10-30T22:58:57.827804+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
     {
       "id": "83f8945c28",
       "mode": "personal",

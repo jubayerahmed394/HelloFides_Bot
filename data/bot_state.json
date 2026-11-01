@@ -1318,6 +1318,69 @@
         "source_url": "https://unsplash.com/photos/black-framed-eyeglasses-on-white-paper-bZuY6hLtADU",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by goxy bgd on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "cb85dd9a29": {
+      "entry": {
+        "id": "cb85dd9a29",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "stats",
+        "hook": "Video is no longer brand awareness; it directly drives revenue.",
+        "photocard_text": "87% of marketers report that video content directly increases sales. Video is a closing mechanism, not just brand awareness.",
+        "caption": "According to Wyzowl's 2024 State of Video Marketing report, 87% of video marketers state that video has directly increased sales. Despite this, many small businesses still treat video production as an optional awareness campaign rather than a core revenue driver. When managing content for e-commerce and B2B clients, I see the highest conversion lift not from polished studio commercials, but from unvarnished product walkthroughs and direct founder breakdowns. Buyers want to inspect physical details, understand user interfaces, and verify claims before opening their wallets. A single sixty-second product demonstration answers unspoken objections faster than five static graphic carousels combined. If your sales cycle feels sluggish, your social feed likely lacks direct proof of your product in action. How are you incorporating direct product demonstrations into your current video schedule?",
+        "hashtags": [
+          "#VideoMarketing",
+          "#EcommerceGrowth",
+          "#SocialMediaROI",
+          "#ContentStrategy"
+        ],
+        "source": "Wyzowl, 2024",
+        "photo_query": "smartphone on tripod recording desk",
+        "created_at": "2026-10-30T22:58:57.827804+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L3",
+      "chat_id": 8789122019,
+      "message_id": 234,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "BkJDoyidt2Y",
+        "photographer": "Kseniia Poroshkova",
+        "source_url": "https://unsplash.com/photos/smartphone-recording-desk-workspace-BkJDoyidt2Y",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Kseniia Poroshkova on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "55e9a291ee": {
+      "entry": {
+        "id": "55e9a291ee",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "strategy",
+        "hook": "Stop ignoring Pinterest for your product marketing strategy.",
+        "photocard_text": "Pinterest functions as a visual search engine, not just a social network.",
+        "caption": "While most brands focus entirely on fast-paced feeds, Pinterest acts as a long-term discovery engine where users actively search for their next purchase. Pins have a remarkably long shelf life compared to standard social posts, driving traffic to your e-commerce store months after publication. Integrating visual search optimization into your marketing mix can unlock entirely new revenue streams for your brand. Ready to expand your reach? Drop us a line in the inbox or visit hellofides.com to chat about our management services.",
+        "hashtags": [
+          "#PinterestMarketing",
+          "#EcommerceGrowth",
+          "#MarketingStrategy"
+        ],
+        "source": "",
+        "photo_query": "mood board design pins workspace",
+        "created_at": "2026-10-30T23:03:04.156310+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C3",
+      "chat_id": 8789122019,
+      "message_id": 238,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "nkhC2gk5GFQ",
+        "photographer": "Kelly Sikkema",
+        "source_url": "https://unsplash.com/photos/black-and-brown-envelopes-on-cork-board-nkhC2gk5GFQ",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Kelly Sikkema on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
