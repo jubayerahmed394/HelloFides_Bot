@@ -1381,6 +1381,132 @@
         "source_url": "https://unsplash.com/photos/black-and-brown-envelopes-on-cork-board-nkhC2gk5GFQ",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Kelly Sikkema on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "83f8945c28": {
+      "entry": {
+        "id": "83f8945c28",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "lesson",
+        "hook": "Chasing trending audio attracted thousands of views and zero sales.",
+        "photocard_text": "A million irrelevant views will not pay the bills. Specific, problem-solving content converts better than viral trends every single time.",
+        "caption": "Early in my agency career, I fell into the trap of prioritizing viral numbers. We jumped on trending audio tracks and popular meme formats, watching view counts skyrocket into the hundreds of thousands. On paper, the monthly reports looked incredible. In reality, product sales barely moved. We had attracted passive spectators who had zero intent or budget to purchase from our client. We pivoted completely. We abandoned generic trending skits and began producing hyper-specific content addressing operational pain points, pricing nuances, and specific client questions. Total view counts dropped by seventy percent, but qualified inquiries and website traffic doubled within two months. Social media marketing is not entertainment for the masses; it is qualified communication with potential buyers. Have you ever noticed a disconnect between your highest-viewed content and actual sales conversions?",
+        "hashtags": [
+          "#MarketingLessons",
+          "#LeadGeneration",
+          "#FounderMindset",
+          "#B2BGrowth"
+        ],
+        "source": "",
+        "photo_query": "analytics dashboard on screen desk",
+        "created_at": "2026-10-30T22:58:57.827804+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L3",
+      "chat_id": 8789122019,
+      "message_id": 260,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "bn1_w3JsNm0",
+        "photographer": "Christian Lue",
+        "source_url": "https://unsplash.com/photos/a-computer-monitor-displays-control-software-in-a-dark-room-bn1_w3JsNm0",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Christian Lue on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "44be65adb9": {
+      "entry": {
+        "id": "44be65adb9",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "stats",
+        "hook": "Social commerce is transforming how consumers discover products.",
+        "photocard_text": "Over 70 percent of shoppers discover new brands on social media feeds.",
+        "caption": "According to Sprout Social, over 70 percent of consumers discover new products directly through social media channels. This means your digital storefront is often the very first impression potential customers have of your business. If your feed does not clearly communicate your value proposition within seconds, you risk losing valuable buyers to competitors. Let us help you optimize your online presence and turn casual scrollers into loyal customers. Reach out to our team in the inbox or visit hellofides.com today.",
+        "hashtags": [
+          "#SocialCommerce",
+          "#BrandDiscovery",
+          "#RetailMarketing"
+        ],
+        "source": "Sprout Social, 2023",
+        "photo_query": "smartphone shopping online store display",
+        "created_at": "2026-10-30T23:03:04.156310+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C1",
+      "chat_id": 8789122019,
+      "message_id": 264,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "VrUIrkWD5nk",
+        "photographer": "V H",
+        "source_url": "https://unsplash.com/photos/person-holding-a-smartphone-with-an-app-icon-VrUIrkWD5nk",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by V H on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "56273e7160": {
+      "entry": {
+        "id": "56273e7160",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "strategy",
+        "hook": "Your customer support tickets are your most profitable content calendar.",
+        "photocard_text": "Every question your sales team answers twice should become a public social post. Address friction before the call happens.",
+        "caption": "When founders tell me they have run out of content ideas, I ask to see their customer support inbox. Every recurring question, purchasing hesitation, and onboarding hurdle is a validated topic waiting to be published. If three prospective buyers ask your sales team about onboarding timelines, implementation fees, or return policies, dozens more leave your website without asking at all. Creating content around these objections removes friction before prospects even initiate contact. When managing social strategy, I pull directly from help desk tickets, sales call recordings, and DM inquiries. This turns your company feed into a self-service qualification library. It shortens the sales cycle and attracts educated buyers who already understand how you work. What is the single most common question your prospects ask before signing up?",
+        "hashtags": [
+          "#ContentStrategy",
+          "#SalesEnablement",
+          "#CustomerExperience",
+          "#B2BMarketing"
+        ],
+        "source": "",
+        "photo_query": "customer service headset on desk",
+        "created_at": "2026-10-30T22:58:57.827804+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L1",
+      "chat_id": 8789122019,
+      "message_id": 268,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "LZYOvgI_1_Q",
+        "photographer": "Rafal Jedrzejek",
+        "source_url": "https://unsplash.com/photos/a-table-with-a-glass-and-a-lighter-on-it-LZYOvgI_1_Q",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Rafal Jedrzejek on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "63f2027d1b": {
+      "entry": {
+        "id": "63f2027d1b",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "howto",
+        "hook": "Write stronger alt text for better social accessibility.",
+        "photocard_text": "Descriptive alt text improves accessibility and broadens your organic reach.",
+        "caption": "Adding thoughtful alt text to your images is essential for visually impaired users who rely on screen readers. Beyond accessibility, search engines and platform algorithms use these descriptions to better understand and index your visual content. Taking an extra minute to describe your graphics accurately can subtly boost your overall discoverability. Want to ensure your brand's digital presence is fully optimized? Send us a message or check out hellofides.com to see how HelloFides can manage your channels.",
+        "hashtags": [
+          "#SocialMediaTips",
+          "#AccessibilityMatters",
+          "#DigitalMarketing"
+        ],
+        "source": "",
+        "photo_query": "laptop keyboard typing hands workspace",
+        "created_at": "2026-10-30T23:03:04.156310+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C1",
+      "chat_id": 8789122019,
+      "message_id": 272,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "AzMMf8duXmw",
+        "photographer": "Back2Gaming",
+        "source_url": "https://unsplash.com/photos/person-typing-on-a-laptop-keyboard-AzMMf8duXmw",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Back2Gaming on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
