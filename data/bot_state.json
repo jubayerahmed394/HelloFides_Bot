@@ -1507,6 +1507,132 @@
         "source_url": "https://unsplash.com/photos/person-typing-on-a-laptop-keyboard-AzMMf8duXmw",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Back2Gaming on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "28fb8a4eea": {
+      "entry": {
+        "id": "28fb8a4eea",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "stats",
+        "hook": "People connect with people, not corporate logos.",
+        "photocard_text": "70% of consumers feel more connected to a brand when its leadership is active on social media. Put founders front and center.",
+        "caption": "Research from Sprout Social reveals that 70% of consumers feel significantly more connected to brands whose CEOs maintain an active presence on social platforms. Faceless corporate announcements no longer carry the weight they once did. In a digital landscape crowded with automated messaging and generic branding, buyers actively look for the human beings building the solution. When I work with founders, my first objective is establishing their distinct personal voice alongside company updates. Sharing authentic strategic decisions, operational trade-offs, and company values builds an emotional connection that traditional product ads cannot replicate. A visible leadership team transforms cold commercial transactions into collaborative business relationships. If your company page engagement is stagnating, it is time to step in front of the brand. How visible is your leadership team on your primary social channels today?",
+        "hashtags": [
+          "#LeadershipBranding",
+          "#CEOBranding",
+          "#SocialSelling",
+          "#MarketingStrategy"
+        ],
+        "source": "Sprout Social, 2023",
+        "photo_query": "modern creative office workspace laptop",
+        "created_at": "2026-10-30T22:58:57.827804+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L1",
+      "chat_id": 8789122019,
+      "message_id": 276,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "kBtuVD25HAA",
+        "photographer": "Paulina Chmolowska",
+        "source_url": "https://unsplash.com/photos/macbook-pro-on-brown-wooden-table-kBtuVD25HAA",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Paulina Chmolowska on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "cde3e76d89": {
+      "entry": {
+        "id": "cde3e76d89",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "lesson",
+        "hook": "Design consistency builds instant recognition on social feeds.",
+        "photocard_text": "Visual cohesion helps your audience instantly recognize your brand.",
+        "caption": "When a brand constantly switches fonts, colors, and design styles, followers struggle to connect the posts to the business. Developing a cohesive visual identity ensures that your content stands out immediately as users scroll through crowded feeds. Consistency builds trust, and trust drives conversions for growing companies. If you need help creating a polished and professional social media presence, we would love to assist. Drop us a message in our inbox or visit hellofides.com to get started.",
+        "hashtags": [
+          "#BrandIdentity",
+          "#VisualDesign",
+          "#BusinessGrowth"
+        ],
+        "source": "",
+        "photo_query": "color swatches branding design desk",
+        "created_at": "2026-10-30T23:03:04.156310+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C1",
+      "chat_id": 8789122019,
+      "message_id": 280,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "Rua207zYcWg",
+        "photographer": "Alphabag",
+        "source_url": "https://unsplash.com/photos/marketing-strategy-cards-on-desk-Rua207zYcWg",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Alphabag on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "03fbb6ca47": {
+      "entry": {
+        "id": "03fbb6ca47",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "howto",
+        "hook": "Three steps to write social calls to action that convert.",
+        "photocard_text": "Stop asking scrollers to buy immediately. Offer low-friction next steps: save for later, grab a resource, or share an insight.",
+        "caption": "Most calls to action fail because the requested commitment is far too high for a social feed. Expecting a cold reader to book a thirty-minute demo after reading one post creates immediate friction. Here is the three-tier CTA framework I use across client accounts. Tier one is low commitment: invite them to bookmark the post or share their experience in the comments. This signals algorithm value. Tier two is value exchange: direct them to a free downloadable resource or template through your profile link to capture permission for email outreach. Tier three is direct conversion: reserve direct purchase or consultation calls exclusively for case studies and client testimonial posts. Matching your call to action to the prospect's level of intent dramatically increases conversion rates. What call to action currently drives the best response for your business?",
+        "hashtags": [
+          "#CopywritingTips",
+          "#SocialMediaConversion",
+          "#DigitalMarketing",
+          "#MarketingStrategy"
+        ],
+        "source": "",
+        "photo_query": "hands writing in notebook coffee",
+        "created_at": "2026-10-30T22:58:57.827804+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 284,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "QnHGCEsjA70",
+        "photographer": "Sincerely Media",
+        "source_url": "https://unsplash.com/photos/person-writing-QnHGCEsjA70",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Sincerely Media on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "2d91781f80": {
+      "entry": {
+        "id": "2d91781f80",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "strategy",
+        "hook": "Pin your top-performing conversion post to the grid.",
+        "photocard_text": "Use pinned posts to highlight your strongest offers immediately.",
+        "caption": "New visitors rarely scroll past your recent three posts when checking out your profile page. By pinning your most valuable product announcement, service offer, or brand introduction to the top of your grid, you control the first impression. This simple strategic placement ensures every new profile visitor sees your absolute best work right away. Let HelloFides handle your profile optimization and content strategy. Send us a message or visit hellofides.com to learn more about partnering with our team.",
+        "hashtags": [
+          "#SocialMediaTips",
+          "#ProfileOptimization",
+          "#MarketingTactics"
+        ],
+        "source": "",
+        "photo_query": "smartphone screen social media profile",
+        "created_at": "2026-10-30T23:03:04.156310+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 288,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "Mr8kO5NP1Co",
+        "photographer": "Szabo Viktor",
+        "source_url": "https://unsplash.com/photos/black-android-smartphone-on-macbook-pro-Mr8kO5NP1Co",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Szabo Viktor on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
