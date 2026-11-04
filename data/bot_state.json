@@ -1,7 +1,7 @@
 {
   "last_update_id": 941981146,
   "pillar_index": {
-    "personal": 2,
+    "personal": 0,
     "company": 1
   },
   "pending_posts": {
@@ -1633,11 +1633,137 @@
         "source_url": "https://unsplash.com/photos/black-android-smartphone-on-macbook-pro-Mr8kO5NP1Co",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Szabo Viktor on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "2a3b0cbfec": {
+      "entry": {
+        "id": "2a3b0cbfec",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "lesson",
+        "hook": "Cutting our weekly posting frequency actually increased total monthly engagement.",
+        "photocard_text": "Daily posting burns out your team and dilutes message quality. Three high-impact posts outperform seven mediocre updates every week.",
+        "caption": "There was a period where we believed publishing twice a day across every channel was the only way to beat social algorithms. Our team was constantly scrambling to fulfill the calendar, recycling superficial quotes and rushing design files. Engagement steadily declined, and follower fatigue set in. We decided to run an experiment: cut our publishing cadence from seven days a week down to three, but double the research, editing, and distribution behind each piece. The results were immediate. Our reach expanded, comment depth improved, and we finally had the bandwidth to engage meaningfully in community discussions. Algorithms do not reward frantic volume; they reward content that holds attention and sparks conversation. If your team is exhausted by the content hamster wheel, give yourself permission to publish less and polish more. How many days a week do you currently publish?",
+        "hashtags": [
+          "#ContentMarketing",
+          "#AgencyOperations",
+          "#WorkSmarter",
+          "#GrowthStrategy"
+        ],
+        "source": "",
+        "photo_query": "clean organized desk with planner",
+        "created_at": "2026-10-30T22:58:57.827804+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L1",
+      "chat_id": 8789122019,
+      "message_id": 292,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "flRm0z3MEoA",
+        "photographer": "Marissa Grootes",
+        "source_url": "https://unsplash.com/photos/person-holding-notepad-and-pen-flat-lay-photography-flRm0z3MEoA",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Marissa Grootes on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "c9f3ee6412": {
+      "entry": {
+        "id": "c9f3ee6412",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "stats",
+        "hook": "LinkedIn remains a powerful platform for professional brand authority.",
+        "photocard_text": "LinkedIn drives over 80 percent of B2B social media leads.",
+        "caption": "According to data from LinkedIn, the platform accounts for more than 80 percent of B2B social media leads. For founders and service providers targeting other businesses, establishing an active presence here is non-negotiable. Sharing industry insights and professional milestones builds trust with decision-makers long before a sales call takes place. Let us help you build authority in your niche. Send us a message in the inbox or visit hellofides.com to discuss our B2B social management options.",
+        "hashtags": [
+          "#B2BMarketing",
+          "#LinkedInStrategy",
+          "#LeadGeneration"
+        ],
+        "source": "LinkedIn Business, 2023",
+        "photo_query": "modern office desk setup laptop",
+        "created_at": "2026-10-30T23:03:04.156310+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C3",
+      "chat_id": 8789122019,
+      "message_id": 296,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "OVbeSXRk_9E",
+        "photographer": "Nikita Kachanovsky",
+        "source_url": "https://unsplash.com/photos/a-desk-with-a-computer-monitor-and-keyboard-on-it-OVbeSXRk_9E",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Nikita Kachanovsky on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "8ab90d9a63": {
+      "entry": {
+        "id": "8ab90d9a63",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "strategy",
+        "hook": "Balance your content across three layers to prevent audience fatigue.",
+        "photocard_text": "Top-of-funnel attracts, mid-funnel builds authority, bottom-of-funnel closes. Neglecting any of the three stalls your pipeline.",
+        "caption": "When a brand complains that social media produces no revenue, their feed usually suffers from one of two extremes: endless educational tips with no clear offer, or relentless sales pitches with no upfront value. A sustainable social strategy balances three distinct content layers weekly. Top-of-funnel content covers relatable industry observations and high-level trends to bring new eyes into your ecosystem. Middle-of-funnel content delivers proprietary frameworks, tactical how-tos, and operational breakdowns that establish your expertise. Bottom-of-funnel content showcases client transformations, transparent case studies, and clear invitations to work together. Without the top layer, your audience stagnates. Without the bottom layer, nobody knows how to hire you. Map your upcoming weekly calendar across these three categories to ensure you are simultaneously attracting, nurturing, and converting your followers. Which of these three layers is currently missing from your feed?",
+        "hashtags": [
+          "#SalesFunnel",
+          "#ContentStrategy",
+          "#OrganicMarketing",
+          "#B2BStrategy"
+        ],
+        "source": "",
+        "photo_query": "three notebooks stacked on wooden desk",
+        "created_at": "2026-10-30T22:58:57.827804+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 300,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "Id5GJ2owwSk",
+        "photographer": "Dennis Cortés",
+        "source_url": "https://unsplash.com/photos/blue-and-white-card-on-brown-wooden-table-Id5GJ2owwSk",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Dennis Cortés on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "e3fb464476": {
+      "entry": {
+        "id": "e3fb464476",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "howto",
+        "hook": "Repurpose long-form FAQ documents into bite-sized graphics.",
+        "photocard_text": "Turn customer questions into engaging carousel posts.",
+        "caption": "Your customer support inbox is a goldmine for social media content. Take the most frequently asked questions about your products or services and break them down into multi-slide carousel posts. This educates your audience, reduces purchase hesitation, and positions your business as an industry expert. If you need help turning your everyday business expertise into captivating content, HelloFides is here to help. Reach out via our inbox or visit hellofides.com to connect with us.",
+        "hashtags": [
+          "#ContentCreation",
+          "#CustomerService",
+          "#SmallBusinessMarketing"
+        ],
+        "source": "",
+        "photo_query": "notepad pen questions brainstorming desk",
+        "created_at": "2026-10-30T23:03:04.156310+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C3",
+      "chat_id": 8789122019,
+      "message_id": 304,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "EkOkLTiFDho",
+        "photographer": "Kelly Sikkema",
+        "source_url": "https://unsplash.com/photos/hands-holding-blank-card-with-pen-and-plant-EkOkLTiFDho",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Kelly Sikkema on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
   "bank_index": {
-    "personal": 0,
+    "personal": 10,
     "company": 0
   },
   "last_failure_notice_date": null
