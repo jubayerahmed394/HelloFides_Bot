@@ -1,85 +1,187 @@
 {
   "company": [
     {
-      "id": "8b4bbe17a8",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "lesson",
-      "hook": "Ignoring analytics leaves your brand guessing what works.",
-      "photocard_text": "Let data guide your content strategy instead of pure guesswork.",
-      "caption": "Many business owners look at follower counts while completely ignoring engagement rates and click-through data. Metrics tell a clear story about what content resonates with your audience and what falls flat. Reviewing your analytics regularly allows you to double down on winning topics and eliminate wasted effort. If you prefer to let experts analyze the numbers and run your channels, HelloFides can help. Send us a message or visit hellofides.com to see how we manage social media for growing brands.",
-      "hashtags": [
-        "#SocialAnalytics",
-        "#MarketingMetrics",
-        "#DataDriven"
-      ],
-      "source": "",
-      "photo_query": "analytics dashboard charts computer screen",
-      "created_at": "2026-10-30T23:03:04.156310+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    },
-    {
-      "id": "6298e9165b",
+      "id": "2d9f72651d",
       "mode": "company",
       "platform": "Facebook - HelloFides",
       "pillar": "strategy",
-      "hook": "Prioritize community engagement over endless content broadcasting.",
-      "photocard_text": "Social media is a two-way conversation, not a megaphone.",
-      "caption": "Publishing posts is only half the battle; responding to comments and engaging with community discussions builds true brand loyalty. Algorithms reward accounts that spark genuine conversations and foster active comment sections. Allocating time each day for community management makes your brand feel human and approachable. If your team is too busy running the business to engage online, we can manage it for you. Drop us a message in the inbox or visit hellofides.com to get started.",
+      "hook": "Your Facebook Page is not supposed to look like an ad.",
+      "photocard_text": "Pages that only post offers get ignored. Pages that mix in useful, human content earn the trust that makes the offer land.",
+      "caption": "A Page that only posts discounts tends to get scrolled past, because it reads like an ad feed instead of a business worth following. The Pages that build real trust mix in content that isn't selling anything directly - a quick tip, a behind-the-scenes look, an answer to a common question - alongside the occasional offer. By the time the offer shows up, the audience already feels like they know the business, so it lands instead of getting ignored. If your Page feels like it's shouting \"buy now\" every post, that's worth rethinking. Send us a message for a second opinion on your current mix.",
       "hashtags": [
-        "#CommunityBuilding",
-        "#SocialMediaManagement",
-        "#BrandLoyalty"
+        "#SocialMediaMarketing",
+        "#FacebookPage"
       ],
       "source": "",
-      "photo_query": "coffee cup laptop keyboard desk",
-      "created_at": "2026-10-30T23:03:04.156310+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    }
-  ],
-  "personal": [
-    {
-      "id": "b0bc891bea",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "stats",
-      "hook": "Slow social response times are quietly draining your sales pipeline.",
-      "photocard_text": "79% of consumers expect a brand response on social media within 24 hours. Speed to reply directly determines conversion.",
-      "caption": "According to the Sprout Social Index, 79% of consumers expect a response to their social media inquiries within 24 hours. Yet many businesses still leave comments unacknowledged and direct messages unanswered over the weekend. In modern social selling, your direct message inbox operates as your primary customer support and sales triage desk. When a prospect reaches out asking about product specifications, pricing, or service availability, their buying intent is at its absolute peak. Letting that inquiry sit for two days sends a message that your business is inattentive or understaffed. Setting up clear notification routing, quick-reply templates, and dedicated morning triage shifts can turn casual inquiries into closed deals before your competitors even open the app. Do you have a dedicated daily routine for responding to incoming social direct messages?",
-      "hashtags": [
-        "#CustomerExperience",
-        "#SocialSelling",
-        "#LeadResponse",
-        "#BusinessOperations"
-      ],
-      "source": "Sprout Social, 2023",
-      "photo_query": "smartphone showing incoming message on desk",
-      "created_at": "2026-10-30T22:58:57.827804+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
-    {
-      "id": "a6f9d3fd65",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "strategy",
-      "hook": "Most small business pages fail for one simple reason.",
-      "photocard_text": "Posting without a plan isn't a content strategy, it's just noise. Pick 3-4 content pillars and repeat them on purpose.",
-      "caption": "Most small business pages don't fail because the owner isn't creative. They fail because every post is a one-off idea with no thread connecting it to the last one. Followers can't tell what the page is for, so they stop paying attention. The fix I give almost every new client is the same: pick 3 or 4 content pillars - the handful of topics your page will always come back to - and plan around them instead of waking up each morning asking \"what do I post today.\" For a bakery that might be process, people, offers, and behind-the-scenes. For a B2B service it might be education, proof of work, team, and FAQs. Pillars don't limit creativity, they focus it. Once a page has pillars, planning a month of content takes an afternoon instead of a daily scramble, and the page starts to feel like it has a personality instead of a feed of disconnected posts. If your content feels random to you, it feels random to your audience too. Start with pillars before you touch a content calendar.",
-      "hashtags": [
-        "#SocialMediaStrategy",
-        "#ContentStrategy",
-        "#SmallBusinessMarketing",
-        "#HelloFides"
-      ],
-      "source": "",
-      "photo_query": "content calendar sticky notes desk",
-      "created_at": "2026-11-05T00:40:31.761203+06:00",
+      "photo_query": "shop counter small business storefront",
+      "created_at": "2026-11-06T00:47:56.009463+06:00",
       "posted": false,
       "provider_used": "local_bank"
     },
+    {
+      "id": "1faefad43b",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Posting daily won't save a Page with no clear plan.",
+      "photocard_text": "Frequency without direction just produces more content nobody asked for. A clear, smaller plan beats a busy, scattered one.",
+      "caption": "We get asked often whether posting more frequently will fix a quiet Page, and the honest answer is usually no, if there isn't a clear plan behind what's being posted. More content without direction just means more scrolling past, not more attention. What actually helps is picking a small set of topics the Page will consistently come back to, so followers start to know what to expect and why it's worth checking in. A focused Page posting three times a week on purpose will usually outperform a scattered one posting daily. If your team feels busy but your results feel flat, the plan is worth a second look before the schedule is. Message us if you'd like help building one.",
+      "hashtags": [
+        "#SocialMediaStrategy",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "social media planning notebook office desk",
+      "created_at": "2026-11-06T00:47:56.009463+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "fca140c3e9",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Followers are not the same thing as customers.",
+      "photocard_text": "A smaller, engaged audience that trusts the Page is worth more than a larger one that scrolls past every post.",
+      "caption": "It's easy to treat follower count as the main scoreboard, but a large, passive following that never engages or buys isn't actually doing much for a business. A smaller audience that reads the captions, asks questions in the comments, and remembers the Page when they need the service is far more valuable, even if the number looks less impressive. We'd rather help a Page build that kind of trust than chase follower counts that don't translate into real interest. If your numbers look fine but inquiries don't match, that gap is usually worth investigating. Reach out and we'll take a look together.",
+      "hashtags": [
+        "#DigitalMarketing",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "people looking at phone cafe table",
+      "created_at": "2026-11-06T00:47:56.009463+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "7d7a0f0e4e",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "A simple way to make your offers feel less pushy.",
+      "photocard_text": "Explain the problem the offer solves before mentioning the discount. People respond to the problem, not the percentage off.",
+      "caption": "Offers that lead straight with a discount percentage often get scrolled past, because the audience hasn't been reminded yet why they'd want the thing being discounted in the first place. A small change that consistently works better: open by naming the specific problem or moment the offer solves, then introduce the discount as the easy next step once that problem feels real to the reader. It reads less like a generic sale blast and more like a helpful nudge at the right moment. The offer itself doesn't need to change, just the order you present it in. If your promotions aren't converting the way you'd expect, this is one of the first things worth testing. Message us if you want a hand rewriting your next one.",
+      "hashtags": [
+        "#MarketingTips",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "price tag discount sign shop display",
+      "created_at": "2026-11-06T00:47:56.009463+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "4bfaba6ef1",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "The fastest way to get more comments on your posts.",
+      "photocard_text": "End with a specific, easy-to-answer question, not a generic \"thoughts?\". Specific questions get specific replies.",
+      "caption": "Ending a post with \"thoughts?\" rarely gets a response, because it's too open-ended for most people to bother answering. Swapping that for a specific, low-effort question - one with an easy, obvious answer like picking between two options or naming a favorite from a short list - tends to get noticeably more replies, because there's almost nothing to think about before typing one. More comments also tends to help the post get shown to more people in the first place, so this small wording change can have a bigger effect than it looks like it should. Try it on your next post and see what happens to your comment count. We're happy to help you brainstorm a few if you'd like.",
+      "hashtags": [
+        "#SocialMediaTips",
+        "#FacebookMarketing"
+      ],
+      "source": "",
+      "photo_query": "phone comment bubble icon mockup",
+      "created_at": "2026-11-06T00:47:56.009463+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "600f6c44fd",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "How to pick a cover photo that actually works for you.",
+      "photocard_text": "Your cover photo should answer \"what do you do\" in two seconds, not just look nice. Clarity beats decoration every time.",
+      "caption": "A cover photo is one of the first things a new visitor sees, and a purely decorative one - a nice scene with no information - wastes that first impression. The cover photos that work hardest answer \"what does this business do\" at a glance: a clear shot of the product, the storefront, or the service in action, sometimes with a short line of text if the image alone doesn't make it obvious. It doesn't need to be elaborate, just immediately clear. If someone unfamiliar with your business landed on your Page right now, would your cover photo tell them what you do within two seconds? If not, it's worth a quick update. We can help you put one together.",
+      "hashtags": [
+        "#FacebookPage",
+        "#BrandingTips"
+      ],
+      "source": "",
+      "photo_query": "storefront exterior sign daytime",
+      "created_at": "2026-11-06T00:47:56.009463+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "13f4bf837e",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "lesson",
+      "hook": "A client once wanted to delete every negative comment.",
+      "photocard_text": "Hiding fair criticism doesn't protect a brand, it removes the chance to respond well in public and build more trust.",
+      "caption": "A client once asked us to delete every comment that wasn't glowing, worried criticism on the Page would scare customers away. We pushed back. A fair complaint, answered calmly in public, usually builds more trust than a Page with suspiciously only positive comments - people assume a business with zero visible complaints is hiding something. We helped the client respond to the criticism instead of deleting it, and the public reply reassured far more people than the complaint worried anyone. Hiding fair feedback removes a chance to show how a business handles problems. Reach out if your Page needs help with this.",
+      "hashtags": [
+        "#BrandReputation",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "customer service reply phone screen",
+      "created_at": "2026-11-06T00:47:56.009463+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "3b39d2ed2f",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "lesson",
+      "hook": "We once posted the same offer three different ways.",
+      "photocard_text": "Same discount, three different framings. One clearly outperformed the others, and it wasn't the one anyone expected.",
+      "caption": "For one client we tested the same discount with three different framings in one week: one led with urgency, one with the savings amount, one with the problem it solved. The problem-led version, which nobody on the team expected to win, clearly outperformed the other two in engagement and messages received. It was a reminder that assumptions about what \"should\" work are worth testing rather than trusting on instinct. We run small tests like this regularly so decisions are based on what the audience actually responds to. Want help testing your next promotion a few ways? Message us.",
+      "hashtags": [
+        "#MarketingLessons",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "three sticky notes comparison desk",
+      "created_at": "2026-11-06T00:47:56.009463+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "d4338b7453",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "lesson",
+      "hook": "We learned not to post on a day we almost skipped.",
+      "photocard_text": "A short, low-effort post on a quiet day once outperformed a week of planned content, just by showing up consistently.",
+      "caption": "One week the planned content wasn't ready in time, and the easy choice would have been to skip posting that day entirely. Instead a short, simple post went up - a quick behind-the-scenes photo with a couple of honest lines - and it got more engagement than most of the carefully planned posts that same week. Planning still matters most of the time, but showing up consistently, even imperfectly, matters more than waiting for a perfect post. We now keep a few simple, low-effort post ideas in reserve for exactly these moments. Ask us how we build that backup plan into your schedule.",
+      "hashtags": [
+        "#SocialMediaManagement",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "behind the scenes workspace candid photo",
+      "created_at": "2026-11-06T00:47:56.009463+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "c276d83d76",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Your Page's bio is doing less work than you think.",
+      "photocard_text": "A vague bio makes a new visitor guess what you do. A clear one tells them in one line and points them to act.",
+      "caption": "The Page bio is one of the most overlooked parts of a Facebook presence, even though it's often the first thing a new visitor reads before deciding to follow or scroll past. A vague bio - just a name and a generic tagline - leaves a visitor guessing what the business does and why they should care. A clear one states plainly what it offers and who it's for, in one or two lines, and points toward the next step. It takes minutes to rewrite but affects every new visitor who lands on the Page. Haven't revisited yours in a while? We're happy to help you sharpen it.",
+      "hashtags": [
+        "#FacebookPage",
+        "#BrandingTips"
+      ],
+      "source": "",
+      "photo_query": "facebook page profile mockup screen",
+      "created_at": "2026-11-06T00:47:56.009463+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    }
+  ],
+  "personal": [
     {
       "id": "6d8a0c9031",
       "mode": "personal",
@@ -262,7 +364,7 @@
     }
   ],
   "last_refill_attempt": {
-    "company": "2026-10-30",
+    "company": "2026-11-05",
     "personal": "2026-11-04"
   }
 }

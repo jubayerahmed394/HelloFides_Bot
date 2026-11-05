@@ -2,7 +2,7 @@
   "last_update_id": 941981146,
   "pillar_index": {
     "personal": 0,
-    "company": 1
+    "company": 3
   },
   "pending_posts": {
     "289a845216": {
@@ -1759,12 +1759,138 @@
         "source_url": "https://unsplash.com/photos/hands-holding-blank-card-with-pen-and-plant-EkOkLTiFDho",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Kelly Sikkema on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "b0bc891bea": {
+      "entry": {
+        "id": "b0bc891bea",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "stats",
+        "hook": "Slow social response times are quietly draining your sales pipeline.",
+        "photocard_text": "79% of consumers expect a brand response on social media within 24 hours. Speed to reply directly determines conversion.",
+        "caption": "According to the Sprout Social Index, 79% of consumers expect a response to their social media inquiries within 24 hours. Yet many businesses still leave comments unacknowledged and direct messages unanswered over the weekend. In modern social selling, your direct message inbox operates as your primary customer support and sales triage desk. When a prospect reaches out asking about product specifications, pricing, or service availability, their buying intent is at its absolute peak. Letting that inquiry sit for two days sends a message that your business is inattentive or understaffed. Setting up clear notification routing, quick-reply templates, and dedicated morning triage shifts can turn casual inquiries into closed deals before your competitors even open the app. Do you have a dedicated daily routine for responding to incoming social direct messages?",
+        "hashtags": [
+          "#CustomerExperience",
+          "#SocialSelling",
+          "#LeadResponse",
+          "#BusinessOperations"
+        ],
+        "source": "Sprout Social, 2023",
+        "photo_query": "smartphone showing incoming message on desk",
+        "created_at": "2026-10-30T22:58:57.827804+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L1",
+      "chat_id": 8789122019,
+      "message_id": 308,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "aH86GXe1q7k",
+        "photographer": "HelpDesk Heroes",
+        "source_url": "https://unsplash.com/photos/white-and-black-box-on-black-computer-keyboard-aH86GXe1q7k",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by HelpDesk Heroes on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "8b4bbe17a8": {
+      "entry": {
+        "id": "8b4bbe17a8",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "lesson",
+        "hook": "Ignoring analytics leaves your brand guessing what works.",
+        "photocard_text": "Let data guide your content strategy instead of pure guesswork.",
+        "caption": "Many business owners look at follower counts while completely ignoring engagement rates and click-through data. Metrics tell a clear story about what content resonates with your audience and what falls flat. Reviewing your analytics regularly allows you to double down on winning topics and eliminate wasted effort. If you prefer to let experts analyze the numbers and run your channels, HelloFides can help. Send us a message or visit hellofides.com to see how we manage social media for growing brands.",
+        "hashtags": [
+          "#SocialAnalytics",
+          "#MarketingMetrics",
+          "#DataDriven"
+        ],
+        "source": "",
+        "photo_query": "analytics dashboard charts computer screen",
+        "created_at": "2026-10-30T23:03:04.156310+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 312,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "3yb7ZsaY0LY",
+        "photographer": "Anastassia Anufrieva",
+        "source_url": "https://unsplash.com/photos/a-group-of-people-working-on-computers-in-a-room-3yb7ZsaY0LY",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Anastassia Anufrieva on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "a6f9d3fd65": {
+      "entry": {
+        "id": "a6f9d3fd65",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "strategy",
+        "hook": "Most small business pages fail for one simple reason.",
+        "photocard_text": "Posting without a plan isn't a content strategy, it's just noise. Pick 3-4 content pillars and repeat them on purpose.",
+        "caption": "Most small business pages don't fail because the owner isn't creative. They fail because every post is a one-off idea with no thread connecting it to the last one. Followers can't tell what the page is for, so they stop paying attention. The fix I give almost every new client is the same: pick 3 or 4 content pillars - the handful of topics your page will always come back to - and plan around them instead of waking up each morning asking \"what do I post today.\" For a bakery that might be process, people, offers, and behind-the-scenes. For a B2B service it might be education, proof of work, team, and FAQs. Pillars don't limit creativity, they focus it. Once a page has pillars, planning a month of content takes an afternoon instead of a daily scramble, and the page starts to feel like it has a personality instead of a feed of disconnected posts. If your content feels random to you, it feels random to your audience too. Start with pillars before you touch a content calendar.",
+        "hashtags": [
+          "#SocialMediaStrategy",
+          "#ContentStrategy",
+          "#SmallBusinessMarketing",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "content calendar sticky notes desk",
+        "created_at": "2026-11-05T00:40:31.761203+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L3",
+      "chat_id": 8789122019,
+      "message_id": 316,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "YwPNWDNZHkg",
+        "photographer": "Marissa Grootes",
+        "source_url": "https://unsplash.com/photos/white-paper-near-clips-YwPNWDNZHkg",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Marissa Grootes on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "6298e9165b": {
+      "entry": {
+        "id": "6298e9165b",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "strategy",
+        "hook": "Prioritize community engagement over endless content broadcasting.",
+        "photocard_text": "Social media is a two-way conversation, not a megaphone.",
+        "caption": "Publishing posts is only half the battle; responding to comments and engaging with community discussions builds true brand loyalty. Algorithms reward accounts that spark genuine conversations and foster active comment sections. Allocating time each day for community management makes your brand feel human and approachable. If your team is too busy running the business to engage online, we can manage it for you. Drop us a message in the inbox or visit hellofides.com to get started.",
+        "hashtags": [
+          "#CommunityBuilding",
+          "#SocialMediaManagement",
+          "#BrandLoyalty"
+        ],
+        "source": "",
+        "photo_query": "coffee cup laptop keyboard desk",
+        "created_at": "2026-10-30T23:03:04.156310+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C3",
+      "chat_id": 8789122019,
+      "message_id": 320,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "cckf4TsHAuw",
+        "photographer": "Andrew Neel",
+        "source_url": "https://unsplash.com/photos/macbook-pro-white-ceramic-mugand-black-smartphone-on-table-cckf4TsHAuw",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Andrew Neel on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
   "bank_index": {
     "personal": 10,
-    "company": 0
+    "company": 10
   },
   "last_failure_notice_date": null
 }
