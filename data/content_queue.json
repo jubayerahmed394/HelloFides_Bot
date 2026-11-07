@@ -1,42 +1,6 @@
 {
   "company": [
     {
-      "id": "fca140c3e9",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "strategy",
-      "hook": "Followers are not the same thing as customers.",
-      "photocard_text": "A smaller, engaged audience that trusts the Page is worth more than a larger one that scrolls past every post.",
-      "caption": "It's easy to treat follower count as the main scoreboard, but a large, passive following that never engages or buys isn't actually doing much for a business. A smaller audience that reads the captions, asks questions in the comments, and remembers the Page when they need the service is far more valuable, even if the number looks less impressive. We'd rather help a Page build that kind of trust than chase follower counts that don't translate into real interest. If your numbers look fine but inquiries don't match, that gap is usually worth investigating. Reach out and we'll take a look together.",
-      "hashtags": [
-        "#DigitalMarketing",
-        "#SmallBusiness"
-      ],
-      "source": "",
-      "photo_query": "people looking at phone cafe table",
-      "created_at": "2026-11-06T00:47:56.009463+06:00",
-      "posted": false,
-      "provider_used": "local_bank"
-    },
-    {
-      "id": "7d7a0f0e4e",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "howto",
-      "hook": "A simple way to make your offers feel less pushy.",
-      "photocard_text": "Explain the problem the offer solves before mentioning the discount. People respond to the problem, not the percentage off.",
-      "caption": "Offers that lead straight with a discount percentage often get scrolled past, because the audience hasn't been reminded yet why they'd want the thing being discounted in the first place. A small change that consistently works better: open by naming the specific problem or moment the offer solves, then introduce the discount as the easy next step once that problem feels real to the reader. It reads less like a generic sale blast and more like a helpful nudge at the right moment. The offer itself doesn't need to change, just the order you present it in. If your promotions aren't converting the way you'd expect, this is one of the first things worth testing. Message us if you want a hand rewriting your next one.",
-      "hashtags": [
-        "#MarketingTips",
-        "#SmallBusiness"
-      ],
-      "source": "",
-      "photo_query": "price tag discount sign shop display",
-      "created_at": "2026-11-06T00:47:56.009463+06:00",
-      "posted": false,
-      "provider_used": "local_bank"
-    },
-    {
       "id": "4bfaba6ef1",
       "mode": "company",
       "platform": "Facebook - HelloFides",
@@ -146,46 +110,6 @@
     }
   ],
   "personal": [
-    {
-      "id": "69517e0f9b",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "howto",
-      "hook": "Here's how I plan a week of content in under an hour.",
-      "photocard_text": "Batch the thinking, not just the posting. One sitting to plan hooks for the week beats scattered daily brainstorming.",
-      "caption": "The biggest time sink in social media management isn't writing captions, it's the daily \"what do I even post today\" moment, repeated five or six times a week. I fixed this for myself and for clients by batching the thinking into one weekly sitting. I open the content pillars, pick one angle per pillar for the week, and write just the hook - one line, the idea that would make someone stop scrolling - for each planned post. That's it for the first pass. Only after all the hooks are down do I go back and write full captions, because writing five hooks back to back is a different, faster kind of thinking than writing five full posts one at a time with context-switching in between. The whole exercise takes under an hour once you've done it a few times, and it means you walk into the week already knowing what's going out and why, instead of improvising under a deadline. If your content planning feels slow, check whether you're mixing idea generation and writing into the same step - separating them is the single biggest speed-up I've found.",
-      "hashtags": [
-        "#ContentPlanning",
-        "#SocialMediaTips",
-        "#ProductivityTips",
-        "#HelloFides"
-      ],
-      "source": "",
-      "photo_query": "laptop weekly planner desk workspace",
-      "created_at": "2026-11-05T00:40:31.761203+06:00",
-      "posted": false,
-      "provider_used": "local_bank"
-    },
-    {
-      "id": "60e2f644ad",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "howto",
-      "hook": "A simple way to tell if your hook actually works.",
-      "photocard_text": "Read only your first line out loud. If it doesn't make you want the next sentence, rewrite it before anything else.",
-      "caption": "Every post lives or dies in its first line, and most people write that line last, almost as an afterthought, after they've already written the body. I do the opposite now, and I tell every client to do the same: write the hook first, read it out loud by itself, and ask honestly whether it would make you stop scrolling if you saw it from a stranger's page. If the answer is no, don't touch the rest of the post yet - fix the hook first, because no amount of good content underneath a weak opening line will get read. A good hook usually does one of a few things: it names a specific, relatable problem, it makes a claim worth questioning, or it promises something concrete and useful in plain language. What it should never do is open with throat-clearing like \"in today's digital age\" or a generic greeting, because that's exactly where attention drops off fastest. Spend eighty percent of your editing time on the first line and the rest of the post gets dramatically easier to finish well.",
-      "hashtags": [
-        "#CopywritingTips",
-        "#ContentCreation",
-        "#SocialMediaTips",
-        "#HelloFides"
-      ],
-      "source": "",
-      "photo_query": "person typing laptop notebook desk",
-      "created_at": "2026-11-05T00:40:31.761203+06:00",
-      "posted": false,
-      "provider_used": "local_bank"
-    },
     {
       "id": "2a323718aa",
       "mode": "personal",
