@@ -2133,6 +2133,130 @@
         "source_url": "https://unsplash.com/photos/text-DjsIpeFVU9s",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Tamanna Rumee on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "2a323718aa": {
+      "entry": {
+        "id": "2a323718aa",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "howto",
+        "hook": "The simplest fix for a page that feels inconsistent.",
+        "photocard_text": "Write down your 3 non-negotiables before your next post: tone, colors, and the one thing you never say. Check every post against them.",
+        "caption": "A lot of \"our page doesn't feel like us\" problems aren't creative problems, they're documentation problems - nobody ever wrote down what \"us\" actually means in concrete terms. The fastest fix I use with clients is a one-page brand check: three or four non-negotiables, written in plain language, that every single post has to pass before it goes out. That might be a tone rule (\"friendly, never salesy\"), a visual rule (\"always use our two brand colors, never stock photo people\"), and a content rule (\"we never post without a clear takeaway for the reader\"). It sounds almost too simple to matter, but having it written down turns a vague feeling of inconsistency into a two-minute checklist anyone on the team can run before hitting publish, including a social media manager who joined last month and never sat through the original branding conversation. If your page feels off but you can't say exactly why, that's usually the sign the rules only exist in someone's head instead of on paper.",
+        "hashtags": [
+          "#BrandConsistency",
+          "#SocialMediaTips",
+          "#SmallBusinessMarketing",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "brand guideline notebook color swatches desk",
+        "created_at": "2026-11-05T00:40:31.761203+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L3",
+      "chat_id": 8789122019,
+      "message_id": 356,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "pdCTX1harH4",
+        "photographer": "Karolina Grabowska",
+        "source_url": "https://unsplash.com/photos/hand-holding-color-swatches-over-blueprints-and-open-book-pdCTX1harH4",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Karolina Grabowska on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "4bfaba6ef1": {
+      "entry": {
+        "id": "4bfaba6ef1",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "howto",
+        "hook": "The fastest way to get more comments on your posts.",
+        "photocard_text": "End with a specific, easy-to-answer question, not a generic \"thoughts?\". Specific questions get specific replies.",
+        "caption": "Ending a post with \"thoughts?\" rarely gets a response, because it's too open-ended for most people to bother answering. Swapping that for a specific, low-effort question - one with an easy, obvious answer like picking between two options or naming a favorite from a short list - tends to get noticeably more replies, because there's almost nothing to think about before typing one. More comments also tends to help the post get shown to more people in the first place, so this small wording change can have a bigger effect than it looks like it should. Try it on your next post and see what happens to your comment count. We're happy to help you brainstorm a few if you'd like.",
+        "hashtags": [
+          "#SocialMediaTips",
+          "#FacebookMarketing"
+        ],
+        "source": "",
+        "photo_query": "phone comment bubble icon mockup",
+        "created_at": "2026-11-06T00:47:56.009463+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 360,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "mJif93InGaU",
+        "photographer": "Matteo Vella",
+        "source_url": "https://unsplash.com/photos/a-white-cell-phone-sitting-on-top-of-a-table-mJif93InGaU",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Matteo Vella on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "0646fbb8e5": {
+      "entry": {
+        "id": "0646fbb8e5",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "lesson",
+        "hook": "A client once asked me to post more. I said no.",
+        "photocard_text": "More posts isn't always the right answer. Sometimes the honest advice is to slow down and fix the message first.",
+        "caption": "Early on I would have said yes to almost anything a client asked for, because saying no felt like risking the relationship. One client wanted to double posting frequency to \"fix\" flat engagement. I looked at the numbers first and the problem wasn't frequency, it was that the posts weren't saying anything a follower actually cared about - doubling a weak message just means twice as much of it gets ignored. I said so directly, laid out what I was seeing, and proposed we fix the message before touching the schedule. It was an uncomfortable conversation to start, but it was the right one, and it's a pattern I now watch for constantly: when a client asks for more volume, the real question is always whether the existing content earns more attention first. Agencies that just say yes to every request aren't being helpful, they're avoiding a harder conversation. The lesson I keep relearning is that giving honest, sometimes unwelcome advice early is what actually earns trust, not agreeing with everything a client suggests.",
+        "hashtags": [
+          "#LessonsLearned",
+          "#SocialMediaManagement",
+          "#ClientRelationships",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "two people discussing notes meeting table",
+        "created_at": "2026-11-05T00:40:31.761203+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L3",
+      "chat_id": 8789122019,
+      "message_id": 364,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "6NCpj7JgNWY",
+        "photographer": "Daniel",
+        "source_url": "https://unsplash.com/photos/a-person-sitting-at-a-table-writing-on-a-piece-of-paper-6NCpj7JgNWY",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Daniel on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "600f6c44fd": {
+      "entry": {
+        "id": "600f6c44fd",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "howto",
+        "hook": "How to pick a cover photo that actually works for you.",
+        "photocard_text": "Your cover photo should answer \"what do you do\" in two seconds, not just look nice. Clarity beats decoration every time.",
+        "caption": "A cover photo is one of the first things a new visitor sees, and a purely decorative one - a nice scene with no information - wastes that first impression. The cover photos that work hardest answer \"what does this business do\" at a glance: a clear shot of the product, the storefront, or the service in action, sometimes with a short line of text if the image alone doesn't make it obvious. It doesn't need to be elaborate, just immediately clear. If someone unfamiliar with your business landed on your Page right now, would your cover photo tell them what you do within two seconds? If not, it's worth a quick update. We can help you put one together.",
+        "hashtags": [
+          "#FacebookPage",
+          "#BrandingTips"
+        ],
+        "source": "",
+        "photo_query": "storefront exterior sign daytime",
+        "created_at": "2026-11-06T00:47:56.009463+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "C1",
+      "chat_id": 8789122019,
+      "message_id": 368,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "4HS4-OpqrQQ",
+        "photographer": "Jonathan Kemper",
+        "source_url": "https://unsplash.com/photos/woman-in-black-jacket-walking-on-sidewalk-during-daytime-4HS4-OpqrQQ",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Jonathan Kemper on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
