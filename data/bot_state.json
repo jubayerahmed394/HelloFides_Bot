@@ -1,7 +1,7 @@
 {
   "last_update_id": 941981146,
   "pillar_index": {
-    "personal": 0,
+    "personal": 2,
     "company": 3
   },
   "pending_posts": {
@@ -2256,6 +2256,130 @@
         "photographer": "Jonathan Kemper",
         "source_url": "https://unsplash.com/photos/woman-in-black-jacket-walking-on-sidewalk-during-daytime-4HS4-OpqrQQ",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Jonathan Kemper on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "6f6898db68": {
+      "entry": {
+        "id": "6f6898db68",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "lesson",
+        "hook": "I used to chase every new platform. I stopped.",
+        "photocard_text": "Being everywhere with a weak presence loses to being consistently good on two platforms that actually fit your audience.",
+        "caption": "There was a stretch where I felt pressure to have a presence on every platform the moment it started trending, because it felt irresponsible not to, like I was leaving growth on the table. What actually happened was predictable: thin, inconsistent content spread across too many places, none of it good enough to build real momentum anywhere. The turning point was picking two platforms where the actual audience for a given business already spends time, committing to doing those two well, and deliberately ignoring the rest for now. Engagement and inquiries both improved once the effort stopped being spread so thin. The lesson wasn't \"never try new platforms,\" it was that presence without depth doesn't build trust with anyone, it just produces more surface area to look inconsistent on. Now, before adding any new platform for a client, I ask whether we can genuinely sustain a second strong channel, not whether the platform is popular. Depth beats breadth almost every time in social media.",
+        "hashtags": [
+          "#SocialMediaManagement",
+          "#MarketingLessons",
+          "#SmallBusinessMarketing",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "multiple phone app icons screen",
+        "created_at": "2026-11-05T00:40:31.761203+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L1",
+      "chat_id": 8789122019,
+      "message_id": 372,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "0WjJZMyc-XU",
+        "photographer": "Shyam Mishra",
+        "source_url": "https://unsplash.com/photos/black-iphone-4-turned-on-screen-0WjJZMyc-XU",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Shyam Mishra on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "13f4bf837e": {
+      "entry": {
+        "id": "13f4bf837e",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "lesson",
+        "hook": "A client once wanted to delete every negative comment.",
+        "photocard_text": "Hiding fair criticism doesn't protect a brand, it removes the chance to respond well in public and build more trust.",
+        "caption": "A client once asked us to delete every comment that wasn't glowing, worried criticism on the Page would scare customers away. We pushed back. A fair complaint, answered calmly in public, usually builds more trust than a Page with suspiciously only positive comments - people assume a business with zero visible complaints is hiding something. We helped the client respond to the criticism instead of deleting it, and the public reply reassured far more people than the complaint worried anyone. Hiding fair feedback removes a chance to show how a business handles problems. Reach out if your Page needs help with this.",
+        "hashtags": [
+          "#BrandReputation",
+          "#SmallBusiness"
+        ],
+        "source": "",
+        "photo_query": "customer service reply phone screen",
+        "created_at": "2026-11-06T00:47:56.009463+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "C1",
+      "chat_id": 8789122019,
+      "message_id": 376,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "_Ud30e6Z2SI",
+        "photographer": "Jay Openiano",
+        "source_url": "https://unsplash.com/photos/smartphone-screen-with-call-interface-_Ud30e6Z2SI",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Jay Openiano on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "b523b84f62": {
+      "entry": {
+        "id": "b523b84f62",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "lesson",
+        "hook": "The post I almost didn't publish got the best response.",
+        "photocard_text": "The polished, safe post I was proud of got ignored. The honest, slightly messy one about a real mistake got shared.",
+        "caption": "I had a post ready that was polished, on-brand, and said exactly nothing risky - the kind of post that's easy to approve and easy to scroll past. At the last minute I swapped it for something rougher: a short, honest note about a mistake made early in managing a client's page and what changed afterward. I almost didn't post it because it felt less \"professional\" than the planned content. It ended up getting far more genuine engagement than almost anything else that month, because it read like a person talking instead of a brand performing. The lesson stuck with me: audiences can tell the difference between content that's trying to look impressive and content that's actually trying to be useful or honest, and they respond to the second kind even when it's less polished. I still plan posts carefully, but I leave room now for the slightly riskier, more human version of an idea instead of always defaulting to the safest draft.",
+        "hashtags": [
+          "#MarketingLessons",
+          "#Authenticity",
+          "#SocialMediaManagement",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "handwritten notes crossed out draft paper",
+        "created_at": "2026-11-05T00:40:31.761203+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 380,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "ztfzgOgqxrs",
+        "photographer": "Deepak Gupta",
+        "source_url": "https://unsplash.com/photos/a-piece-of-paper-with-writing-on-it-ztfzgOgqxrs",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Deepak Gupta on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "3b39d2ed2f": {
+      "entry": {
+        "id": "3b39d2ed2f",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "lesson",
+        "hook": "We once posted the same offer three different ways.",
+        "photocard_text": "Same discount, three different framings. One clearly outperformed the others, and it wasn't the one anyone expected.",
+        "caption": "For one client we tested the same discount with three different framings in one week: one led with urgency, one with the savings amount, one with the problem it solved. The problem-led version, which nobody on the team expected to win, clearly outperformed the other two in engagement and messages received. It was a reminder that assumptions about what \"should\" work are worth testing rather than trusting on instinct. We run small tests like this regularly so decisions are based on what the audience actually responds to. Want help testing your next promotion a few ways? Message us.",
+        "hashtags": [
+          "#MarketingLessons",
+          "#SmallBusiness"
+        ],
+        "source": "",
+        "photo_query": "three sticky notes comparison desk",
+        "created_at": "2026-11-06T00:47:56.009463+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 384,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "BoAbPMRKLS0",
+        "photographer": "Kelly Sikkema",
+        "source_url": "https://unsplash.com/photos/blue-sharpie-beside-yellow-sticky-notes-BoAbPMRKLS0",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Kelly Sikkema on Unsplash\" (unsplash.com/license)."
       }
     }
   },
