@@ -2,7 +2,7 @@
   "last_update_id": 941981146,
   "pillar_index": {
     "personal": 2,
-    "company": 3
+    "company": 1
   },
   "pending_posts": {
     "289a845216": {
@@ -2380,6 +2380,130 @@
         "photographer": "Kelly Sikkema",
         "source_url": "https://unsplash.com/photos/blue-sharpie-beside-yellow-sticky-notes-BoAbPMRKLS0",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Kelly Sikkema on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "f9f2fc3f7f": {
+      "entry": {
+        "id": "f9f2fc3f7f",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "strategy",
+        "hook": "Stop writing captions before you know who they're for.",
+        "photocard_text": "One paragraph on your actual audience - their worry, their habit, their platform - will sharpen every caption you write after it.",
+        "caption": "Caption writing gets dramatically easier the moment you stop trying to write for \"everyone who might see this\" and start writing for one specific kind of person. I ask every client to write a short, plain paragraph describing that one person: what they're worried about, what platform habit they already have, what would make them trust a business like this one. It's not a formal persona document, just a page's worth of honesty about who actually buys from them. Once that exists, caption writing stops being a guessing game, because every line can be checked against a real question: would this specific person care about this sentence. Posts written this way tend to read more direct and less generic, because they're not trying to please a vague audience of nobody in particular. If your captions feel bland even though you're working hard on them, the issue usually isn't your writing skill, it's that you're writing toward an audience you haven't actually defined yet.",
+        "hashtags": [
+          "#SocialMediaStrategy",
+          "#TargetAudience",
+          "#ContentMarketing",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "customer persona notes whiteboard sketch",
+        "created_at": "2026-11-05T00:40:31.761203+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L1",
+      "chat_id": 8789122019,
+      "message_id": 388,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "0XwQS1DBy_A",
+        "photographer": "Europeana",
+        "source_url": "https://unsplash.com/photos/a-person-writing-on-a-whiteboard-0XwQS1DBy_A",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Europeana on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "d4338b7453": {
+      "entry": {
+        "id": "d4338b7453",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "lesson",
+        "hook": "We learned not to post on a day we almost skipped.",
+        "photocard_text": "A short, low-effort post on a quiet day once outperformed a week of planned content, just by showing up consistently.",
+        "caption": "One week the planned content wasn't ready in time, and the easy choice would have been to skip posting that day entirely. Instead a short, simple post went up - a quick behind-the-scenes photo with a couple of honest lines - and it got more engagement than most of the carefully planned posts that same week. Planning still matters most of the time, but showing up consistently, even imperfectly, matters more than waiting for a perfect post. We now keep a few simple, low-effort post ideas in reserve for exactly these moments. Ask us how we build that backup plan into your schedule.",
+        "hashtags": [
+          "#SocialMediaManagement",
+          "#SmallBusiness"
+        ],
+        "source": "",
+        "photo_query": "behind the scenes workspace candid photo",
+        "created_at": "2026-11-06T00:47:56.009463+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 392,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "pja45txgr1g",
+        "photographer": "Jakub Żerdzicki",
+        "source_url": "https://unsplash.com/photos/person-holding-camera-lens-in-workspace-pja45txgr1g",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Jakub Żerdzicki on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "4296aa3e86": {
+      "entry": {
+        "id": "4296aa3e86",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "strategy",
+        "hook": "Stop starting your content calendar with a blank screen.",
+        "photocard_text": "Treat every core asset as five separate touchpoints across your distribution pipeline.",
+        "caption": "Every week, founders sit down with a blank document trying to brainstorm social posts out of thin air. That approach drains your energy and produces disconnected content. Instead of inventing new ideas daily, audit what your company already produces. A product demo call answers genuine customer objections. An onboarding email explains your unique value proposition. A founder voice memo captures industry perspective. Take one substantial asset each week and break it down systematically into distinct formats: a text-only breakdown, a short clip or quote card, and a slide-based summary highlighting one specific takeaway. Distribution is about clarity, not constant reinvention. When you document your existing operational knowledge instead of manufacturing brand commentary, your message stays consistent and authoritative. What existing company document or recording could you turn into next week's content?",
+        "hashtags": [
+          "#ContentStrategy",
+          "#SocialMediaMarketing",
+          "#B2BMarketing",
+          "#ContentDistribution"
+        ],
+        "source": "",
+        "photo_query": "laptop notebook coffee desk workspace flatlay",
+        "created_at": "2026-11-10T03:22:07.418369+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L1",
+      "chat_id": 8789122019,
+      "message_id": 396,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "brJCCxA53fo",
+        "photographer": "Estée Janssens",
+        "source_url": "https://unsplash.com/photos/white-printer-paper-near-macbook-air-brJCCxA53fo",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Estée Janssens on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "c276d83d76": {
+      "entry": {
+        "id": "c276d83d76",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "strategy",
+        "hook": "Your Page's bio is doing less work than you think.",
+        "photocard_text": "A vague bio makes a new visitor guess what you do. A clear one tells them in one line and points them to act.",
+        "caption": "The Page bio is one of the most overlooked parts of a Facebook presence, even though it's often the first thing a new visitor reads before deciding to follow or scroll past. A vague bio - just a name and a generic tagline - leaves a visitor guessing what the business does and why they should care. A clear one states plainly what it offers and who it's for, in one or two lines, and points toward the next step. It takes minutes to rewrite but affects every new visitor who lands on the Page. Haven't revisited yours in a while? We're happy to help you sharpen it.",
+        "hashtags": [
+          "#FacebookPage",
+          "#BrandingTips"
+        ],
+        "source": "",
+        "photo_query": "facebook page profile mockup screen",
+        "created_at": "2026-11-06T00:47:56.009463+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "C3",
+      "chat_id": 8789122019,
+      "message_id": 400,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "-1q1hi677zA",
+        "photographer": "Swello",
+        "source_url": "https://unsplash.com/photos/a-laptop-displays-the-facebook-login-page--1q1hi677zA",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Swello on Unsplash\" (unsplash.com/license)."
       }
     }
   },

@@ -1,83 +1,187 @@
 {
   "company": [
     {
-      "id": "d4338b7453",
+      "id": "a2a6db1322",
       "mode": "company",
       "platform": "Facebook - HelloFides",
       "pillar": "lesson",
-      "hook": "We learned not to post on a day we almost skipped.",
-      "photocard_text": "A short, low-effort post on a quiet day once outperformed a week of planned content, just by showing up consistently.",
-      "caption": "One week the planned content wasn't ready in time, and the easy choice would have been to skip posting that day entirely. Instead a short, simple post went up - a quick behind-the-scenes photo with a couple of honest lines - and it got more engagement than most of the carefully planned posts that same week. Planning still matters most of the time, but showing up consistently, even imperfectly, matters more than waiting for a perfect post. We now keep a few simple, low-effort post ideas in reserve for exactly these moments. Ask us how we build that backup plan into your schedule.",
+      "hook": "Trying to be on every platform exhausts small business teams.",
+      "photocard_text": "Master one platform before expanding to another.",
+      "caption": "Many founders feel pressured to maintain a presence everywhere at once. The lesson we learned is that depth beats breadth every single time. When you pour your creative energy into mastering a single channel where your buyers actually spend time, your content quality skyrockets. Let HelloFides audit your digital footprint and build a focused strategy. Send us a message or visit hellofides.com to explore how we can help your brand grow.",
       "hashtags": [
-        "#SocialMediaManagement",
-        "#SmallBusiness"
+        "#SocialMediaStrategy",
+        "#SmallBusinessMarketing"
       ],
       "source": "",
-      "photo_query": "behind the scenes workspace candid photo",
-      "created_at": "2026-11-06T00:47:56.009463+06:00",
+      "photo_query": "laptop open on wooden desk",
+      "created_at": "2026-11-11T00:32:13.530612+06:00",
       "posted": false,
-      "provider_used": "local_bank"
+      "provider_used": "gemini_lite"
     },
     {
-      "id": "c276d83d76",
+      "id": "6cd55ca96a",
       "mode": "company",
       "platform": "Facebook - HelloFides",
       "pillar": "strategy",
-      "hook": "Your Page's bio is doing less work than you think.",
-      "photocard_text": "A vague bio makes a new visitor guess what you do. A clear one tells them in one line and points them to act.",
-      "caption": "The Page bio is one of the most overlooked parts of a Facebook presence, even though it's often the first thing a new visitor reads before deciding to follow or scroll past. A vague bio - just a name and a generic tagline - leaves a visitor guessing what the business does and why they should care. A clear one states plainly what it offers and who it's for, in one or two lines, and points toward the next step. It takes minutes to rewrite but affects every new visitor who lands on the Page. Haven't revisited yours in a while? We're happy to help you sharpen it.",
+      "hook": "Micro-influencers deliver higher trust than mega celebrities do.",
+      "photocard_text": "Partner with micro-influencers for authentic brand trust.",
+      "caption": "Consumers today crave authenticity over polished perfection. Partnering with creators who have smaller, highly engaged follower counts often yields better conversion rates for local service businesses and e-commerce brands alike. At HelloFides, we help you design effective influencer outreach campaigns that align with your brand values. Drop us a note in our inbox or check out hellofides.com to start your next campaign.",
       "hashtags": [
-        "#FacebookPage",
-        "#BrandingTips"
+        "#InfluencerMarketing",
+        "#BrandGrowth"
       ],
       "source": "",
-      "photo_query": "facebook page profile mockup screen",
-      "created_at": "2026-11-06T00:47:56.009463+06:00",
+      "photo_query": "smartphone showing social feed flatlay",
+      "created_at": "2026-11-11T00:32:13.530612+06:00",
       "posted": false,
-      "provider_used": "local_bank"
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "0344ec18df",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "stats",
+      "hook": "Video drives the vast majority of consumer buying decisions.",
+      "photocard_text": "88% of video marketers report a positive ROI.",
+      "caption": "Short-form video continues to dominate feeds across every major network, capturing attention faster than static images. According to Wyzowl in 2024, eighty-eight percent of video marketers report a positive return on investment from their video content. If your brand isn't leveraging video yet, you are missing out on eager buyers. Let HelloFides manage your video strategy from concept to execution. Send us a message or visit hellofides.com today.",
+      "hashtags": [
+        "#VideoMarketing",
+        "#MarketingStats"
+      ],
+      "source": "Wyzowl, 2024",
+      "photo_query": "ring light and camera setup",
+      "created_at": "2026-11-11T00:32:13.530612+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "e57280a224",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "Transform customer reviews into high-converting social proof posts.",
+      "photocard_text": "Turn real customer reviews into standout social graphics.",
+      "caption": "Your happiest customers are your best copywriters. Instead of guessing what to post, pull standout phrases from real reviews and turn them into clean, branded graphic posts. This builds immediate trust with new prospects visiting your page. Need help organizing your testimonial pipeline? HelloFides can build and manage a complete social media plan for your business. Reach out through our inbox or visit hellofides.com to learn more.",
+      "hashtags": [
+        "#SocialProof",
+        "#ContentCreation"
+      ],
+      "source": "",
+      "photo_query": "customer feedback notes on corkboard",
+      "created_at": "2026-11-11T00:32:13.530612+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "6d5fbc0196",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "lesson",
+      "hook": "Posting without scheduling tools leads to inconsistent brand visibility.",
+      "photocard_text": "Consistent scheduling keeps your brand top of mind.",
+      "caption": "Relying on manual daily posting almost always results in gaps when busy seasons hit your business. Building a reliable publishing rhythm ensures your audience hears from you consistently. We learned that structuring content weeks in advance removes daily stress and elevates creative output. Let HelloFides take social media off your plate entirely. Send us a message or visit hellofides.com to find out how we can partner with you.",
+      "hashtags": [
+        "#SocialMediaManagement",
+        "#BusinessGrowth"
+      ],
+      "source": "",
+      "photo_query": "calendar planner and coffee cup",
+      "created_at": "2026-11-11T00:32:13.530612+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "b48acb5eba",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "User-generated content bridges the gap between brands and buyers.",
+      "photocard_text": "Leverage user-generated content for authentic community connection.",
+      "caption": "People trust other people far more than they trust corporate logos. Encouraging your customers to share photos and stories featuring your products gives your brand an endless supply of relatable material. HelloFides specializes in curating and optimizing user-generated content strategies for growing businesses. Send a message to our page inbox or visit hellofides.com to discuss your social goals with our team.",
+      "hashtags": [
+        "#UserGeneratedContent",
+        "#DigitalMarketing"
+      ],
+      "source": "",
+      "photo_query": "hands holding smartphone browsing photos",
+      "created_at": "2026-11-11T00:32:13.530612+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "92647e4d5d",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "stats",
+      "hook": "Social media is now a primary product discovery engine.",
+      "photocard_text": "Over 75% of internet users research brands on social.",
+      "caption": "Modern consumers rarely go straight to a search engine when looking for new products or local services. According to Hootsuite in 2023, over seventy-five percent of internet users utilize social networks when researching brands. If your profile is outdated or inactive, prospective clients will move on to a competitor. Let HelloFides keep your social presence polished and active. Drop us a line in our inbox or visit hellofides.com.",
+      "hashtags": [
+        "#SocialCommerce",
+        "#MarketingResearch"
+      ],
+      "source": "Hootsuite, 2023",
+      "photo_query": "tablet device displaying analytics dashboard",
+      "created_at": "2026-11-11T00:32:13.530612+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "a4ac896be1",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "Write captions that spark genuine conversation, not silence.",
+      "photocard_text": "Ask specific questions to drive meaningful audience comments.",
+      "caption": "Writing an effective caption is about opening a two-way dialogue with your audience. Instead of making a flat statement, end your captions with a specific, easy-to-answer question related to your industry. This simple shift invites your community to share their thoughts and boosts algorithm visibility. Want professional copy that connects? HelloFides writes and manages high-impact social content for businesses like yours. Visit hellofides.com or message us today.",
+      "hashtags": [
+        "#CopywritingTips",
+        "#SocialMediaTips"
+      ],
+      "source": "",
+      "photo_query": "keyboard and notebook on office desk",
+      "created_at": "2026-11-11T00:32:13.530612+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "24119e6c45",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "lesson",
+      "hook": "Ignoring direct messages damages your brand trust very quickly.",
+      "photocard_text": "Fast social inbox responses turn followers into loyal buyers.",
+      "caption": "A prospective client reaching out via direct message has high buying intent. When brands leave inquiries sitting unanswered for days, that warm lead cools down instantly. We learned that setting up structured inbox response workflows is just as important as publishing great content. Let HelloFides handle your community management and inbound messaging. Reach out through our inbox or visit hellofides.com to get started.",
+      "hashtags": [
+        "#CustomerService",
+        "#SocialSelling"
+      ],
+      "source": "",
+      "photo_query": "chat bubbles icons on minimalist background",
+      "created_at": "2026-11-11T00:32:13.530612+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
+    },
+    {
+      "id": "7cf00deac8",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Content pillars keep your brand messaging focused and clear.",
+      "photocard_text": "Define four core content pillars for steady posting.",
+      "caption": "Struggling to figure out what to post each week usually stems from lacking a clear content framework. Establishing four distinct content pillars ensures your feed delivers a balanced mix of education, inspiration, and conversion posts. HelloFides builds customized content frameworks designed specifically for growing brands and service businesses. Send us a message or visit hellofides.com to elevate your social media presence.",
+      "hashtags": [
+        "#ContentStrategy",
+        "#BrandMessaging"
+      ],
+      "source": "",
+      "photo_query": "sticky notes on creative whiteboard wall",
+      "created_at": "2026-11-11T00:32:13.530612+06:00",
+      "posted": false,
+      "provider_used": "gemini_lite"
     }
   ],
   "personal": [
-    {
-      "id": "f9f2fc3f7f",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "strategy",
-      "hook": "Stop writing captions before you know who they're for.",
-      "photocard_text": "One paragraph on your actual audience - their worry, their habit, their platform - will sharpen every caption you write after it.",
-      "caption": "Caption writing gets dramatically easier the moment you stop trying to write for \"everyone who might see this\" and start writing for one specific kind of person. I ask every client to write a short, plain paragraph describing that one person: what they're worried about, what platform habit they already have, what would make them trust a business like this one. It's not a formal persona document, just a page's worth of honesty about who actually buys from them. Once that exists, caption writing stops being a guessing game, because every line can be checked against a real question: would this specific person care about this sentence. Posts written this way tend to read more direct and less generic, because they're not trying to please a vague audience of nobody in particular. If your captions feel bland even though you're working hard on them, the issue usually isn't your writing skill, it's that you're writing toward an audience you haven't actually defined yet.",
-      "hashtags": [
-        "#SocialMediaStrategy",
-        "#TargetAudience",
-        "#ContentMarketing",
-        "#HelloFides"
-      ],
-      "source": "",
-      "photo_query": "customer persona notes whiteboard sketch",
-      "created_at": "2026-11-05T00:40:31.761203+06:00",
-      "posted": false,
-      "provider_used": "local_bank"
-    },
-    {
-      "id": "4296aa3e86",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "strategy",
-      "hook": "Stop starting your content calendar with a blank screen.",
-      "photocard_text": "Treat every core asset as five separate touchpoints across your distribution pipeline.",
-      "caption": "Every week, founders sit down with a blank document trying to brainstorm social posts out of thin air. That approach drains your energy and produces disconnected content. Instead of inventing new ideas daily, audit what your company already produces. A product demo call answers genuine customer objections. An onboarding email explains your unique value proposition. A founder voice memo captures industry perspective. Take one substantial asset each week and break it down systematically into distinct formats: a text-only breakdown, a short clip or quote card, and a slide-based summary highlighting one specific takeaway. Distribution is about clarity, not constant reinvention. When you document your existing operational knowledge instead of manufacturing brand commentary, your message stays consistent and authoritative. What existing company document or recording could you turn into next week's content?",
-      "hashtags": [
-        "#ContentStrategy",
-        "#SocialMediaMarketing",
-        "#B2BMarketing",
-        "#ContentDistribution"
-      ],
-      "source": "",
-      "photo_query": "laptop notebook coffee desk workspace flatlay",
-      "created_at": "2026-11-10T03:22:07.418369+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
     {
       "id": "a663841535",
       "mode": "personal",
@@ -260,7 +364,7 @@
     }
   ],
   "last_refill_attempt": {
-    "company": "2026-11-05",
+    "company": "2026-11-10",
     "personal": "2026-11-09"
   }
 }
