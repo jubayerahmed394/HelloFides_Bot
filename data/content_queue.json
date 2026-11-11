@@ -1,42 +1,6 @@
 {
   "company": [
     {
-      "id": "a2a6db1322",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "lesson",
-      "hook": "Trying to be on every platform exhausts small business teams.",
-      "photocard_text": "Master one platform before expanding to another.",
-      "caption": "Many founders feel pressured to maintain a presence everywhere at once. The lesson we learned is that depth beats breadth every single time. When you pour your creative energy into mastering a single channel where your buyers actually spend time, your content quality skyrockets. Let HelloFides audit your digital footprint and build a focused strategy. Send us a message or visit hellofides.com to explore how we can help your brand grow.",
-      "hashtags": [
-        "#SocialMediaStrategy",
-        "#SmallBusinessMarketing"
-      ],
-      "source": "",
-      "photo_query": "laptop open on wooden desk",
-      "created_at": "2026-11-11T00:32:13.530612+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    },
-    {
-      "id": "6cd55ca96a",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "strategy",
-      "hook": "Micro-influencers deliver higher trust than mega celebrities do.",
-      "photocard_text": "Partner with micro-influencers for authentic brand trust.",
-      "caption": "Consumers today crave authenticity over polished perfection. Partnering with creators who have smaller, highly engaged follower counts often yields better conversion rates for local service businesses and e-commerce brands alike. At HelloFides, we help you design effective influencer outreach campaigns that align with your brand values. Drop us a note in our inbox or check out hellofides.com to start your next campaign.",
-      "hashtags": [
-        "#InfluencerMarketing",
-        "#BrandGrowth"
-      ],
-      "source": "",
-      "photo_query": "smartphone showing social feed flatlay",
-      "created_at": "2026-11-11T00:32:13.530612+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    },
-    {
       "id": "0344ec18df",
       "mode": "company",
       "platform": "Facebook - HelloFides",
@@ -182,46 +146,6 @@
     }
   ],
   "personal": [
-    {
-      "id": "a663841535",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "stats",
-      "hook": "Social search is replacing Google for modern consumer discovery.",
-      "photocard_text": "If your social posts do not include searchable keywords, your target buyers will never find your profile.",
-      "caption": "According to the HubSpot 2024 Consumer Trends Report, 54% of Gen Z consumers now search for brands directly on social media platforms instead of traditional search engines. That shift changes how we need to structure social copy. In the past, social media prioritized clever wordplay and abstract hooks designed solely for feed algorithms. Today, your profile functions like an indexed library. Potential buyers type specific problems into the search bar—whether looking for sustainable athletic wear or clean skincare routines. If your captions lack clear, conversational keywords describing what you sell, your profile stays invisible during high-intent discovery moments. Treat your caption text like lightweight SEO. Use natural phrasing, name the exact problem you solve, and define your category clearly. How often are you reviewing your captions for buyer search intent?",
-      "hashtags": [
-        "#SocialSearch",
-        "#MarketingTrends",
-        "#EcommerceMarketing",
-        "#SocialMediaStrategy"
-      ],
-      "source": "HubSpot, 2024",
-      "photo_query": "smartphone search screen desk minimal",
-      "created_at": "2026-11-10T03:22:07.418369+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
-    {
-      "id": "9fb41f0b4f",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "howto",
-      "hook": "Give your profile bio the five-second clarity test today.",
-      "photocard_text": "A clear bio answers three questions: who you help, what problem you solve, and what step to take next.",
-      "caption": "Most social profiles lose high-intent visitors in under five seconds because the bio reads like an internal company mission statement rather than a clear invitation. If a prospect lands on your page from a shared post, they need immediate answers. Here is the framework I use to optimize client bios in fifteen minutes. Line one defines the exact audience you serve and the specific problem you eliminate. Line two provides one undeniable proof point, such as years in business, clients served, or a core specialty. Line three provides an explicit, low-friction next step—a free guide, a direct booking link, or a menu preview. Remove vague buzzwords like passionate, innovative, or disruptor. Direct language builds trust faster than clever slogans ever will. Take a quick look at your current bio today: does it immediately tell a stranger how you help them?",
-      "hashtags": [
-        "#SocialMediaTips",
-        "#ProfileOptimization",
-        "#SmallBusinessGrowth",
-        "#MarketingAdvice"
-      ],
-      "source": "",
-      "photo_query": "clean desk planner pen phone",
-      "created_at": "2026-11-10T03:22:07.418369+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
     {
       "id": "81c38be3f8",
       "mode": "personal",
