@@ -1,42 +1,6 @@
 {
   "company": [
     {
-      "id": "0344ec18df",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "stats",
-      "hook": "Video drives the vast majority of consumer buying decisions.",
-      "photocard_text": "88% of video marketers report a positive ROI.",
-      "caption": "Short-form video continues to dominate feeds across every major network, capturing attention faster than static images. According to Wyzowl in 2024, eighty-eight percent of video marketers report a positive return on investment from their video content. If your brand isn't leveraging video yet, you are missing out on eager buyers. Let HelloFides manage your video strategy from concept to execution. Send us a message or visit hellofides.com today.",
-      "hashtags": [
-        "#VideoMarketing",
-        "#MarketingStats"
-      ],
-      "source": "Wyzowl, 2024",
-      "photo_query": "ring light and camera setup",
-      "created_at": "2026-11-11T00:32:13.530612+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    },
-    {
-      "id": "e57280a224",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "howto",
-      "hook": "Transform customer reviews into high-converting social proof posts.",
-      "photocard_text": "Turn real customer reviews into standout social graphics.",
-      "caption": "Your happiest customers are your best copywriters. Instead of guessing what to post, pull standout phrases from real reviews and turn them into clean, branded graphic posts. This builds immediate trust with new prospects visiting your page. Need help organizing your testimonial pipeline? HelloFides can build and manage a complete social media plan for your business. Reach out through our inbox or visit hellofides.com to learn more.",
-      "hashtags": [
-        "#SocialProof",
-        "#ContentCreation"
-      ],
-      "source": "",
-      "photo_query": "customer feedback notes on corkboard",
-      "created_at": "2026-11-11T00:32:13.530612+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    },
-    {
       "id": "6d5fbc0196",
       "mode": "company",
       "platform": "Facebook - HelloFides",
@@ -146,46 +110,6 @@
     }
   ],
   "personal": [
-    {
-      "id": "81c38be3f8",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "lesson",
-      "hook": "Highly polished studio graphics kept failing our conversion goals.",
-      "photocard_text": "Overproduced graphics often look like ads. Authentic, behind-the-scenes documentation builds real credibility.",
-      "caption": "Early in my agency career, I believed every graphic had to resemble a polished magazine spread to command authority. We spent hours aligning typography, picking custom palettes, and refining intricate layouts for a service business client. The result was visually clean, but engagement remained stagnant and direct messages dried up. When we tested plain-text frameworks, whiteboard sketches, and raw screenshots showing our actual project workflow, the audience response shifted immediately. Prospects stopped scrolling past what looked like generic paid ads and started engaging with genuine operational reality. Clean branding still matters, but excessive polish often creates an artificial barrier between your expertise and your audience. When your content looks like an open window into how your business actually operates, people trust your claims much faster. Are you overthinking visual production at the expense of showing real work?",
-      "hashtags": [
-        "#MarketingLessons",
-        "#AgencyLife",
-        "#ContentCreation",
-        "#BrandStrategy"
-      ],
-      "source": "",
-      "photo_query": "whiteboard notes marker office wall",
-      "created_at": "2026-11-10T03:22:07.418369+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
-    {
-      "id": "67ad0bcff0",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "strategy",
-      "hook": "Broad reach means nothing if the right people scroll past.",
-      "photocard_text": "High-intent engagement from ten qualified prospects beats empty vanity views from ten thousand random accounts.",
-      "caption": "A common trap founders fall into is equating high view counts with social media success. Going broad can inflate your analytics dashboard, but empty vanity metrics will not pay your payroll. If your business sells high-ticket services or enterprise software, a post reaching fifty thousand random consumers delivers far less enterprise value than a post seen by twenty qualified decision-makers. Strategic social marketing filters for relevance rather than chasing broad mass appeal. Write about specific operational bottlenecks, regulatory friction, or pricing structures that only a qualified decision-maker cares about. You may see lower view counts on your weekly reports, but your inbound inquiries will carry legitimate buying intent. Do not dilute your positioning just to entertain a crowd that will never buy from you. Are your current metrics measuring pipeline quality or just vanity impressions?",
-      "hashtags": [
-        "#B2BStrategy",
-        "#LeadGeneration",
-        "#SocialMediaROI",
-        "#Founders"
-      ],
-      "source": "",
-      "photo_query": "financial charts laptop coffee desk",
-      "created_at": "2026-11-10T03:22:07.418369+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
     {
       "id": "8ae4696524",
       "mode": "personal",
