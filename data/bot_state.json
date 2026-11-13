@@ -2753,6 +2753,130 @@
         "source_url": "https://unsplash.com/photos/a-bulletin-board-with-a-back-to-school-sign-on-it-1nz2RyutBEE",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Elena Mozhvilo on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "8ae4696524": {
+      "entry": {
+        "id": "8ae4696524",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "stats",
+        "hook": "Unanswered direct messages are quietly killing your brand reputation.",
+        "photocard_text": "Prompt responses in comment threads turn casual social inquiries into loyal paying customers.",
+        "caption": "According to the Sprout Social Index 2023, 70% of consumers expect a brand to respond to their social media inquiries on the exact same day. Social media is no longer just a digital billboard for publishing one-way company announcements; it functions as an open front desk for your business. When prospects leave questions on product posts or send direct inquiries about availability, a delayed response signals operational disorganization. Speed conveys reliability. A local fitness studio or boutique retail brand that replies within two hours captures intent while the buyer is actively thinking about the purchase. Leaving messages unmonitored over weekends directly drives prospects toward competitors who answer immediately. Treat your inbox like an urgent sales channel, not an afterthought. How quickly does your team currently acknowledge incoming direct messages during standard business hours?",
+        "hashtags": [
+          "#CustomerExperience",
+          "#SocialMediaManagement",
+          "#CustomerService",
+          "#SmallBusinessTips"
+        ],
+        "source": "Sprout Social, 2023",
+        "photo_query": "hands typing keyboard laptop desk",
+        "created_at": "2026-11-10T03:22:07.418369+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L3",
+      "chat_id": 8789122019,
+      "message_id": 436,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "DgoyKNgPiFQ",
+        "photographer": "charlesdeluvio",
+        "source_url": "https://unsplash.com/photos/person-using-macbok-DgoyKNgPiFQ",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by charlesdeluvio on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "6d5fbc0196": {
+      "entry": {
+        "id": "6d5fbc0196",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "lesson",
+        "hook": "Posting without scheduling tools leads to inconsistent brand visibility.",
+        "photocard_text": "Consistent scheduling keeps your brand top of mind.",
+        "caption": "Relying on manual daily posting almost always results in gaps when busy seasons hit your business. Building a reliable publishing rhythm ensures your audience hears from you consistently. We learned that structuring content weeks in advance removes daily stress and elevates creative output. Let HelloFides take social media off your plate entirely. Send us a message or visit hellofides.com to find out how we can partner with you.",
+        "hashtags": [
+          "#SocialMediaManagement",
+          "#BusinessGrowth"
+        ],
+        "source": "",
+        "photo_query": "calendar planner and coffee cup",
+        "created_at": "2026-11-11T00:32:13.530612+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C1",
+      "chat_id": 8789122019,
+      "message_id": 440,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "TqKFiMR9O6s",
+        "photographer": "Debby Hudson",
+        "source_url": "https://unsplash.com/photos/brown-wicker-basket-on-white-table-TqKFiMR9O6s",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Debby Hudson on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "21ba0ca3d2": {
+      "entry": {
+        "id": "21ba0ca3d2",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "howto",
+        "hook": "Create an organic proof folder to never scramble for content.",
+        "photocard_text": "Document everyday customer wins continuously to turn raw feedback into high-converting social proof.",
+        "caption": "Client testimonials often feel stale because brands wait months to send a formal survey, resulting in stiff corporate quotes. Here is a simple system I implement to capture authentic proof continuously. Set up a dedicated folder on your desktop labeled social proof. Whenever a customer leaves an enthusiastic comment, sends a thank-you email, or mentions a win during a review call, take a quick screenshot immediately. Redact private names and sensitive financial data, then organize the images by specific pain points like onboarding speed, product reliability, or customer service response. Once a week, pair one raw screenshot with a brief caption breaking down the underlying challenge and how your team solved it. Genuine, unsolicited feedback converts skeptics faster than polished marketing claims. What unsung customer win from this week could you document right now?",
+        "hashtags": [
+          "#SocialProof",
+          "#ContentMarketing",
+          "#ClientSuccess",
+          "#HowToMarketing"
+        ],
+        "source": "",
+        "photo_query": "minimalist workspace notepad glasses tablet",
+        "created_at": "2026-11-10T03:22:07.418369+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 444,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "zy_rPJb4g5Q",
+        "photographer": "Michael Soledad",
+        "source_url": "https://unsplash.com/photos/black-framed-eyeglasses-on-macbook-pro-zy_rPJb4g5Q",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Michael Soledad on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "b48acb5eba": {
+      "entry": {
+        "id": "b48acb5eba",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "strategy",
+        "hook": "User-generated content bridges the gap between brands and buyers.",
+        "photocard_text": "Leverage user-generated content for authentic community connection.",
+        "caption": "People trust other people far more than they trust corporate logos. Encouraging your customers to share photos and stories featuring your products gives your brand an endless supply of relatable material. HelloFides specializes in curating and optimizing user-generated content strategies for growing businesses. Send a message to our page inbox or visit hellofides.com to discuss your social goals with our team.",
+        "hashtags": [
+          "#UserGeneratedContent",
+          "#DigitalMarketing"
+        ],
+        "source": "",
+        "photo_query": "hands holding smartphone browsing photos",
+        "created_at": "2026-11-11T00:32:13.530612+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C1",
+      "chat_id": 8789122019,
+      "message_id": 448,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "LX3YF0Rv524",
+        "photographer": "Luciano Oliveira",
+        "source_url": "https://unsplash.com/photos/a-person-taking-a-picture-with-a-cell-phone-LX3YF0Rv524",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Luciano Oliveira on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
