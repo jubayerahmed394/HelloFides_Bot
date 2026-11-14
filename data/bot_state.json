@@ -1,7 +1,7 @@
 {
   "last_update_id": 941981146,
   "pillar_index": {
-    "personal": 2,
+    "personal": 0,
     "company": 1
   },
   "pending_posts": {
@@ -2877,11 +2877,135 @@
         "source_url": "https://unsplash.com/photos/a-person-taking-a-picture-with-a-cell-phone-LX3YF0Rv524",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Luciano Oliveira on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "2c97d2cca9": {
+      "entry": {
+        "id": "2c97d2cca9",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "lesson",
+        "hook": "Trying to conquer four social platforms at once stalled our growth.",
+        "photocard_text": "Mastering one distribution channel drives predictable pipeline growth. Spreading thin creates mediocre noise everywhere.",
+        "caption": "A few years back, I made the mistake of pushing an early-stage brand to launch simultaneously on four separate social platforms. We thought omnipresence was the fastest shortcut to brand credibility. Instead of building momentum, our internal bandwidth fractured. Captions were hastily copy-pasted without tailoring to platform cultures, engagement replies slipped through the cracks, and none of the channels developed an active, loyal community. Growth stagnated across the board. Everything changed once we made the hard call to pause three channels and focus our creative resources entirely on mastering one primary network where our target buyers spent their mornings. Within three months of concentrated effort, engagement deepened, referral traffic climbed, and inbound conversations became consistent. Depth always beats diluted breadth in social distribution. Which channel currently delivers your highest quality conversations, and are you giving it your full focus?",
+        "hashtags": [
+          "#GrowthStrategy",
+          "#Focus",
+          "#MarketingLessons",
+          "#StartupMarketing"
+        ],
+        "source": "",
+        "photo_query": "tidy office desk monitor notebook",
+        "created_at": "2026-11-10T03:22:07.418369+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 452,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "TlRQin0iwjE",
+        "photographer": "Max Andrey",
+        "source_url": "https://unsplash.com/photos/home-office-workspace-with-wooden-desk-TlRQin0iwjE",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Max Andrey on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "92647e4d5d": {
+      "entry": {
+        "id": "92647e4d5d",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "stats",
+        "hook": "Social media is now a primary product discovery engine.",
+        "photocard_text": "Over 75% of internet users research brands on social.",
+        "caption": "Modern consumers rarely go straight to a search engine when looking for new products or local services. According to Hootsuite in 2023, over seventy-five percent of internet users utilize social networks when researching brands. If your profile is outdated or inactive, prospective clients will move on to a competitor. Let HelloFides keep your social presence polished and active. Drop us a line in our inbox or visit hellofides.com.",
+        "hashtags": [
+          "#SocialCommerce",
+          "#MarketingResearch"
+        ],
+        "source": "Hootsuite, 2023",
+        "photo_query": "tablet device displaying analytics dashboard",
+        "created_at": "2026-11-11T00:32:13.530612+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C3",
+      "chat_id": 8789122019,
+      "message_id": 456,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "lnuOh9vs8v0",
+        "photographer": "Jakub Żerdzicki",
+        "source_url": "https://unsplash.com/photos/fingers-interacting-with-a-stock-market-graph-on-a-tablet-lnuOh9vs8v0",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Jakub Żerdzicki on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "96bb7dabee": {
+      "entry": {
+        "id": "96bb7dabee",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "strategy",
+        "hook": "Sell the solution to objections, not just your product features.",
+        "photocard_text": "Content that proactively resolves buying hesitations closes deals before the sales call even begins.",
+        "caption": "Most promotional content falls flat because it simply lists product features that competitors can easily match. Buyers rarely hesitate because they do not understand what your product does; they hesitate because of unaddressed doubts about implementation, switching costs, or return on investment. If you run a B2B SaaS startup or a boutique consulting firm, your content strategy should proactively tackle the exact hesitations your sales team hears every week. Create posts that dissect why traditional alternatives fail, what the onboarding timeline really looks like, or how a lean team manages adoption without disruption. When you address skepticism openly in your public posts, you eliminate friction before a prospect ever books an introductory call. You move from advertising to building genuine commercial confidence. What is the single biggest hesitation your sales prospects voice before signing with you?",
+        "hashtags": [
+          "#B2BSales",
+          "#ContentStrategy",
+          "#BuyerIntent",
+          "#InboundMarketing"
+        ],
+        "source": "",
+        "photo_query": "meeting room glass notebook pen",
+        "created_at": "2026-11-10T03:22:07.418369+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 460,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "wEi2LkDF8LY",
+        "photographer": "Pavel Gromov",
+        "source_url": "https://unsplash.com/photos/empty-conference-room-with-a-panoramic-city-view-at-sunset-wEi2LkDF8LY",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Pavel Gromov on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "a4ac896be1": {
+      "entry": {
+        "id": "a4ac896be1",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "howto",
+        "hook": "Write captions that spark genuine conversation, not silence.",
+        "photocard_text": "Ask specific questions to drive meaningful audience comments.",
+        "caption": "Writing an effective caption is about opening a two-way dialogue with your audience. Instead of making a flat statement, end your captions with a specific, easy-to-answer question related to your industry. This simple shift invites your community to share their thoughts and boosts algorithm visibility. Want professional copy that connects? HelloFides writes and manages high-impact social content for businesses like yours. Visit hellofides.com or message us today.",
+        "hashtags": [
+          "#CopywritingTips",
+          "#SocialMediaTips"
+        ],
+        "source": "",
+        "photo_query": "keyboard and notebook on office desk",
+        "created_at": "2026-11-11T00:32:13.530612+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 464,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "d4EqtySGBNk",
+        "photographer": "Fiona Murray-deGraaff",
+        "source_url": "https://unsplash.com/photos/a-notepad-sitting-on-top-of-a-laptop-computer-next-to-a-keyboard-d4EqtySGBNk",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Fiona Murray-deGraaff on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
   "bank_index": {
-    "personal": 10,
+    "personal": 14,
     "company": 10
   },
   "last_failure_notice_date": null
