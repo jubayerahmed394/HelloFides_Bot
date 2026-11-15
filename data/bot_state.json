@@ -2,7 +2,7 @@
   "last_update_id": 941981146,
   "pillar_index": {
     "personal": 0,
-    "company": 1
+    "company": 3
   },
   "pending_posts": {
     "289a845216": {
@@ -3000,6 +3000,130 @@
         "photographer": "Fiona Murray-deGraaff",
         "source_url": "https://unsplash.com/photos/a-notepad-sitting-on-top-of-a-laptop-computer-next-to-a-keyboard-d4EqtySGBNk",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Fiona Murray-deGraaff on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "b28205050e": {
+      "entry": {
+        "id": "b28205050e",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "stats",
+        "hook": "Founder thought leadership builds more credibility than branded marketing collateral.",
+        "photocard_text": "Decision-makers trust founder perspectives far more than traditional corporate marketing brochures.",
+        "caption": "According to the 2024 Edelman-LinkedIn B2B Thought Leadership Impact Report, 73% of decision-makers say an organization's thought leadership content is a more trustworthy basis for assessing its capabilities than traditional marketing materials. Buyers are increasingly skeptical of generic corporate slogans and polished promotional brochures. They want to evaluate the underlying philosophy, critical thinking, and operational judgment of the leaders guiding the business. When founders and department leads publish clear perspectives on industry challenges, it signals internal competence and domain expertise. This does not require writing academic essays or controversial hot takes. Sharing practical observations from your daily client work, explaining hard strategic trade-offs, and clarifying your approach builds undeniable commercial trust. It turns cold prospects into informed buyers before they ever submit an inquiry. Is your leadership team actively sharing their working perspectives where your buyers spend their time?",
+        "hashtags": [
+          "#ThoughtLeadership",
+          "#ExecutivePresence",
+          "#B2BLeadership",
+          "#FounderBrand"
+        ],
+        "source": "Edelman and LinkedIn, 2024",
+        "photo_query": "modern executive desk tablet pen",
+        "created_at": "2026-11-10T03:22:07.418369+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "L3",
+      "chat_id": 8789122019,
+      "message_id": 468,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "UaMCMWxms1I",
+        "photographer": "Anna Evans",
+        "source_url": "https://unsplash.com/photos/a-notepad-with-a-pen-on-top-of-it-UaMCMWxms1I",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Anna Evans on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "24119e6c45": {
+      "entry": {
+        "id": "24119e6c45",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "lesson",
+        "hook": "Ignoring direct messages damages your brand trust very quickly.",
+        "photocard_text": "Fast social inbox responses turn followers into loyal buyers.",
+        "caption": "A prospective client reaching out via direct message has high buying intent. When brands leave inquiries sitting unanswered for days, that warm lead cools down instantly. We learned that setting up structured inbox response workflows is just as important as publishing great content. Let HelloFides handle your community management and inbound messaging. Reach out through our inbox or visit hellofides.com to get started.",
+        "hashtags": [
+          "#CustomerService",
+          "#SocialSelling"
+        ],
+        "source": "",
+        "photo_query": "chat bubbles icons on minimalist background",
+        "created_at": "2026-11-11T00:32:13.530612+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 472,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "iHpD4k0cuPw",
+        "photographer": "Omar:. Lopez-Rincon",
+        "source_url": "https://unsplash.com/photos/colorful-abstract-sun-on-a-pastel-background-iHpD4k0cuPw",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Omar:. Lopez-Rincon on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "5bb5f9b08d": {
+      "entry": {
+        "id": "5bb5f9b08d",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "strategy",
+        "hook": "Your competitor's content calendar is not your content calendar.",
+        "photocard_text": "Copying what works for another brand ignores that their audience, voice, and goals aren't yours. Borrow the method, not the content.",
+        "caption": "It's natural to look at a competitor's page that seems to be doing well and want to copy the format directly - same post types, same tone, same offers. The problem is that what's working for them is tied to their specific audience, their history with that audience, and goals that may not match yours at all. I've seen businesses copy a competitor's playful tone onto a page whose actual customers wanted straightforward, professional information, and wonder why engagement didn't follow. What's actually worth studying from a competitor isn't the content itself, it's the method: which content pillars do they seem to repeat, how often do they post, what kind of calls to action do they use. Borrow the structure, then fill it with your own voice and your own audience's actual concerns. Research your competitors constantly, but build your calendar from your own customers, not from someone else's results.",
+        "hashtags": [
+          "#SocialMediaStrategy",
+          "#CompetitorAnalysis",
+          "#BrandVoice",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "two phones side by side comparison desk",
+        "created_at": "2026-11-14T22:54:27.753413+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 476,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "VywBefXe6uA",
+        "photographer": "NighthawStudio",
+        "source_url": "https://unsplash.com/photos/black-and-white-smartphone-on-brown-wooden-table-VywBefXe6uA",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by NighthawStudio on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "7cf00deac8": {
+      "entry": {
+        "id": "7cf00deac8",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "strategy",
+        "hook": "Content pillars keep your brand messaging focused and clear.",
+        "photocard_text": "Define four core content pillars for steady posting.",
+        "caption": "Struggling to figure out what to post each week usually stems from lacking a clear content framework. Establishing four distinct content pillars ensures your feed delivers a balanced mix of education, inspiration, and conversion posts. HelloFides builds customized content frameworks designed specifically for growing brands and service businesses. Send us a message or visit hellofides.com to elevate your social media presence.",
+        "hashtags": [
+          "#ContentStrategy",
+          "#BrandMessaging"
+        ],
+        "source": "",
+        "photo_query": "sticky notes on creative whiteboard wall",
+        "created_at": "2026-11-11T00:32:13.530612+06:00",
+        "posted": false,
+        "provider_used": "gemini_lite"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 480,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "-1_RZL8BGBM",
+        "photographer": "Kelly Sikkema",
+        "source_url": "https://unsplash.com/photos/six-white-sticky-notes--1_RZL8BGBM",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Kelly Sikkema on Unsplash\" (unsplash.com/license)."
       }
     }
   },

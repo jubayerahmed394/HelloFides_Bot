@@ -1,83 +1,187 @@
 {
   "company": [
     {
-      "id": "24119e6c45",
+      "id": "b7cd7daa46",
       "mode": "company",
       "platform": "Facebook - HelloFides",
-      "pillar": "lesson",
-      "hook": "Ignoring direct messages damages your brand trust very quickly.",
-      "photocard_text": "Fast social inbox responses turn followers into loyal buyers.",
-      "caption": "A prospective client reaching out via direct message has high buying intent. When brands leave inquiries sitting unanswered for days, that warm lead cools down instantly. We learned that setting up structured inbox response workflows is just as important as publishing great content. Let HelloFides handle your community management and inbound messaging. Reach out through our inbox or visit hellofides.com to get started.",
-      "hashtags": [
-        "#CustomerService",
-        "#SocialSelling"
-      ],
-      "source": "",
-      "photo_query": "chat bubbles icons on minimalist background",
-      "created_at": "2026-11-11T00:32:13.530612+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    },
-    {
-      "id": "7cf00deac8",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "strategy",
-      "hook": "Content pillars keep your brand messaging focused and clear.",
-      "photocard_text": "Define four core content pillars for steady posting.",
-      "caption": "Struggling to figure out what to post each week usually stems from lacking a clear content framework. Establishing four distinct content pillars ensures your feed delivers a balanced mix of education, inspiration, and conversion posts. HelloFides builds customized content frameworks designed specifically for growing brands and service businesses. Send us a message or visit hellofides.com to elevate your social media presence.",
-      "hashtags": [
-        "#ContentStrategy",
-        "#BrandMessaging"
-      ],
-      "source": "",
-      "photo_query": "sticky notes on creative whiteboard wall",
-      "created_at": "2026-11-11T00:32:13.530612+06:00",
-      "posted": false,
-      "provider_used": "gemini_lite"
-    }
-  ],
-  "personal": [
-    {
-      "id": "b28205050e",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
       "pillar": "stats",
-      "hook": "Founder thought leadership builds more credibility than branded marketing collateral.",
-      "photocard_text": "Decision-makers trust founder perspectives far more than traditional corporate marketing brochures.",
-      "caption": "According to the 2024 Edelman-LinkedIn B2B Thought Leadership Impact Report, 73% of decision-makers say an organization's thought leadership content is a more trustworthy basis for assessing its capabilities than traditional marketing materials. Buyers are increasingly skeptical of generic corporate slogans and polished promotional brochures. They want to evaluate the underlying philosophy, critical thinking, and operational judgment of the leaders guiding the business. When founders and department leads publish clear perspectives on industry challenges, it signals internal competence and domain expertise. This does not require writing academic essays or controversial hot takes. Sharing practical observations from your daily client work, explaining hard strategic trade-offs, and clarifying your approach builds undeniable commercial trust. It turns cold prospects into informed buyers before they ever submit an inquiry. Is your leadership team actively sharing their working perspectives where your buyers spend their time?",
+      "hook": "Most buyers expect quick answers directly on social media.",
+      "photocard_text": "69% of consumers expect a brand to respond to their social media message the very same day.",
+      "caption": "Customer care has officially moved to your comment section and direct messages. According to Sprout Social (2023), 69% of consumers expect brands to respond on social media the very same day they reach out. When inquiries sit unanswered, potential sales quietly slip away. Managing active community responses while running your operations is tough for busy founders. If you want an experienced team keeping your channels responsive and welcoming every day, send our inbox a message or check out hellofides.com.",
       "hashtags": [
-        "#ThoughtLeadership",
-        "#ExecutivePresence",
-        "#B2BLeadership",
-        "#FounderBrand"
+        "#SocialMediaManagement",
+        "#SmallBusinessTips"
       ],
-      "source": "Edelman and LinkedIn, 2024",
-      "photo_query": "modern executive desk tablet pen",
-      "created_at": "2026-11-10T03:22:07.418369+06:00",
+      "source": "Sprout Social, 2023",
+      "photo_query": "hands typing smartphone coffee desk",
+      "created_at": "2026-11-15T23:38:02.587936+06:00",
       "posted": false,
       "provider_used": "gemini_primary"
     },
     {
-      "id": "5bb5f9b08d",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "strategy",
-      "hook": "Your competitor's content calendar is not your content calendar.",
-      "photocard_text": "Copying what works for another brand ignores that their audience, voice, and goals aren't yours. Borrow the method, not the content.",
-      "caption": "It's natural to look at a competitor's page that seems to be doing well and want to copy the format directly - same post types, same tone, same offers. The problem is that what's working for them is tied to their specific audience, their history with that audience, and goals that may not match yours at all. I've seen businesses copy a competitor's playful tone onto a page whose actual customers wanted straightforward, professional information, and wonder why engagement didn't follow. What's actually worth studying from a competitor isn't the content itself, it's the method: which content pillars do they seem to repeat, how often do they post, what kind of calls to action do they use. Borrow the structure, then fill it with your own voice and your own audience's actual concerns. Research your competitors constantly, but build your calendar from your own customers, not from someone else's results.",
+      "id": "f05b2c8c5c",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "Update your pinned posts every quarter to capture ready buyers.",
+      "photocard_text": "Treat your pinned posts like a storefront window. Highlight your best offer, your core mission, and one glowing testimonial.",
+      "caption": "Your pinned posts are prime digital real estate. Instead of pinning an old viral meme, curate three specific posts at the top of your profile: one explaining exactly what you sell, one highlighting a signature customer win, and one announcing your current seasonal offer. This setup immediately answers first-time visitors' biggest questions before they scroll. If you need help refining your profile strategy and turning profile visits into genuine leads, send our team a quick message or visit hellofides.com.",
       "hashtags": [
-        "#SocialMediaStrategy",
-        "#CompetitorAnalysis",
-        "#BrandVoice",
-        "#HelloFides"
+        "#ContentStrategy",
+        "#BusinessGrowth"
       ],
       "source": "",
-      "photo_query": "two phones side by side comparison desk",
-      "created_at": "2026-11-14T22:54:27.753413+06:00",
+      "photo_query": "modern creative office workspace laptop",
+      "created_at": "2026-11-15T23:38:02.587936+06:00",
       "posted": false,
-      "provider_used": "local_bank"
+      "provider_used": "gemini_primary"
     },
+    {
+      "id": "cc941297a0",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "lesson",
+      "hook": "Polished graphic design often loses to plain, honest clarity.",
+      "photocard_text": "Highly stylized graphics can look like ads. Clean, authentic visuals that communicate value quickly almost always win engagement.",
+      "caption": "Early on, we watched a brand spend weeks perfecting complex graphic templates, only to see engagement flatline. People scrolled right past because the posts looked like banner ads. When we switched to clear, documentary-style snapshots of the product in action paired with straightforward takeaways, save rates climbed immediately. Social feeds reward authentic, readable communication over excessive polish. If you want strategic guidance that prioritizes what actually converts over vanity aesthetics, reach out via direct message or explore our services at hellofides.com.",
+      "hashtags": [
+        "#MarketingStrategy",
+        "#BrandBuilding"
+      ],
+      "source": "",
+      "photo_query": "notebook pen tablet workspace flatlay",
+      "created_at": "2026-11-15T23:38:02.587936+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "465ab35b30",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Balance your promotional posts with generous educational content.",
+      "photocard_text": "Follow the 80/20 rule: deliver 80% practical value and insights, and reserve 20% for direct sales pitches.",
+      "caption": "Nobody opens Facebook or Instagram hoping to browse an uninterrupted digital sales catalog. When every single post asks your audience to buy, book, or sign up, followers eventually tune out your brand completely. By sharing helpful tips, industry breakdowns, and behind-the-scenes insights for most of your schedule, you earn the right to make direct offers. Consistent value builds sustainable trust that fuels sales. To build a balanced, revenue-focused social strategy without the guesswork, drop us a message or visit hellofides.com.",
+      "hashtags": [
+        "#SocialMediaStrategy",
+        "#B2BMarketing"
+      ],
+      "source": "",
+      "photo_query": "minimalist wooden desk planning notebook",
+      "created_at": "2026-11-15T23:38:02.587936+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "dbf4c178e7",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "stats",
+      "hook": "Irrelevant social posts quietly push half your audience away.",
+      "photocard_text": "51% of consumers unfollow brands on social media when content feels irrelevant to their needs.",
+      "caption": "Every post either reinforces your audience’s decision to follow you or nudges them toward the unfollow button. Research from Sprout Social (2023) shows that 51% of consumers unfollow brands simply because the content feels irrelevant. Jumping on every passing trend might seem harmless, but audience retention requires staying tightly aligned with what your ideal buyer cares about. If you want a tailored content plan that speaks directly to your ideal clients, send a message to our inbox or visit hellofides.com.",
+      "hashtags": [
+        "#SocialMediaTips",
+        "#AudienceGrowth"
+      ],
+      "source": "Sprout Social, 2023",
+      "photo_query": "smartphone on clean wooden table",
+      "created_at": "2026-11-15T23:38:02.587936+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "edb4663d55",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "Build multi-slide posts that get saved and shared repeatedly.",
+      "photocard_text": "Slide 1 hooks interest. Slides 2 through 4 share actionable steps. Slide 5 delivers a clear summary and next step.",
+      "caption": "Carousel posts remain one of the best formats for increasing profile dwell time, but their structure matters. Start slide one with a bold, curiosity-driven question or statement. Use slides two through four to break down a specific solution step by step, keeping text punchy and readable. Finish the final slide with a clear summary and invitation to comment or save the resource for later reference. For a team that writes, designs, and publishes your content seamlessly, reach out in our inbox or visit hellofides.com.",
+      "hashtags": [
+        "#SocialMediaMarketing",
+        "#ContentCreation"
+      ],
+      "source": "",
+      "photo_query": "designer editing graphics on desktop",
+      "created_at": "2026-11-15T23:38:02.587936+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "980d9239f5",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "lesson",
+      "hook": "Your customer support inbox is your best content goldmine.",
+      "photocard_text": "Turn recurring customer questions into dedicated posts. If one client asks, dozens of potential buyers are wondering too.",
+      "caption": "We once noticed a business struggling for fresh topic ideas while their inbox overflowed with routine customer questions about shipping, sizing, and onboarding. Instead of treating support and marketing as separate silos, we turned those exact questions into weekly social posts. The result was remarkable: comments filled with appreciation, and support volume decreased because answers were already public. Listening to your current customers always beats guessing what strangers want to see. Need help turning customer insights into engaging content? Message us or check out hellofides.com.",
+      "hashtags": [
+        "#CustomerExperience",
+        "#DigitalMarketing"
+      ],
+      "source": "",
+      "photo_query": "coffee mug eyeglasses desk notepad",
+      "created_at": "2026-11-15T23:38:02.587936+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "072981ece6",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Meaningful outbound engagement builds brand awareness faster than broadcasting.",
+      "photocard_text": "Spend 15 minutes daily commenting thoughtfully on industry partners and community posts. Visibility starts with participation.",
+      "caption": "Publishing great content is only half the equation; social platforms reward active conversation. Setting aside just fifteen minutes each morning to leave thoughtful, value-driven comments on adjacent business pages, local community groups, or industry peers introduces your brand to fresh eyes naturally. You establish your presence as a knowledgeable, supportive peer rather than a distant corporate entity. When consistent community interaction feels like one task too many for your schedule, our team can help. Message our inbox today or learn more at hellofides.com.",
+      "hashtags": [
+        "#BrandStrategy",
+        "#CommunityBuilding"
+      ],
+      "source": "",
+      "photo_query": "hands holding phone coffee shop",
+      "created_at": "2026-11-15T23:38:02.587936+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "85b71c0b69",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "stats",
+      "hook": "Followers really do convert when you nurture them consistently.",
+      "photocard_text": "77% of consumers are more likely to buy from a brand they follow on social media over one they do not.",
+      "caption": "Organic social media may not always deliver instant overnight sales, but it systematically builds buyer loyalty over time. According to Sprout Social (2023), 77% of consumers are more likely to buy from a brand they actively follow on social channels compared to a competitor they do not follow. Maintaining an active, dependable presence keeps your business top of mind when purchase intent strikes. If you want your social channels managed with consistency and commercial focus, reach out to our inbox or visit hellofides.com.",
+      "hashtags": [
+        "#BusinessGrowth",
+        "#SocialMediaROI"
+      ],
+      "source": "Sprout Social, 2023",
+      "photo_query": "modern creative team desk workspace",
+      "created_at": "2026-11-15T23:38:02.587936+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    },
+    {
+      "id": "bb92e137a5",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "Low-friction calls to action generate significantly higher comment volume.",
+      "photocard_text": "Replace demanding requests like 'Buy our product now' with simple, low-pressure prompts like 'Drop a yes below if you agree.'",
+      "caption": "Asking your audience for a big commitment at the end of every post often leads to awkward silence. If every caption ends with a demand to visit your website or purchase immediately, readers scroll past. Instead, test low-friction engagement prompts. Ask a simple either-or question, invite them to share their biggest obstacle, or ask for a simple emoji reaction. Lowering the bar for participation gets conversations started effortlessly. For a done-for-you content strategy that engages your audience naturally, message our inbox or visit hellofides.com.",
+      "hashtags": [
+        "#CopywritingTips",
+        "#EngagementStrategy"
+      ],
+      "source": "",
+      "photo_query": "fountain pen open notebook desk",
+      "created_at": "2026-11-15T23:38:02.587936+06:00",
+      "posted": false,
+      "provider_used": "gemini_primary"
+    }
+  ],
+  "personal": [
     {
       "id": "ff5496fdb7",
       "mode": "personal",
@@ -260,7 +364,7 @@
     }
   ],
   "last_refill_attempt": {
-    "company": "2026-11-10",
+    "company": "2026-11-15",
     "personal": "2026-11-14"
   }
 }
