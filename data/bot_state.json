@@ -3249,6 +3249,130 @@
         "source_url": "https://unsplash.com/photos/gray-dell-laptop-on-table-iZ4QZFbQ2S8",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Greg Rosenke on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "cda9d51172": {
+      "entry": {
+        "id": "cda9d51172",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "lesson",
+        "hook": "I once ignored a quiet platform. That was a mistake.",
+        "photocard_text": "The platform with the smallest audience was where the most qualified leads were actually asking questions. Size isn't the same as relevance.",
+        "caption": "Early in managing a mix of accounts for one client, I put most of the effort into the platform with the biggest follower count and treated a smaller, quieter platform as an afterthought - occasional reposts, nothing original. It turned out that quieter platform, despite the much smaller audience, was where the most specific, purchase-ready questions were actually being asked in comments and messages, because the people there were further along in deciding to buy, not just browsing. I had been measuring importance by audience size instead of by audience intent, and it cost real inquiries for longer than it should have. Once I started treating that smaller platform as a priority instead of an afterthought - original content, faster replies - the inquiry volume from it noticeably picked up. The lesson was straightforward in hindsight: a smaller, more intentional audience can matter more than a bigger, more passive one, and it's worth checking where your real conversations are happening, not just where your biggest number lives.",
+        "hashtags": [
+          "#LessonsLearned",
+          "#SocialMediaStrategy",
+          "#MarketingLessons",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "small business owner desk laptop hands",
+        "created_at": "2026-11-14T22:54:27.753413+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 500,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "N8FHCBDSTco",
+        "photographer": "Poster POS",
+        "source_url": "https://unsplash.com/photos/person-using-macbook-air-on-brown-wooden-table-N8FHCBDSTco",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Poster POS on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "cc941297a0": {
+      "entry": {
+        "id": "cc941297a0",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "lesson",
+        "hook": "Polished graphic design often loses to plain, honest clarity.",
+        "photocard_text": "Highly stylized graphics can look like ads. Clean, authentic visuals that communicate value quickly almost always win engagement.",
+        "caption": "Early on, we watched a brand spend weeks perfecting complex graphic templates, only to see engagement flatline. People scrolled right past because the posts looked like banner ads. When we switched to clear, documentary-style snapshots of the product in action paired with straightforward takeaways, save rates climbed immediately. Social feeds reward authentic, readable communication over excessive polish. If you want strategic guidance that prioritizes what actually converts over vanity aesthetics, reach out via direct message or explore our services at hellofides.com.",
+        "hashtags": [
+          "#MarketingStrategy",
+          "#BrandBuilding"
+        ],
+        "source": "",
+        "photo_query": "notebook pen tablet workspace flatlay",
+        "created_at": "2026-11-15T23:38:02.587936+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "C1",
+      "chat_id": 8789122019,
+      "message_id": 504,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "F-2jfXs2INI",
+        "photographer": "Alexander Kaufmann",
+        "source_url": "https://unsplash.com/photos/a-clipboard-with-a-notepad-pen-paper-scissors-and-other-items-F-2jfXs2INI",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Alexander Kaufmann on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "d9d94b7d42": {
+      "entry": {
+        "id": "d9d94b7d42",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "strategy",
+        "hook": "Before you write a single post, answer this question.",
+        "photocard_text": "What do you want someone to do after seeing this post? If you can't answer in one sentence, don't publish it yet.",
+        "caption": "I ask this question before approving almost any post now, for myself or for a client: what do we want someone to actually do after seeing this. Follow the page. Send a message. Remember the name next time they need this kind of service. Just smile and keep scrolling, which is a valid answer sometimes for pure brand-awareness content. The point isn't that every post needs a hard sell - most shouldn't - it's that every post should have a clear, honest answer to that question before it goes out, even if the answer is simply \"feel more familiar with our name.\" Posts without a clear intended outcome tend to be the ones that feel aimless in hindsight, the ones you can't explain afterward beyond \"we needed to post something today.\" Writing the intended outcome down in one sentence before drafting the post, not after, is a small habit that quietly improves almost every piece of content it's applied to.",
+        "hashtags": [
+          "#SocialMediaStrategy",
+          "#ContentMarketing",
+          "#MarketingTips",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "question mark sticky note desk",
+        "created_at": "2026-11-14T22:54:27.753413+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 508,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "ANkZdIsGpHM",
+        "photographer": "Hannah Fleming-Hlll",
+        "source_url": "https://unsplash.com/photos/a-piece-of-orange-paper-with-the-words-slow-down-4-little-written-on-it-ANkZdIsGpHM",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Hannah Fleming-Hlll on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "465ab35b30": {
+      "entry": {
+        "id": "465ab35b30",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "strategy",
+        "hook": "Balance your promotional posts with generous educational content.",
+        "photocard_text": "Follow the 80/20 rule: deliver 80% practical value and insights, and reserve 20% for direct sales pitches.",
+        "caption": "Nobody opens Facebook or Instagram hoping to browse an uninterrupted digital sales catalog. When every single post asks your audience to buy, book, or sign up, followers eventually tune out your brand completely. By sharing helpful tips, industry breakdowns, and behind-the-scenes insights for most of your schedule, you earn the right to make direct offers. Consistent value builds sustainable trust that fuels sales. To build a balanced, revenue-focused social strategy without the guesswork, drop us a message or visit hellofides.com.",
+        "hashtags": [
+          "#SocialMediaStrategy",
+          "#B2BMarketing"
+        ],
+        "source": "",
+        "photo_query": "minimalist wooden desk planning notebook",
+        "created_at": "2026-11-15T23:38:02.587936+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 512,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "7xzFQMJLF7k",
+        "photographer": "Kelly Sikkema",
+        "source_url": "https://unsplash.com/photos/a-cup-of-coffee-sitting-on-top-of-a-wooden-table-7xzFQMJLF7k",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Kelly Sikkema on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
