@@ -1,42 +1,6 @@
 {
   "company": [
     {
-      "id": "dbf4c178e7",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "stats",
-      "hook": "Irrelevant social posts quietly push half your audience away.",
-      "photocard_text": "51% of consumers unfollow brands on social media when content feels irrelevant to their needs.",
-      "caption": "Every post either reinforces your audience’s decision to follow you or nudges them toward the unfollow button. Research from Sprout Social (2023) shows that 51% of consumers unfollow brands simply because the content feels irrelevant. Jumping on every passing trend might seem harmless, but audience retention requires staying tightly aligned with what your ideal buyer cares about. If you want a tailored content plan that speaks directly to your ideal clients, send a message to our inbox or visit hellofides.com.",
-      "hashtags": [
-        "#SocialMediaTips",
-        "#AudienceGrowth"
-      ],
-      "source": "Sprout Social, 2023",
-      "photo_query": "smartphone on clean wooden table",
-      "created_at": "2026-11-15T23:38:02.587936+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
-    {
-      "id": "edb4663d55",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "howto",
-      "hook": "Build multi-slide posts that get saved and shared repeatedly.",
-      "photocard_text": "Slide 1 hooks interest. Slides 2 through 4 share actionable steps. Slide 5 delivers a clear summary and next step.",
-      "caption": "Carousel posts remain one of the best formats for increasing profile dwell time, but their structure matters. Start slide one with a bold, curiosity-driven question or statement. Use slides two through four to break down a specific solution step by step, keeping text punchy and readable. Finish the final slide with a clear summary and invitation to comment or save the resource for later reference. For a team that writes, designs, and publishes your content seamlessly, reach out in our inbox or visit hellofides.com.",
-      "hashtags": [
-        "#SocialMediaMarketing",
-        "#ContentCreation"
-      ],
-      "source": "",
-      "photo_query": "designer editing graphics on desktop",
-      "created_at": "2026-11-15T23:38:02.587936+06:00",
-      "posted": false,
-      "provider_used": "gemini_primary"
-    },
-    {
       "id": "980d9239f5",
       "mode": "company",
       "platform": "Facebook - HelloFides",
@@ -110,46 +74,6 @@
     }
   ],
   "personal": [
-    {
-      "id": "905b18f730",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "howto",
-      "hook": "How I keep a content calendar from going stale by week three.",
-      "photocard_text": "Leave two open slots per week for timely, reactive posts. A calendar that's 100% pre-planned always starts feeling stale fast.",
-      "caption": "A fully pre-planned content calendar, where every single slot is locked weeks in advance, almost always starts to feel stale by the third week, because nothing in it can respond to what's actually happening right now - a trending topic, a timely question from the audience, a small moment worth capturing on the spot. My fix is simple: plan most of the week in advance, the way I described in an earlier post about batching hooks, but deliberately leave two slots open and unplanned. Those slots get filled close to the day with whatever feels timely and relevant in that specific week, instead of being decided a month ahead. It gives a calendar room to breathe and stay current without losing the structure and consistency that planning provides in the first place. Fully improvised content burns people out; fully pre-planned content goes stale. Leaving a small, deliberate gap for timeliness is the balance that's worked best for the accounts I manage.",
-      "hashtags": [
-        "#ContentPlanning",
-        "#SocialMediaTips",
-        "#ContentCalendar",
-        "#HelloFides"
-      ],
-      "source": "",
-      "photo_query": "calendar open slots planner desk",
-      "created_at": "2026-11-14T22:54:27.753413+06:00",
-      "posted": false,
-      "provider_used": "local_bank"
-    },
-    {
-      "id": "88f131d3ca",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "strategy",
-      "hook": "Your competitor's content calendar is not your content calendar.",
-      "photocard_text": "Copying what works for another brand ignores that their audience, voice, and goals aren't yours. Borrow the method, not the content.",
-      "caption": "It's natural to look at a competitor's page that seems to be doing well and want to copy the format directly - same post types, same tone, same offers. The problem is that what's working for them is tied to their specific audience, their history with that audience, and goals that may not match yours at all. I've seen businesses copy a competitor's playful tone onto a page whose actual customers wanted straightforward, professional information, and wonder why engagement didn't follow. What's actually worth studying from a competitor isn't the content itself, it's the method: which content pillars do they seem to repeat, how often do they post, what kind of calls to action do they use. Borrow the structure, then fill it with your own voice and your own audience's actual concerns. Research your competitors constantly, but build your calendar from your own customers, not from someone else's results.",
-      "hashtags": [
-        "#SocialMediaStrategy",
-        "#CompetitorAnalysis",
-        "#BrandVoice",
-        "#HelloFides"
-      ],
-      "source": "",
-      "photo_query": "two phones side by side comparison desk",
-      "created_at": "2026-11-14T22:54:27.753413+06:00",
-      "posted": false,
-      "provider_used": "local_bank"
-    },
     {
       "id": "67a8fc8e51",
       "mode": "personal",
