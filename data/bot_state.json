@@ -1,7 +1,7 @@
 {
   "last_update_id": 941981146,
   "pillar_index": {
-    "personal": 0,
+    "personal": 2,
     "company": 3
   },
   "pending_posts": {
@@ -3497,11 +3497,135 @@
         "source_url": "https://unsplash.com/photos/silver-imac-and-apple-keyboard-v9vII5gV8Lw",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Emily Bernal on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "67a8fc8e51": {
+      "entry": {
+        "id": "67a8fc8e51",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "howto",
+        "hook": "How I decide which comments deserve a real reply.",
+        "photocard_text": "Every question gets a real answer. Every genuine compliment gets a thank you. Spam and bait get ignored, not engaged with.",
+        "caption": "Comment sections can eat an entire afternoon if you let them, so I use a simple triage instead of trying to respond to everything equally. A real question about the product, price, or process always gets a thoughtful, specific reply, because that's often a warm lead in disguise. A genuine compliment or a story from a customer gets a short, warm thank you, because that's relationship-building. Vague spam, obvious bait comments, and anything clearly not from a real interested person gets ignored rather than engaged with, because responding just teaches the algorithm and other users that the spam is worth their time too. This triage takes seconds to apply once it's a habit, and it means the comment section stays useful - a place where real questions get real, fast answers - instead of becoming background noise nobody bothers reading. If you're spending equal energy on every comment regardless of intent, you're probably spending too much time on the wrong ones.",
+        "hashtags": [
+          "#CommunityManagement",
+          "#SocialMediaTips",
+          "#CustomerEngagement",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "comment notification phone screen icons",
+        "created_at": "2026-11-14T22:54:27.753413+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L3",
+      "chat_id": 8789122019,
+      "message_id": 532,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "hfEn4mRi3u0",
+        "photographer": "Aditya Chinchure",
+        "source_url": "https://unsplash.com/photos/graphical-user-interface-application-hfEn4mRi3u0",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Aditya Chinchure on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "980d9239f5": {
+      "entry": {
+        "id": "980d9239f5",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "lesson",
+        "hook": "Your customer support inbox is your best content goldmine.",
+        "photocard_text": "Turn recurring customer questions into dedicated posts. If one client asks, dozens of potential buyers are wondering too.",
+        "caption": "We once noticed a business struggling for fresh topic ideas while their inbox overflowed with routine customer questions about shipping, sizing, and onboarding. Instead of treating support and marketing as separate silos, we turned those exact questions into weekly social posts. The result was remarkable: comments filled with appreciation, and support volume decreased because answers were already public. Listening to your current customers always beats guessing what strangers want to see. Need help turning customer insights into engaging content? Message us or check out hellofides.com.",
+        "hashtags": [
+          "#CustomerExperience",
+          "#DigitalMarketing"
+        ],
+        "source": "",
+        "photo_query": "coffee mug eyeglasses desk notepad",
+        "created_at": "2026-11-15T23:38:02.587936+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 536,
+      "photo_credit": {
+        "source": "pixabay",
+        "id": "792125",
+        "photographer": "kaboompics",
+        "source_url": "https://pixabay.com/photos/blank-paper-pen-coffee-work-792125/",
+        "license_note": "Pixabay Content License - free for commercial use, no attribution legally required (pixabay.com/service/license-summary)."
+      }
+    },
+    "0e0f74cfe4": {
+      "entry": {
+        "id": "0e0f74cfe4",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "howto",
+        "hook": "A quick way to find out why a post underperformed.",
+        "photocard_text": "Check the first three seconds of watch time or the hook line before blaming the topic. The idea usually isn't the problem.",
+        "caption": "When a post underperforms, the instinct is often to blame the topic - \"I guess people don't care about this\" - and move on to something else entirely. Before accepting that, I always check the entry point first: for video, the first three seconds of retention; for a static post, whether the hook line actually earns a second of attention. More often than I expected starting out, the topic was fine and the entry point was the actual problem - a slow opening shot, a vague first sentence, a caption that buried the interesting part two lines down. Fixing the entry point and trying a close variation of the same topic again frequently performs much better than the original attempt did. Topics deserve more than one try before you write them off, as long as each retry actually changes the opening instead of repeating the same weak entry point with different words around it.",
+        "hashtags": [
+          "#SocialMediaTips",
+          "#ContentPerformance",
+          "#MarketingTips",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "analytics chart phone screen hand",
+        "created_at": "2026-11-14T22:54:27.753413+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 540,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "-2vcy9sRr0U",
+        "photographer": "Robert Penaloza",
+        "source_url": "https://unsplash.com/photos/hand-holding-phone-with-compass-app-in-desert--2vcy9sRr0U",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Robert Penaloza on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "072981ece6": {
+      "entry": {
+        "id": "072981ece6",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "strategy",
+        "hook": "Meaningful outbound engagement builds brand awareness faster than broadcasting.",
+        "photocard_text": "Spend 15 minutes daily commenting thoughtfully on industry partners and community posts. Visibility starts with participation.",
+        "caption": "Publishing great content is only half the equation; social platforms reward active conversation. Setting aside just fifteen minutes each morning to leave thoughtful, value-driven comments on adjacent business pages, local community groups, or industry peers introduces your brand to fresh eyes naturally. You establish your presence as a knowledgeable, supportive peer rather than a distant corporate entity. When consistent community interaction feels like one task too many for your schedule, our team can help. Message our inbox today or learn more at hellofides.com.",
+        "hashtags": [
+          "#BrandStrategy",
+          "#CommunityBuilding"
+        ],
+        "source": "",
+        "photo_query": "hands holding phone coffee shop",
+        "created_at": "2026-11-15T23:38:02.587936+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 544,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "IDN8NVELy0E",
+        "photographer": "Patrick Tomasso",
+        "source_url": "https://unsplash.com/photos/person-holding-turned-on-smartphone-sitting-at-table-with-filled-cup-with-saucer-IDN8NVELy0E",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Patrick Tomasso on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
   "bank_index": {
-    "personal": 14,
+    "personal": 10,
     "company": 10
   },
   "last_failure_notice_date": null
