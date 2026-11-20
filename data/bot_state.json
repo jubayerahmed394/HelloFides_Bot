@@ -2,7 +2,7 @@
   "last_update_id": 941981150,
   "pillar_index": {
     "personal": 2,
-    "company": 3
+    "company": 1
   },
   "pending_posts": {
     "289a845216": {
@@ -3621,12 +3621,136 @@
         "source_url": "https://unsplash.com/photos/person-holding-turned-on-smartphone-sitting-at-table-with-filled-cup-with-saucer-IDN8NVELy0E",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Patrick Tomasso on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "0e82cfc9b0": {
+      "entry": {
+        "id": "0e82cfc9b0",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "lesson",
+        "hook": "I once ignored a quiet platform. That was a mistake.",
+        "photocard_text": "The platform with the smallest audience was where the most qualified leads were actually asking questions. Size isn't the same as relevance.",
+        "caption": "Early in managing a mix of accounts for one client, I put most of the effort into the platform with the biggest follower count and treated a smaller, quieter platform as an afterthought - occasional reposts, nothing original. It turned out that quieter platform, despite the much smaller audience, was where the most specific, purchase-ready questions were actually being asked in comments and messages, because the people there were further along in deciding to buy, not just browsing. I had been measuring importance by audience size instead of by audience intent, and it cost real inquiries for longer than it should have. Once I started treating that smaller platform as a priority instead of an afterthought - original content, faster replies - the inquiry volume from it noticeably picked up. The lesson was straightforward in hindsight: a smaller, more intentional audience can matter more than a bigger, more passive one, and it's worth checking where your real conversations are happening, not just where your biggest number lives.",
+        "hashtags": [
+          "#LessonsLearned",
+          "#SocialMediaStrategy",
+          "#MarketingLessons",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "small business owner desk laptop hands",
+        "created_at": "2026-11-14T22:54:27.753413+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L3",
+      "chat_id": 8789122019,
+      "message_id": 551,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "ejhjSZKTeeg",
+        "photographer": "Roberto Cortese",
+        "source_url": "https://unsplash.com/photos/person-using-macbook-pro-on-white-table-ejhjSZKTeeg",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Roberto Cortese on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "85b71c0b69": {
+      "entry": {
+        "id": "85b71c0b69",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "stats",
+        "hook": "Followers really do convert when you nurture them consistently.",
+        "photocard_text": "77% of consumers are more likely to buy from a brand they follow on social media over one they do not.",
+        "caption": "Organic social media may not always deliver instant overnight sales, but it systematically builds buyer loyalty over time. According to Sprout Social (2023), 77% of consumers are more likely to buy from a brand they actively follow on social channels compared to a competitor they do not follow. Maintaining an active, dependable presence keeps your business top of mind when purchase intent strikes. If you want your social channels managed with consistency and commercial focus, reach out to our inbox or visit hellofides.com.",
+        "hashtags": [
+          "#BusinessGrowth",
+          "#SocialMediaROI"
+        ],
+        "source": "Sprout Social, 2023",
+        "photo_query": "modern creative team desk workspace",
+        "created_at": "2026-11-15T23:38:02.587936+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 555,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "xjyHDnA93Pk",
+        "photographer": "LOGAN WEAVER | @LGNWVR",
+        "source_url": "https://unsplash.com/photos/a-modern-desk-setup-with-laptop-and-books-xjyHDnA93Pk",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by LOGAN WEAVER | @LGNWVR on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "adfb9048f3": {
+      "entry": {
+        "id": "adfb9048f3",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "strategy",
+        "hook": "Most small business pages fail for one simple reason.",
+        "photocard_text": "Posting without a plan isn't a content strategy, it's just noise. Pick 3-4 content pillars and repeat them on purpose.",
+        "caption": "Most small business pages don't fail because the owner isn't creative. They fail because every post is a one-off idea with no thread connecting it to the last one. Followers can't tell what the page is for, so they stop paying attention. The fix I give almost every new client is the same: pick 3 or 4 content pillars - the handful of topics your page will always come back to - and plan around them instead of waking up each morning asking \"what do I post today.\" For a bakery that might be process, people, offers, and behind-the-scenes. For a B2B service it might be education, proof of work, team, and FAQs. Pillars don't limit creativity, they focus it. Once a page has pillars, planning a month of content takes an afternoon instead of a daily scramble, and the page starts to feel like it has a personality instead of a feed of disconnected posts. If your content feels random to you, it feels random to your audience too. Start with pillars before you touch a content calendar.",
+        "hashtags": [
+          "#SocialMediaStrategy",
+          "#ContentStrategy",
+          "#SmallBusinessMarketing",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "content calendar sticky notes desk",
+        "created_at": "2026-11-20T01:26:17.155960+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L2",
+      "chat_id": 8789122019,
+      "message_id": 559,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "YwPNWDNZHkg",
+        "photographer": "Marissa Grootes",
+        "source_url": "https://unsplash.com/photos/white-paper-near-clips-YwPNWDNZHkg",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Marissa Grootes on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "bb92e137a5": {
+      "entry": {
+        "id": "bb92e137a5",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "howto",
+        "hook": "Low-friction calls to action generate significantly higher comment volume.",
+        "photocard_text": "Replace demanding requests like 'Buy our product now' with simple, low-pressure prompts like 'Drop a yes below if you agree.'",
+        "caption": "Asking your audience for a big commitment at the end of every post often leads to awkward silence. If every caption ends with a demand to visit your website or purchase immediately, readers scroll past. Instead, test low-friction engagement prompts. Ask a simple either-or question, invite them to share their biggest obstacle, or ask for a simple emoji reaction. Lowering the bar for participation gets conversations started effortlessly. For a done-for-you content strategy that engages your audience naturally, message our inbox or visit hellofides.com.",
+        "hashtags": [
+          "#CopywritingTips",
+          "#EngagementStrategy"
+        ],
+        "source": "",
+        "photo_query": "fountain pen open notebook desk",
+        "created_at": "2026-11-15T23:38:02.587936+06:00",
+        "posted": false,
+        "provider_used": "gemini_primary"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 563,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "bBV9kt-rC4c",
+        "photographer": "atelierbyvineeth ...",
+        "source_url": "https://unsplash.com/photos/a-fountain-pen-and-inkwell-on-a-notebook-bBV9kt-rC4c",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by atelierbyvineeth ... on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
   "bank_index": {
     "personal": 10,
-    "company": 10
+    "company": 5
   },
   "last_failure_notice_date": null
 }

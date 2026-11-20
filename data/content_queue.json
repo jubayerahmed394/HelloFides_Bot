@@ -1,83 +1,187 @@
 {
   "company": [
     {
-      "id": "85b71c0b69",
+      "id": "c1050946af",
       "mode": "company",
       "platform": "Facebook - HelloFides",
-      "pillar": "stats",
-      "hook": "Followers really do convert when you nurture them consistently.",
-      "photocard_text": "77% of consumers are more likely to buy from a brand they follow on social media over one they do not.",
-      "caption": "Organic social media may not always deliver instant overnight sales, but it systematically builds buyer loyalty over time. According to Sprout Social (2023), 77% of consumers are more likely to buy from a brand they actively follow on social channels compared to a competitor they do not follow. Maintaining an active, dependable presence keeps your business top of mind when purchase intent strikes. If you want your social channels managed with consistency and commercial focus, reach out to our inbox or visit hellofides.com.",
+      "pillar": "strategy",
+      "hook": "Your best customers already told you what to post.",
+      "photocard_text": "The questions your customers ask most in person or by message are your next ten post ideas. You don't need to guess.",
+      "caption": "A lot of businesses struggle with what to post, when the actual answer is usually sitting in their own messages and in-person conversations. The questions customers ask most often - about pricing, process, how something works, how long something takes - are exactly the content ideas worth turning into posts, because if one customer asked, others are wondering the same thing and never asked at all. We often start new client work by simply asking the team: what do customers ask you the most? That one question usually produces a month's worth of content ideas without needing to invent anything, because it's already proven to be something real people want to know. If you're stuck on what to post next, check your own inbox and your own counter conversations first.",
       "hashtags": [
-        "#BusinessGrowth",
-        "#SocialMediaROI"
+        "#ContentIdeas",
+        "#SmallBusiness"
       ],
-      "source": "Sprout Social, 2023",
-      "photo_query": "modern creative team desk workspace",
-      "created_at": "2026-11-15T23:38:02.587936+06:00",
+      "source": "",
+      "photo_query": "shop owner talking customer counter",
+      "created_at": "2026-11-21T01:00:47.464960+06:00",
       "posted": false,
-      "provider_used": "gemini_primary"
+      "provider_used": "local_bank"
     },
     {
-      "id": "bb92e137a5",
+      "id": "97d1f321cd",
       "mode": "company",
       "platform": "Facebook - HelloFides",
       "pillar": "howto",
-      "hook": "Low-friction calls to action generate significantly higher comment volume.",
-      "photocard_text": "Replace demanding requests like 'Buy our product now' with simple, low-pressure prompts like 'Drop a yes below if you agree.'",
-      "caption": "Asking your audience for a big commitment at the end of every post often leads to awkward silence. If every caption ends with a demand to visit your website or purchase immediately, readers scroll past. Instead, test low-friction engagement prompts. Ask a simple either-or question, invite them to share their biggest obstacle, or ask for a simple emoji reaction. Lowering the bar for participation gets conversations started effortlessly. For a done-for-you content strategy that engages your audience naturally, message our inbox or visit hellofides.com.",
+      "hook": "A quick way to make your product photos look better for free.",
+      "photocard_text": "Shoot near a window in natural light and use a plain background. Lighting and clutter matter more than the camera.",
+      "caption": "Good product photos don't require expensive equipment, they mostly require good light and a clean background, both of which cost nothing. Shooting near a window during daylight hours, rather than relying on indoor lighting, usually produces a noticeably sharper, more natural-looking photo on almost any phone camera. Clearing visible clutter out of the background matters just as much, because a busy background competes with the product for attention instead of letting it stand out. These two small habits - good natural light, plain background - fix the majority of amateur-looking product photos we see, long before anyone needs to think about buying new equipment. Try it with your next product photo and compare it to your usual setup. We're glad to share a few more quick tips if you'd like.",
       "hashtags": [
-        "#CopywritingTips",
-        "#EngagementStrategy"
+        "#MarketingTips",
+        "#SmallBusiness"
       ],
       "source": "",
-      "photo_query": "fountain pen open notebook desk",
-      "created_at": "2026-11-15T23:38:02.587936+06:00",
+      "photo_query": "product photography window light setup",
+      "created_at": "2026-11-21T01:00:47.464960+06:00",
       "posted": false,
-      "provider_used": "gemini_primary"
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "2f2abf40bc",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "How to respond to a message faster without hiring anyone.",
+      "photocard_text": "Save your 5 most common replies as templates. A quick personal edit beats typing the same answer from scratch every time.",
+      "caption": "Response time matters a lot to potential customers deciding between a few options, but typing a fresh, thoughtful reply to the same common question for the tenth time that week is a drain nobody enjoys. A simple fix is saving templates for the five or six questions that come up most - pricing, hours, availability, how to book - written once, carefully, and then personalized with a quick edit each time they're used instead of retyped from scratch. It keeps replies fast without making them feel robotic, as long as the personal touch at the start or end stays genuine. This alone can meaningfully cut response time without adding any extra staff or tools. If you'd like help drafting your first set of templates, we're happy to assist.",
+      "hashtags": [
+        "#CustomerService",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "phone messaging app reply screen",
+      "created_at": "2026-11-21T01:00:47.464960+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "3f84f495de",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "lesson",
+      "hook": "We once over-explained a simple offer and it backfired.",
+      "photocard_text": "A long, detailed offer post got fewer messages than a short, plain one the next week. Simplicity won by a clear margin.",
+      "caption": "For one client we wrote a detailed offer post explaining every term and option, assuming more information would make people more comfortable acting. It got noticeably fewer messages than a much shorter, plainer post the following week that stated the key benefit and the next step in two sentences. Too much detail upfront can read as complicated rather than thorough, and complicated is exactly what stops someone from messaging in the moment. Now we keep the offer post simple and save details for the conversation that follows, where an interested person is happy to ask. If your offers get read but not acted on, length might be why.",
+      "hashtags": [
+        "#MarketingLessons",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "simple offer sign shop window",
+      "created_at": "2026-11-21T01:00:47.464960+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "235adbfcf6",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "lesson",
+      "hook": "A quiet month taught us to look past the obvious reason.",
+      "photocard_text": "The content was fine. The real cause of a slow month turned out to be posting times nobody had checked in a year.",
+      "caption": "One client had a noticeably quiet month and the first instinct was to blame the content itself. Before rewriting anything, we checked posting times against when the audience was actually online, which hadn't been reviewed in close to a year, and found a mismatch that had likely been working against every post that whole time. Adjusting the schedule alone, with no change to the content, visibly improved results the following weeks. The lesson was to check the boring, structural things - timing, frequency, settings - before assuming the content is the problem. We check this for every client regularly now, not only when something looks wrong.",
+      "hashtags": [
+        "#SocialMediaManagement",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "clock schedule calendar office desk",
+      "created_at": "2026-11-21T01:00:47.464960+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "4e7c91905d",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Your Facebook Page is not supposed to look like an ad.",
+      "photocard_text": "Pages that only post offers get ignored. Pages that mix in useful, human content earn the trust that makes the offer land.",
+      "caption": "A Page that only posts discounts tends to get scrolled past, because it reads like an ad feed instead of a business worth following. The Pages that build real trust mix in content that isn't selling anything directly - a quick tip, a behind-the-scenes look, an answer to a common question - alongside the occasional offer. By the time the offer shows up, the audience already feels like they know the business, so it lands instead of getting ignored. If your Page feels like it's shouting \"buy now\" every post, that's worth rethinking. Send us a message for a second opinion on your current mix.",
+      "hashtags": [
+        "#SocialMediaMarketing",
+        "#FacebookPage"
+      ],
+      "source": "",
+      "photo_query": "shop counter small business storefront",
+      "created_at": "2026-11-21T01:00:47.464960+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "4696eca801",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Posting daily won't save a Page with no clear plan.",
+      "photocard_text": "Frequency without direction just produces more content nobody asked for. A clear, smaller plan beats a busy, scattered one.",
+      "caption": "We get asked often whether posting more frequently will fix a quiet Page, and the honest answer is usually no, if there isn't a clear plan behind what's being posted. More content without direction just means more scrolling past, not more attention. What actually helps is picking a small set of topics the Page will consistently come back to, so followers start to know what to expect and why it's worth checking in. A focused Page posting three times a week on purpose will usually outperform a scattered one posting daily. If your team feels busy but your results feel flat, the plan is worth a second look before the schedule is. Message us if you'd like help building one.",
+      "hashtags": [
+        "#SocialMediaStrategy",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "social media planning notebook office desk",
+      "created_at": "2026-11-21T01:00:47.464960+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "8c5406c476",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "strategy",
+      "hook": "Followers are not the same thing as customers.",
+      "photocard_text": "A smaller, engaged audience that trusts the Page is worth more than a larger one that scrolls past every post.",
+      "caption": "It's easy to treat follower count as the main scoreboard, but a large, passive following that never engages or buys isn't actually doing much for a business. A smaller audience that reads the captions, asks questions in the comments, and remembers the Page when they need the service is far more valuable, even if the number looks less impressive. We'd rather help a Page build that kind of trust than chase follower counts that don't translate into real interest. If your numbers look fine but inquiries don't match, that gap is usually worth investigating. Reach out and we'll take a look together.",
+      "hashtags": [
+        "#DigitalMarketing",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "people looking at phone cafe table",
+      "created_at": "2026-11-21T01:00:47.464960+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "af5a1e6d23",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "A simple way to make your offers feel less pushy.",
+      "photocard_text": "Explain the problem the offer solves before mentioning the discount. People respond to the problem, not the percentage off.",
+      "caption": "Offers that lead straight with a discount percentage often get scrolled past, because the audience hasn't been reminded yet why they'd want the thing being discounted in the first place. A small change that consistently works better: open by naming the specific problem or moment the offer solves, then introduce the discount as the easy next step once that problem feels real to the reader. It reads less like a generic sale blast and more like a helpful nudge at the right moment. The offer itself doesn't need to change, just the order you present it in. If your promotions aren't converting the way you'd expect, this is one of the first things worth testing. Message us if you want a hand rewriting your next one.",
+      "hashtags": [
+        "#MarketingTips",
+        "#SmallBusiness"
+      ],
+      "source": "",
+      "photo_query": "price tag discount sign shop display",
+      "created_at": "2026-11-21T01:00:47.464960+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
+    },
+    {
+      "id": "fc26848a42",
+      "mode": "company",
+      "platform": "Facebook - HelloFides",
+      "pillar": "howto",
+      "hook": "The fastest way to get more comments on your posts.",
+      "photocard_text": "End with a specific, easy-to-answer question, not a generic \"thoughts?\". Specific questions get specific replies.",
+      "caption": "Ending a post with \"thoughts?\" rarely gets a response, because it's too open-ended for most people to bother answering. Swapping that for a specific, low-effort question - one with an easy, obvious answer like picking between two options or naming a favorite from a short list - tends to get noticeably more replies, because there's almost nothing to think about before typing one. More comments also tends to help the post get shown to more people in the first place, so this small wording change can have a bigger effect than it looks like it should. Try it on your next post and see what happens to your comment count. We're happy to help you brainstorm a few if you'd like.",
+      "hashtags": [
+        "#SocialMediaTips",
+        "#FacebookMarketing"
+      ],
+      "source": "",
+      "photo_query": "phone comment bubble icon mockup",
+      "created_at": "2026-11-21T01:00:47.464960+06:00",
+      "posted": false,
+      "provider_used": "local_bank"
     }
   ],
   "personal": [
-    {
-      "id": "0e82cfc9b0",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "lesson",
-      "hook": "I once ignored a quiet platform. That was a mistake.",
-      "photocard_text": "The platform with the smallest audience was where the most qualified leads were actually asking questions. Size isn't the same as relevance.",
-      "caption": "Early in managing a mix of accounts for one client, I put most of the effort into the platform with the biggest follower count and treated a smaller, quieter platform as an afterthought - occasional reposts, nothing original. It turned out that quieter platform, despite the much smaller audience, was where the most specific, purchase-ready questions were actually being asked in comments and messages, because the people there were further along in deciding to buy, not just browsing. I had been measuring importance by audience size instead of by audience intent, and it cost real inquiries for longer than it should have. Once I started treating that smaller platform as a priority instead of an afterthought - original content, faster replies - the inquiry volume from it noticeably picked up. The lesson was straightforward in hindsight: a smaller, more intentional audience can matter more than a bigger, more passive one, and it's worth checking where your real conversations are happening, not just where your biggest number lives.",
-      "hashtags": [
-        "#LessonsLearned",
-        "#SocialMediaStrategy",
-        "#MarketingLessons",
-        "#HelloFides"
-      ],
-      "source": "",
-      "photo_query": "small business owner desk laptop hands",
-      "created_at": "2026-11-14T22:54:27.753413+06:00",
-      "posted": false,
-      "provider_used": "local_bank"
-    },
-    {
-      "id": "adfb9048f3",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "strategy",
-      "hook": "Most small business pages fail for one simple reason.",
-      "photocard_text": "Posting without a plan isn't a content strategy, it's just noise. Pick 3-4 content pillars and repeat them on purpose.",
-      "caption": "Most small business pages don't fail because the owner isn't creative. They fail because every post is a one-off idea with no thread connecting it to the last one. Followers can't tell what the page is for, so they stop paying attention. The fix I give almost every new client is the same: pick 3 or 4 content pillars - the handful of topics your page will always come back to - and plan around them instead of waking up each morning asking \"what do I post today.\" For a bakery that might be process, people, offers, and behind-the-scenes. For a B2B service it might be education, proof of work, team, and FAQs. Pillars don't limit creativity, they focus it. Once a page has pillars, planning a month of content takes an afternoon instead of a daily scramble, and the page starts to feel like it has a personality instead of a feed of disconnected posts. If your content feels random to you, it feels random to your audience too. Start with pillars before you touch a content calendar.",
-      "hashtags": [
-        "#SocialMediaStrategy",
-        "#ContentStrategy",
-        "#SmallBusinessMarketing",
-        "#HelloFides"
-      ],
-      "source": "",
-      "photo_query": "content calendar sticky notes desk",
-      "created_at": "2026-11-20T01:26:17.155960+06:00",
-      "posted": false,
-      "provider_used": "local_bank"
-    },
     {
       "id": "9991cff0b4",
       "mode": "personal",
@@ -260,7 +364,7 @@
     }
   ],
   "last_refill_attempt": {
-    "company": "2026-11-15",
+    "company": "2026-11-20",
     "personal": "2026-11-19"
   }
 }
