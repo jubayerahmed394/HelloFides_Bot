@@ -1,42 +1,6 @@
 {
   "company": [
     {
-      "id": "2f2abf40bc",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "howto",
-      "hook": "How to respond to a message faster without hiring anyone.",
-      "photocard_text": "Save your 5 most common replies as templates. A quick personal edit beats typing the same answer from scratch every time.",
-      "caption": "Response time matters a lot to potential customers deciding between a few options, but typing a fresh, thoughtful reply to the same common question for the tenth time that week is a drain nobody enjoys. A simple fix is saving templates for the five or six questions that come up most - pricing, hours, availability, how to book - written once, carefully, and then personalized with a quick edit each time they're used instead of retyped from scratch. It keeps replies fast without making them feel robotic, as long as the personal touch at the start or end stays genuine. This alone can meaningfully cut response time without adding any extra staff or tools. If you'd like help drafting your first set of templates, we're happy to assist.",
-      "hashtags": [
-        "#CustomerService",
-        "#SmallBusiness"
-      ],
-      "source": "",
-      "photo_query": "phone messaging app reply screen",
-      "created_at": "2026-11-21T01:00:47.464960+06:00",
-      "posted": false,
-      "provider_used": "local_bank"
-    },
-    {
-      "id": "3f84f495de",
-      "mode": "company",
-      "platform": "Facebook - HelloFides",
-      "pillar": "lesson",
-      "hook": "We once over-explained a simple offer and it backfired.",
-      "photocard_text": "A long, detailed offer post got fewer messages than a short, plain one the next week. Simplicity won by a clear margin.",
-      "caption": "For one client we wrote a detailed offer post explaining every term and option, assuming more information would make people more comfortable acting. It got noticeably fewer messages than a much shorter, plainer post the following week that stated the key benefit and the next step in two sentences. Too much detail upfront can read as complicated rather than thorough, and complicated is exactly what stops someone from messaging in the moment. Now we keep the offer post simple and save details for the conversation that follows, where an interested person is happy to ask. If your offers get read but not acted on, length might be why.",
-      "hashtags": [
-        "#MarketingLessons",
-        "#SmallBusiness"
-      ],
-      "source": "",
-      "photo_query": "simple offer sign shop window",
-      "created_at": "2026-11-21T01:00:47.464960+06:00",
-      "posted": false,
-      "provider_used": "local_bank"
-    },
-    {
       "id": "235adbfcf6",
       "mode": "company",
       "platform": "Facebook - HelloFides",
@@ -146,46 +110,6 @@
     }
   ],
   "personal": [
-    {
-      "id": "afcfd1bcbf",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "howto",
-      "hook": "Here's how I plan a week of content in under an hour.",
-      "photocard_text": "Batch the thinking, not just the posting. One sitting to plan hooks for the week beats scattered daily brainstorming.",
-      "caption": "The biggest time sink in social media management isn't writing captions, it's the daily \"what do I even post today\" moment, repeated five or six times a week. I fixed this for myself and for clients by batching the thinking into one weekly sitting. I open the content pillars, pick one angle per pillar for the week, and write just the hook - one line, the idea that would make someone stop scrolling - for each planned post. That's it for the first pass. Only after all the hooks are down do I go back and write full captions, because writing five hooks back to back is a different, faster kind of thinking than writing five full posts one at a time with context-switching in between. The whole exercise takes under an hour once you've done it a few times, and it means you walk into the week already knowing what's going out and why, instead of improvising under a deadline. If your content planning feels slow, check whether you're mixing idea generation and writing into the same step - separating them is the single biggest speed-up I've found.",
-      "hashtags": [
-        "#ContentPlanning",
-        "#SocialMediaTips",
-        "#ProductivityTips",
-        "#HelloFides"
-      ],
-      "source": "",
-      "photo_query": "laptop weekly planner desk workspace",
-      "created_at": "2026-11-20T01:26:17.155960+06:00",
-      "posted": false,
-      "provider_used": "local_bank"
-    },
-    {
-      "id": "0e8473d391",
-      "mode": "personal",
-      "platform": "LinkedIn - Personal",
-      "pillar": "howto",
-      "hook": "A simple way to tell if your hook actually works.",
-      "photocard_text": "Read only your first line out loud. If it doesn't make you want the next sentence, rewrite it before anything else.",
-      "caption": "Every post lives or dies in its first line, and most people write that line last, almost as an afterthought, after they've already written the body. I do the opposite now, and I tell every client to do the same: write the hook first, read it out loud by itself, and ask honestly whether it would make you stop scrolling if you saw it from a stranger's page. If the answer is no, don't touch the rest of the post yet - fix the hook first, because no amount of good content underneath a weak opening line will get read. A good hook usually does one of a few things: it names a specific, relatable problem, it makes a claim worth questioning, or it promises something concrete and useful in plain language. What it should never do is open with throat-clearing like \"in today's digital age\" or a generic greeting, because that's exactly where attention drops off fastest. Spend eighty percent of your editing time on the first line and the rest of the post gets dramatically easier to finish well.",
-      "hashtags": [
-        "#CopywritingTips",
-        "#ContentCreation",
-        "#SocialMediaTips",
-        "#HelloFides"
-      ],
-      "source": "",
-      "photo_query": "person typing laptop notebook desk",
-      "created_at": "2026-11-20T01:26:17.155960+06:00",
-      "posted": false,
-      "provider_used": "local_bank"
-    },
     {
       "id": "374e7095ad",
       "mode": "personal",
