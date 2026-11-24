@@ -4117,6 +4117,68 @@
         "source_url": "https://unsplash.com/photos/green-storefront-with-open-signs-and-plants-oQF86wU7UDc",
         "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Sara Kozak on Unsplash\" (unsplash.com/license)."
       }
+    },
+    "57be853e4a": {
+      "entry": {
+        "id": "57be853e4a",
+        "mode": "personal",
+        "platform": "LinkedIn - Personal",
+        "pillar": "lesson",
+        "hook": "I used to chase every new platform. I stopped.",
+        "photocard_text": "Being everywhere with a weak presence loses to being consistently good on two platforms that actually fit your audience.",
+        "caption": "There was a stretch where I felt pressure to have a presence on every platform the moment it started trending, because it felt irresponsible not to, like I was leaving growth on the table. What actually happened was predictable: thin, inconsistent content spread across too many places, none of it good enough to build real momentum anywhere. The turning point was picking two platforms where the actual audience for a given business already spends time, committing to doing those two well, and deliberately ignoring the rest for now. Engagement and inquiries both improved once the effort stopped being spread so thin. The lesson wasn't \"never try new platforms,\" it was that presence without depth doesn't build trust with anyone, it just produces more surface area to look inconsistent on. Now, before adding any new platform for a client, I ask whether we can genuinely sustain a second strong channel, not whether the platform is popular. Depth beats breadth almost every time in social media.",
+        "hashtags": [
+          "#SocialMediaManagement",
+          "#MarketingLessons",
+          "#SmallBusinessMarketing",
+          "#HelloFides"
+        ],
+        "source": "",
+        "photo_query": "multiple phone app icons screen",
+        "created_at": "2026-11-20T01:26:17.155960+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "L1",
+      "chat_id": 8789122019,
+      "message_id": 616,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "QZCAhLhb9FM",
+        "photographer": "Vince Picipo",
+        "source_url": "https://unsplash.com/photos/a-cell-phone-with-icons-on-the-screen-QZCAhLhb9FM",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Vince Picipo on Unsplash\" (unsplash.com/license)."
+      }
+    },
+    "4696eca801": {
+      "entry": {
+        "id": "4696eca801",
+        "mode": "company",
+        "platform": "Facebook - HelloFides",
+        "pillar": "strategy",
+        "hook": "Posting daily won't save a Page with no clear plan.",
+        "photocard_text": "Frequency without direction just produces more content nobody asked for. A clear, smaller plan beats a busy, scattered one.",
+        "caption": "We get asked often whether posting more frequently will fix a quiet Page, and the honest answer is usually no, if there isn't a clear plan behind what's being posted. More content without direction just means more scrolling past, not more attention. What actually helps is picking a small set of topics the Page will consistently come back to, so followers start to know what to expect and why it's worth checking in. A focused Page posting three times a week on purpose will usually outperform a scattered one posting daily. If your team feels busy but your results feel flat, the plan is worth a second look before the schedule is. Message us if you'd like help building one.",
+        "hashtags": [
+          "#SocialMediaStrategy",
+          "#SmallBusiness"
+        ],
+        "source": "",
+        "photo_query": "social media planning notebook office desk",
+        "created_at": "2026-11-21T01:00:47.464960+06:00",
+        "posted": false,
+        "provider_used": "local_bank"
+      },
+      "layout_key": "C2",
+      "chat_id": 8789122019,
+      "message_id": 620,
+      "photo_credit": {
+        "source": "unsplash",
+        "id": "0l1TUluYSpA",
+        "photographer": "Swello",
+        "source_url": "https://unsplash.com/photos/person-with-coffee-and-smartphone-workspace-0l1TUluYSpA",
+        "license_note": "Unsplash License - free for commercial use. Attribution required: \"Photo by Swello on Unsplash\" (unsplash.com/license)."
+      }
     }
   },
   "pending_topics": {},
